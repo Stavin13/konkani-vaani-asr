@@ -1,0 +1,46 @@
+{
+  "original_dataset": {
+    "file": "custom_konkani_sentiment.csv",
+    "total_entries": 47922,
+    "unique_devanagari": 13674,
+    "avg_variants_per_text": 3.504607283896446
+  },
+  "fixed_dataset": {
+    "file": "custom_konkani_sentiment_fixed.csv",
+    "total_entries": 47922,
+    "splits": {
+      "train": {
+        "devanagari_texts": 9571,
+        "total_entries": 33581,
+        "label_distribution": {
+          "negative": 11411,
+          "positive": 11131,
+          "neutral": 11039
+        }
+      },
+      "validation": {
+        "devanagari_texts": 2051,
+        "total_entries": 7125,
+        "label_distribution": {
+          "negative": 2413,
+          "positive": 2367,
+          "neutral": 2345
+        }
+      },
+      "test": {
+        "devanagari_texts": 2052,
+        "total_entries": 7216,
+        "label_distribution": {
+          "negative": 2411,
+          "neutral": 2406,
+          "positive": 2399
+        }
+      }
+    }
+  },
+  "verification": {
+    "no_devanagari_overlap": true,
+    "label_consistency": true,
+    "leakage_prevented": true
+  }
+}

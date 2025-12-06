@@ -1,0 +1,16 @@
+{
+  "total_entries": 47922,
+  "word_entries": 1610,
+  "sentence_entries": 46312,
+  "label_distribution": {
+    "negative": 16235,
+    "positive": 15897,
+    "neutral": 15790
+  },
+  "type_distribution": {
+    "sentence": 46312,
+    "word": 1610
+  },
+  "unique_devanagari": 13674,
+  "unique_roman": 47920
+}
