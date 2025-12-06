@@ -47,6 +47,15 @@ Thumbs.db
 *.pkl
 *.bin
 *.h5
+models/*/best_model.pt
+models/*/final_model.pt
+models/*/pytorch_model.bin
+models/*/*.safetensors
+
+# Keep model metadata
+!models/*/metadata.json
+!models/*/label_map.json
+!models/*/checksums.json
 
 # Data files (large)
 *.parquet
@@ -59,6 +68,22 @@ data/cache/
 # Outputs
 outputs/logs/
 outputs/checkpoints/
+outputs/visualizations/*.png
+outputs/visualizations/*.jpg
+
+# Logs
+*.log
+logs/
+
+# Data (optional - uncomment if datasets are too large)
+# data/generated/*.csv
+# data/generated/*.json
+# data/generated/*.jsonl
+
+# Temporary files
+*.tmp
+*.bak
+.cache/
 
 # Keep structure but ignore content
 !.gitkeep
