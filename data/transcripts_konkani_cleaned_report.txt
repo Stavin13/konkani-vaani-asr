@@ -1,0 +1,111 @@
+================================================================================
+KONKANI TRANSCRIPT CLEANING REPORT
+================================================================================
+
+STATISTICS
+--------------------------------------------------------------------------------
+kept: 3187
+removed: 738
+removed_empty_transcript: 298
+removed_high_english_ratio_0.93: 2
+removed_high_english_ratio_0.96: 1
+removed_high_english_ratio_0.97: 5
+removed_high_english_ratio_0.98: 1
+removed_high_english_ratio_0.99: 1
+removed_high_english_ratio_1.00: 12
+removed_no_alphabetic_characters: 3
+removed_too_short_1_chars: 115
+removed_too_short_2_chars: 59
+removed_too_short_3_chars: 49
+removed_too_short_4_chars: 46
+removed_too_short_5_chars: 37
+removed_too_short_6_chars: 25
+removed_too_short_7_chars: 34
+removed_too_short_8_chars: 30
+removed_too_short_9_chars: 20
+total: 3925
+
+================================================================================
+SAMPLE REMOVED SEGMENTS (first 20)
+================================================================================
+
+1. Segment ID: 21
+   Reason: too_short_3_chars
+   Text: ् र
+
+2. Segment ID: 23
+   Reason: empty_transcript
+   Text: 
+
+3. Segment ID: 25
+   Reason: empty_transcript
+   Text: 
+
+4. Segment ID: 26
+   Reason: empty_transcript
+   Text: 
+
+5. Segment ID: 27
+   Reason: too_short_3_chars
+   Text: नेा
+
+6. Segment ID: 29
+   Reason: too_short_1_chars
+   Text: े
+
+7. Segment ID: 34
+   Reason: empty_transcript
+   Text: 
+
+8. Segment ID: 35
+   Reason: too_short_1_chars
+   Text: ा
+
+9. Segment ID: 36
+   Reason: too_short_6_chars
+   Text: तत कजर
+
+10. Segment ID: 37
+   Reason: too_short_8_chars
+   Text: वोतरीर म
+
+11. Segment ID: 38
+   Reason: empty_transcript
+   Text: 
+
+12. Segment ID: 41
+   Reason: empty_transcript
+   Text: 
+
+13. Segment ID: 42
+   Reason: empty_transcript
+   Text: 
+
+14. Segment ID: 43
+   Reason: empty_transcript
+   Text: 
+
+15. Segment ID: 44
+   Reason: empty_transcript
+   Text: 
+
+16. Segment ID: 60
+   Reason: empty_transcript
+   Text: 
+
+17. Segment ID: 61
+   Reason: empty_transcript
+   Text: 
+
+18. Segment ID: 62
+   Reason: empty_transcript
+   Text: 
+
+19. Segment ID: 63
+   Reason: empty_transcript
+   Text: 
+
+20. Segment ID: 65
+   Reason: too_short_8_chars
+   Text: कवती यया
+

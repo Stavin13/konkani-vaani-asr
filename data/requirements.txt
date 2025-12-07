@@ -1,0 +1,20 @@
+# Training dependencies
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.12.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+accelerate>=0.20.0
+pandas>=2.0.0
+numpy>=1.24.0
+tqdm>=4.65.0
+
+# Audio processing (for ASR)
+gTTS>=2.4.0
+librosa>=0.10.0
+soundfile>=0.12.1
+
+# NER dependencies
+pytorch-crf>=0.7.2  # Optional: for CRF layer (better accuracy)
+# Note: If pytorch-crf fails to install, NER will work without it

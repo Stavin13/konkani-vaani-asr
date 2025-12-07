@@ -1,0 +1,106 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "konkani-nlp"
+version = "0.1.0"
+description = "Comprehensive NLP toolkit for Konkani language - Sentiment Analysis and ASR"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Stavin Fernandes", email = "your.email@example.com"}
+]
+keywords = ["nlp", "konkani", "sentiment-analysis", "asr", "speech-recognition"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+dependencies = [
+    "torch>=2.0.0",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "scikit-learn>=1.3.0",
+    "tqdm>=4.65.0",
+]
+
+[project.optional-dependencies]
+sentiment = [
+    "transformers>=4.30.0",
+    "datasets>=2.12.0",
+    "accelerate>=0.20.0",
+]
+
+asr = [
+    "librosa>=0.10.0",
+    "soundfile>=0.12.1",
+    "gTTS>=2.4.0",
+]
+
+visualization = [
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+]
+
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "black>=23.0.0",
+    "isort>=5.12.0",
+    "flake8>=6.0.0",
+    "mypy>=1.0.0",
+]
+
+all = [
+    "konkani-nlp[sentiment,asr,visualization,dev]",
+]
+
+[project.scripts]
+konkani-train-sentiment = "scripts.sentiment.train_custom:main"
+konkani-predict = "scripts.sentiment.predict:main"
+konkani-preprocess-audio = "scripts.asr.preprocess_audio:main"
+
+[project.urls]
+Homepage = "https://github.com/yourusername/konkani-nlp"
+Documentation = "https://github.com/yourusername/konkani-nlp/docs"
+Repository = "https://github.com/yourusername/konkani-nlp"
+Issues = "https://github.com/yourusername/konkani-nlp/issues"
+
+[tool.setuptools]
+packages = ["konkani", "config"]
+
+[tool.setuptools.package-data]
+konkani = ["py.typed"]
+
+[tool.black]
+line-length = 100
+target-version = ['py38', 'py39', 'py310', 'py311']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
+addopts = "-v --cov=konkani --cov-report=html --cov-report=term"
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false

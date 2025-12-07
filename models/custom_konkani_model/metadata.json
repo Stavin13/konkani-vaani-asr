@@ -1,0 +1,56 @@
+{
+  "model_name": "konkani-sentiment-bilstm-v1",
+  "version": "1.0.0",
+  "created": "2025-12-04T17:02:43.618601",
+  "framework": "PyTorch",
+  "architecture": {
+    "type": "BiLSTM with Attention",
+    "embedding_dim": 256,
+    "hidden_dim": 256,
+    "num_layers": 2,
+    "bidirectional": true,
+    "dropout": 0.3
+  },
+  "dataset": {
+    "name": "Custom Konkani Sentiment Dataset",
+    "total_size": 47922,
+    "train_size": 33545,
+    "val_size": 7188,
+    "test_size": 7189,
+    "vocab_size": 10000,
+    "label_distribution": {
+      "negative": 16235,
+      "positive": 15897,
+      "neutral": 15790
+    }
+  },
+  "hyperparameters": {
+    "vocab_size": 10000,
+    "embedding_dim": 256,
+    "hidden_dim": 256,
+    "num_layers": 2,
+    "dropout": 0.3,
+    "batch_size": 32,
+    "num_epochs": 50,
+    "learning_rate": 0.001,
+    "max_length": 128
+  },
+  "performance": {
+    "test_accuracy": 0.9810822089303102,
+    "test_f1": 0.9811030776472187,
+    "test_precision": 0.9812684885467945,
+    "test_recall": 0.9810822089303102
+  },
+  "model_parameters": {
+    "total": 5322244,
+    "trainable": 5322244
+  },
+  "files": {
+    "model": "best_model.pt",
+    "tokenizer": "tokenizer.pkl",
+    "label_map": "label_map.json",
+    "config": "model_info.json",
+    "metadata": "metadata.json",
+    "checksums": "checksums.json"
+  }
+}

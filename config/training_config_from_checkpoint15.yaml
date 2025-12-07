@@ -1,0 +1,57 @@
+# KonkaniVani ASR Training Configuration
+# Based on checkpoint_epoch_15.pt
+# ========================================
+
+# Model Architecture (from checkpoint)
+model:
+  vocab_size: 200
+  input_dim: 80  # mel-spectrogram features
+  d_model: 256
+  encoder_layers: 12
+  decoder_layers: 6
+  num_heads: 4
+  conv_kernel_size: 31
+  dropout: 0.1
+
+# Training Hyperparameters (from checkpoint)
+training:
+  learning_rate: 0.0005
+  weight_decay: 0.000001
+  grad_clip: 5.0
+  ctc_weight: 0.3  # CTC loss weight (attention weight = 0.7)
+  
+  # Original settings (caused OOM)
+  # batch_size: 8
+  
+  # Memory-optimized settings for Tesla T4
+  batch_size: 2  # Reduced to fit in 14GB GPU
+  gradient_accumulation_steps: 4  # Effective batch size = 8
+  mixed_precision: true  # FP16 training (saves ~50% memory)
+  
+  num_epochs: 50
+  save_every: 5  # Save checkpoint every N epochs
+
+# Data
+data:
+  train_manifest: "data/konkani-asr-v0/splits/manifests/train.json"
+  val_manifest: "data/konkani-asr-v0/splits/manifests/val.json"
+  vocab_file: "data/vocab.json"
+  num_workers: 0
+
+# Paths
+paths:
+  checkpoint_dir: "checkpoints"
+  log_dir: "logs"
+  resume_from: "archives/checkpoint_epoch_15.pt"
+
+# Device
+device: "cuda"  # Use "mps" for Mac, "cpu" for CPU-only
+
+# Memory Optimization Flags
+memory_optimization:
+  use_cpu_offload: false  # Offload optimizer to CPU (not needed with other optimizations)
+  gradient_checkpointing: false  # Not implemented yet
+  clear_cache_every_n_batches: 50  # Clear CUDA cache periodically
+  
+# Environment Variables (set before training)
+# export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
