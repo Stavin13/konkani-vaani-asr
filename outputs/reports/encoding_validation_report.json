@@ -1,0 +1,119 @@
+{
+  "validation_date": "2025-12-04T16:03:40.686675",
+  "files_checked": 4,
+  "all_valid": true,
+  "results": [
+    {
+      "file": "custom_konkani_sentiment.csv",
+      "valid": true,
+      "rows": 47922,
+      "encoding": {
+        "valid_utf8": true,
+        "error": null,
+        "size_bytes": 9316249
+      },
+      "columns": {
+        "text": {
+          "normalization": {
+            "NFC": 1000
+          },
+          "mojibake_count": 0,
+          "sample_size": 1000,
+          "devanagari_valid": null
+        },
+        "devanagari": {
+          "normalization": {
+            "NFC": 1000
+          },
+          "mojibake_count": 0,
+          "sample_size": 1000,
+          "devanagari_valid": 1000
+        }
+      }
+    },
+    {
+      "file": "custom_konkani_sentiment_fixed.csv",
+      "valid": true,
+      "rows": 47922,
+      "encoding": {
+        "valid_utf8": true,
+        "error": null,
+        "size_bytes": 9632196
+      },
+      "columns": {
+        "text": {
+          "normalization": {
+            "NFC": 1000
+          },
+          "mojibake_count": 0,
+          "sample_size": 1000,
+          "devanagari_valid": null
+        },
+        "devanagari": {
+          "normalization": {
+            "NFC": 1000
+          },
+          "mojibake_count": 0,
+          "sample_size": 1000,
+          "devanagari_valid": 1000
+        }
+      }
+    },
+    {
+      "file": "custom_konkani_sentiment.jsonl",
+      "valid": true,
+      "rows": 47922,
+      "encoding": {
+        "valid_utf8": true,
+        "error": null,
+        "size_bytes": 9618234
+      },
+      "columns": {
+        "text": {
+          "normalization": {
+            "NFC": 1000
+          },
+          "mojibake_count": 0,
+          "sample_size": 1000,
+          "devanagari_valid": null
+        },
+        "devanagari": {
+          "normalization": {
+            "NFC": 1000
+          },
+          "mojibake_count": 0,
+          "sample_size": 1000,
+          "devanagari_valid": 1000
+        }
+      }
+    },
+    {
+      "file": "konkani_sentiment.csv",
+      "valid": true,
+      "rows": 26078,
+      "encoding": {
+        "valid_utf8": true,
+        "error": null,
+        "size_bytes": 3613073
+      },
+      "columns": {
+        "text": {
+          "normalization": {
+            "NFC": 1000
+          },
+          "mojibake_count": 0,
+          "sample_size": 1000,
+          "devanagari_valid": null
+        },
+        "devanagari": {
+          "normalization": {
+            "NFC": 1000
+          },
+          "mojibake_count": 0,
+          "sample_size": 1000,
+          "devanagari_valid": 1000
+        }
+      }
+    }
+  ]
+}
