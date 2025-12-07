@@ -1,0 +1,11 @@
+audio_id,audio_path,transcription,duration,label,split
+konkani_000000,audio/synthetic/konkani_000000.wav,हें ड्रिंक मध्यम निरीक्षण समजता,3.048,neutral,train
+konkani_000001,audio/synthetic/konkani_000001.wav,हें ड्रिंक मध्यम निरीक्षण समजता,3.048,neutral,train
+konkani_000002,audio/synthetic/konkani_000002.wav,हें ड्रिंक मध्यम निरीक्षण समजता,3.048,neutral,train
+konkani_000003,audio/synthetic/konkani_000003.wav,हें ड्रिंक मध्यम निरीक्षण समजता,3.048,neutral,train
+konkani_000004,audio/synthetic/konkani_000004.wav,हें ड्रिंक मध्यम निरीक्षण समजता,3.048,neutral,train
+konkani_000005,audio/synthetic/konkani_000005.wav,ही कार साधारण येणे शिकता,2.664,neutral,train
+konkani_000006,audio/synthetic/konkani_000006.wav,ही कार साधारण येणे शिकता,2.664,neutral,train
+konkani_000007,audio/synthetic/konkani_000007.wav,हें फार्मसी स्थिर तास ठरवता,2.712,neutral,train
+konkani_000008,audio/synthetic/konkani_000008.wav,हें फार्मसी स्थिर तास ठरवता,2.712,neutral,train
+konkani_000009,audio/synthetic/konkani_000009.wav,हें फार्मसी स्थिर तास ठरवता,2.712,neutral,train

@@ -1,0 +1,66 @@
+# KonkaniVani ASR Model Configuration
+
+model:
+  # Input features
+  input_dim: 80  # 80-dim mel-spectrogram
+  
+  # Model dimensions
+  d_model: 256
+  
+  # Encoder (Conformer)
+  encoder:
+    num_layers: 12
+    num_heads: 4
+    conv_kernel_size: 31
+    dropout: 0.1
+  
+  # Decoder (Transformer)
+  decoder:
+    num_layers: 6
+    num_heads: 4
+    dropout: 0.1
+
+# Training configuration
+training:
+  # Optimization
+  batch_size: 16
+  learning_rate: 0.0005
+  weight_decay: 0.000001
+  grad_clip: 5.0
+  num_epochs: 50
+  
+  # Loss weights
+  ctc_weight: 0.3  # CTC loss weight (1 - ctc_weight = attention weight)
+  
+  # Learning rate scheduling
+  scheduler:
+    type: "reduce_on_plateau"
+    factor: 0.5
+    patience: 3
+  
+  # Checkpointing
+  save_every: 5  # Save checkpoint every N epochs
+  checkpoint_dir: "checkpoints"
+  log_dir: "logs"
+
+# Data configuration
+data:
+  # Audio processing
+  sample_rate: 16000
+  n_mels: 80
+  n_fft: 400
+  hop_length: 160
+  
+  # Data augmentation
+  spec_augment: true
+  time_mask_param: 70
+  freq_mask_param: 27
+  
+  # Dataset
+  max_duration: 30.0  # Maximum audio duration in seconds
+  num_workers: 4
+
+# Inference configuration
+inference:
+  beam_size: 5
+  max_decode_length: 500

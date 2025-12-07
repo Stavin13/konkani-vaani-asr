@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# macOS
+.DS_Store
+._*
+
+# Model files
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Data
+*.wav
+*.mp3
+*.flac
+data/raw/*
+data/processed/*
+data/konkani-asr-v0/
+KonkaniRawSpeechCorpus/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Outputs
+outputs/
+checkpoints/
+!outputs/.gitkeep
+!checkpoints/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
