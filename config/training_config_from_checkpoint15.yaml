@@ -11,14 +11,24 @@ model:
   decoder_layers: 6
   num_heads: 4
   conv_kernel_size: 31
-  dropout: 0.1
+  dropout: 0.2  # Increased from 0.1 to reduce overfitting
 
-# Training Hyperparameters (from checkpoint)
+# Training Hyperparameters (optimized for better generalization)
 training:
-  learning_rate: 0.0005
-  weight_decay: 0.000001
+  learning_rate: 0.0001  # Reduced from 0.0005 - slower, more stable learning
+  weight_decay: 0.0001  # Increased from 0.000001 for better regularization
   grad_clip: 5.0
-  ctc_weight: 0.3  # CTC loss weight (attention weight = 0.7)
+  ctc_weight: 0.5  # Increased from 0.3 - CTC helps with alignment
+  
+  # Learning rate schedule
+  lr_scheduler: "cosine"  # Cosine annealing with warmup
+  warmup_steps: 1000
+  min_lr: 0.00001
+  
+  # Early stopping
+  early_stopping:
+    patience: 10  # Stop if no improvement for 10 epochs
+    min_delta: 0.01  # Minimum change to qualify as improvement
   
   # Original settings (caused OOM)
   # batch_size: 8
@@ -37,6 +47,16 @@ data:
   val_manifest: "data/konkani-asr-v0/splits/manifests/val.json"
   vocab_file: "data/vocab.json"
   num_workers: 0
+  
+  # Data augmentation (helps reduce overfitting)
+  augmentation:
+    spec_augment: true
+    time_mask_max: 50  # Max time steps to mask
+    freq_mask_max: 10  # Max frequency bins to mask
+    time_mask_num: 2   # Number of time masks
+    freq_mask_num: 2   # Number of frequency masks
+    noise_injection: 0.005  # Add small Gaussian noise
+    speed_perturb: [0.9, 1.0, 1.1]  # Speed perturbation ratios
 
 # Paths
 paths:
