@@ -1,0 +1,9 @@
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.30.0
+streamlit>=1.28.0
+pytorch-crf>=0.7.2
+numpy>=1.24.0
+librosa>=0.10.0
+soundfile>=0.12.0
+scipy>=1.10.0

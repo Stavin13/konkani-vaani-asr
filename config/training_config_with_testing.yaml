@@ -1,0 +1,84 @@
+# Enhanced Training Configuration with Periodic Testing
+# For retraining with KonkaniRawSpeechCorpus data
+
+# Data paths
+train_manifest: "data/konkani-combined/manifests/train.json"
+val_manifest: "data/konkani-combined/manifests/val.json"
+test_manifest: "data/konkani-combined/manifests/test.json"
+vocab_path: "data/vocab.json"
+
+# Model architecture
+model:
+  input_dim: 80  # mel-spectrogram features
+  d_model: 256
+  encoder_layers: 12
+  decoder_layers: 6
+  num_heads: 4
+  conv_kernel_size: 31
+  dropout: 0.1
+
+# Training hyperparameters (FIXED for better learning)
+training:
+  batch_size: 16
+  num_epochs: 100
+  learning_rate: 0.0003  # 3e-4 (increased from 1e-4)
+  weight_decay: 0.0001
+  grad_clip: 5.0  # gradient clipping
+  
+  # Loss weights (FIXED - more CTC focus)
+  ctc_weight: 0.8  # Increased from 0.3
+  attn_weight: 0.2
+  
+  # Optimization
+  gradient_accumulation_steps: 2
+  mixed_precision: true  # FP16 training
+  use_cpu_offload: false
+  
+  # Learning rate schedule
+  warmup_steps: 1000
+  scheduler: "cosine"  # cosine annealing
+  
+# Periodic testing configuration
+testing:
+  enabled: true
+  test_every_n_epochs: 5  # Test every 5 epochs
+  num_test_samples: 5
+  save_test_results: true
+  
+  # Early stopping based on transcription quality
+  early_stopping:
+    enabled: true
+    patience: 10  # Stop if no improvement for 10 epochs
+    min_blank_prob: 0.5  # Consider working if blank < 50%
+    min_unique_tokens: 20
+
+# Checkpointing
+checkpointing:
+  save_every_n_epochs: 5
+  keep_last_n: 5
+  checkpoint_dir: "checkpoints"
+  
+# Logging
+logging:
+  log_dir: "logs"
+  tensorboard: true
+  log_every_n_steps: 10
+  
+# Data loading
+data_loading:
+  num_workers: 4
+  pin_memory: true
+  max_duration: 15.0  # seconds
+
+# Monitoring thresholds
+monitoring:
+  # Alert if these conditions are met
+  alert_if_blank_prob_above: 0.95  # After epoch 20
+  alert_if_unique_tokens_below: 5   # After epoch 20
+  check_after_epoch: 20
+
+# Google Drive backup (optional)
+drive_backup: null  # Set to path if using Google Drive
+
+# Resume training
+resume_from_checkpoint: null  # Set to checkpoint path to resume

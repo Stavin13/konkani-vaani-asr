@@ -1,0 +1,50 @@
+data:
+  augmentation:
+    freq_mask_max: 10
+    freq_mask_num: 2
+    noise_injection: 0.005
+    spec_augment: true
+    speed_perturb:
+    - 0.9
+    - 1.0
+    - 1.1
+    time_mask_max: 50
+    time_mask_num: 2
+  num_workers: 0
+  train_manifest: data/konkani-asr-v0/splits/manifests/train.json
+  val_manifest: data/konkani-asr-v0/splits/manifests/val.json
+  vocab_file: data/vocab.json
+device: cuda
+memory_optimization:
+  clear_cache_every_n_batches: 50
+  gradient_checkpointing: false
+  use_cpu_offload: false
+model:
+  conv_kernel_size: 31
+  d_model: 256
+  decoder_layers: 6
+  dropout: 0.2
+  encoder_layers: 12
+  input_dim: 80
+  num_heads: 4
+  vocab_size: 200
+paths:
+  checkpoint_dir: checkpoints
+  log_dir: logs
+  resume_from: archives/checkpoint_epoch_15.pt
+training:
+  batch_size: 2
+  ctc_weight: 0.5
+  early_stopping:
+    min_delta: 0.01
+    patience: 10
+  grad_clip: 5.0
+  gradient_accumulation_steps: 4
+  learning_rate: 0.0001
+  lr_scheduler: cosine
+  min_lr: 1.0e-05
+  mixed_precision: true
+  num_epochs: 50
+  save_every: 5
+  warmup_steps: 1000
+  weight_decay: 0.0001

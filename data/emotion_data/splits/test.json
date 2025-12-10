@@ -1,0 +1,2452 @@
+[
+  {
+    "text": "हें हें कपडें घोर आसा, घोर अपुरें",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही फुल फायदेशीर आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें सोपें आसा, खूप पावन!",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका कंटाळा वाटता, अप्राकृतिक आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "अतिशय अपवित्र, भयंकर आसा",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "अविरत जालें, सुदैवी दिसता",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "भीतीदायक आणी फुकट, खूप अमर्याद",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका प्रस्थान वाटता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही ऍप द्वार आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "खराब दिसता, भीती वाटता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "फार भीतीदायक, भयंकर आसा",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मायाळ आणी प्राणवान आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "धोकादायक आणी उदास, खूप घाण",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें अंत आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "खूप आनंद, अतिशय शूर",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका कठोर वाटता, डर लागता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें प्राणी कडक आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मस्त जालें, मोफत दिसता",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "खोश आणी सुविधा! विशेष!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "धृष्ट आणी मंद, खूप निरुत्साह",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही नाटक फार बळिश्ट आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका अनमोल दिसलें, आश्चर्य जालें",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका स्वस्थ दिसलें, आश्चर्य जालें",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "चिंतन दिसता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका नुकसान येता, अतिशय तुच्छ!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें डोंगर फार सोबीत आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका खिन्न वाटता, डर लागता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका फुकट वाटता, धृष्ट आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "अनमोल! विशेष आसा!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "दिशाभूल आणी विकृत, दुर्गंधी आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें शिक्षण घाण आसा, घृणास्पद",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका त्रास वाटता, डर लागता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "अपुरें! धूर्त जालें!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "फसवें आणी कुजिल्लें, दुर्गंधी आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें निर्गम आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें लोखंड विकृत आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही वस्तू फार पावन आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "स्वस्त! विशेष आसा!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "चैतन्य आणी फायदेशीर, खूप स्थिर",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "भिरांत! महाग जालें!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें कल्याणकारी आसा! आश्चर्य!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मिनीट दिसता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "निकृष्ट जालें, मंद दिसता",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें दुर्गंधी आसा, घृणा येता",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें पान खूप प्रेमळ आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही पक्षी बरीच कडक आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका हेतू वाटता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "खूप भीतीदायक, भयंकर आसा",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका विरुप वाटता, घाण आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "अविरत! विशेष आसा!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "वजन आणी माप आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हानीकारक दिसता, भीती वाटता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "खूप अनियमित, भयंकर आसा",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "फसवें! दुःखी जालें!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें विश्लेषण आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें फसवें आसा, घृणा येता",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें पान धोकादायक आसा, घोर चतुर",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें अस्वाभाविक आसा, भयंकर विक्राळ",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें शहर अवलोकन आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका हलकें येता, खूप आळशी!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका आत वाटता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका किफायतशीर दिसलें, आश्चर्य जालें",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही रस्तो घाण आसा, घृणास्पद",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही कल्पना बरीच प्रेमळ आसा!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही ऍप फार किफायतशीर आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही पक्षी निठुर आसा, घृणास्पद",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "कंटाळा आणी बेशरम, खूप अमर्याद",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका उत्साही दिसलें, आश्चर्य जालें",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही सेवा फार सडिल्लें आसा!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "काळ दिसता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "अधुरें! अपूर्ण जालें!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही ऋतू डरावन आसा, घोर फसवें",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हो कार्यक्रम प्रचंड अनावश्यक आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "भीतीदायक आणी तुटपुंजें, दुर्गंधी आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "बळिश्ट आणी पावन, खूप प्रेमळ",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "बुद्धीमान आणी स्पष्ट! विशेष!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें अपुरें आसा, भयंकर उदासीन",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हो कार्यक्रम पडताळणी आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "भयाण जालें, वायट दिसता",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें भ्रमित आसा! खूप भिरांत!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका निठुर वाटता, डर लागता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही कल्पना अतिशय असंबद्ध आसा!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मध्यम दिसता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही दुकान भ्रमित आसा, घृणास्पद",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें तुटपुंजें आसा, भयंकर धूर्त",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हुशार आसा, खूप छान!",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका हताश वाटता, घाण आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका चिंतन वाटता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही कार आदि आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें संयमी आसा, खूप तरकीबी!",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें प्राणी प्रचंड नुकसान आसा!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हानी! राक्षसी जालें!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "कंटाळा आणी विकृत, दुर्गंधी आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें झाड बदलप आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "विक्राळ! नको जालें!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका कपट येता, अतिशय अस्वाभाविक!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "बरीच खिन्न, भयंकर आसा",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें शिक्षण बरीच दक्ष आसा!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "बरीच नाउमेद, अपवित्र आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका अस्वाभाविक वाटता, डर लागता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका क्रूर वाटता, तुटपुंजें आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें सुंदर आसा, खूप साहसी!",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें विचार कंटाळा आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "अपूर्ण! घोर जालें!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें भयंकर आसा, खूप निरुत्साह",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें ग्रंथ अपूर्ण आसा, घृणास्पद",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें प्रेमळ आसा! आश्चर्य!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका तरकीबी वाटता, धीट आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "स्वस्त आणी उत्तम, खूप जोमदार",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें घर खूप कपट आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "निवांत जालें, बळिश्ट दिसता",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें शुद्ध आसा! आश्चर्य!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें तरकीबी आसा, खूप छान!",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें डोंगर फार मळ आसा!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "बाह्य आणी आगमन आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "बरीच अशुद्ध, अपवित्र आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका अधुरें वाटता, घाण आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका निकृष्ट वाटता, डर लागता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "अप्राकृतिक! निकृष्ट जालें!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "खूप समजूतदार, बरीच टिकाऊ",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मंद दिसता, भीती वाटता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका निरीक्षण वाटता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका निरर्थक वाटता, घाण आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "भ्रमित आणी चतुर! खूप राग येता!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें पुस्तक खूप आळशी आसा!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका पावन दिसलें, आश्चर्य जालें",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें भयाण आसा! खूप दुर्गंधी!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका कल्याणकारी वाटता, छान आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "सुस्त आणी भ्रमित, खूप अमर्याद",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें पुस्तक निर्दय आसा, घृणास्पद",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "उदासीन! अपूर्ण जालें!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें लोखंड डरावन आसा, घोर व्यर्थ",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका आदि वाटता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "फार दुःखी, भयंकर आसा",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें कंटाळा आसा, खूप राक्षसी",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका वजन वाटता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका शाश्वत दिसलें, आश्चर्य जालें",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका कठोर वाटता, डर लागता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका तुच्छ वाटता, घाण आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हानी आसा, खूप कमी",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें अशुद्ध आसा! खूप कमी!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका सुविधा वाटता, प्रेमळ आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "स्थान दिसता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "रूंद आणी तरुण, खूप दुर्मिळ",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "कुजिल्लें आणी निठुर, दुर्गंधी आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें डोंगर भलें आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "खूप भीतीदायक, भयंकर आसा",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें अवघड आसा, भयंकर हानी",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "अवघड आणी मळ आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका तुटपुंजें वाटता, डर लागता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें ग्रंथ सडिल्लें आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका शूर वाटता, लाभाचें आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "उपयोगी आणी प्रवीण आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "बसप दिसता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "फार राक्षसी, भयंकर आसा",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें उठप आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें सुंदर आसा! आश्चर्य!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका मंद वाटता, घाण आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "सुस्त दिसता, भीती वाटता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें भिरांत आसा, घृणा येता",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें आत आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "शाबास जालें, पुरातन दिसता",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें दवाखानें अराजक आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "शुभ आणी किफायतशीर, खूप स्थिर",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "अतिशय अनियमित, भयंकर आसा",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हो गेम तपासणी आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका प्राचीन दिसलें, आश्चर्य जालें",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें शहर खूप दिशाभूल आसा!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "खूप गोंधळलेलें, प्रचंड धोकादायक",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका भ्रमित वाटता, कमी आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका नुकसान वाटता, डर लागता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें गाणें संयमी आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "जोखमी आणी कडक, दुर्गंधी आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही दुकान अतिशय पराक्रमी आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मूल्यवान आणी प्राचीन आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें पुस्तक घाण आसा, घृणास्पद",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका हुनर दिसलें, आश्चर्य जालें",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका कंटाळा वाटता, डर लागता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "राक्षसी! फसवें जालें!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही प्लॅस्टिक नको आसा, घृणास्पद",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "आधुनिक! विशेष आसा!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "राक्षसी आणी महाग, खूप अपूर्ण",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें सोपें आसा! आश्चर्य!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें जोरदार आसा! आश्चर्य!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "छल! निरुत्साह जालें!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "खूप हानी, बरीच नुकसान",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें अशुद्ध आसा, घृणा येता",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "गोड आणी सुविधा! विशेष!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें डोंगर फार बरें आसा!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "निर्दय जालें, कमी दिसता",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका जोड वाटता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें तुच्छ आसा, खूप मंद",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "चलाख आणी हितकारक आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका त्रास वाटता, घाण आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका कडक वाटता, त्रास आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका चिरस्थायी वाटता, मीठ आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें नीच आसा! खूप नुकसान!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका निर्दय वाटता, चतुर आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका निरर्थक वाटता, घाण आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "फसवणूक आणी कडक, दुर्गंधी आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका स्थिर दिसलें, आश्चर्य जालें",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही ऋतू आंतरसंबंध आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका हताश वाटता, डर लागता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "नीच दिसता, भीती वाटता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "अतिशय कठोर, भयंकर आसा",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका धृष्ट वाटता, फसवें आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें अस्पष्ट आसा! खूप फुकट!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें मिनीट आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "त्रास! खिन्न जालें!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें घोटाळा आसा, खूप अव्यवस्थित",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका आत वाटता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मायाळ आणी प्रेमळ आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका अस्पष्ट येता, खूप विकृत!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "सुस्त! भयंकर जालें!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही दुकान फार घोर आसा!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "गोंधळ आणी कुरूप, खूप विकृत",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें झाड निरर्थक आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "युवा जालें, उत्साही दिसता",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही ऍप अस्वाभाविक आसा, घृणास्पद",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "निर्लज्ज आणी भयाण आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका निकृष्ट वाटता, डर लागता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "खूप सवलत, प्रचंड शक्तिशाली",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "व्यर्थ जालें, असुरक्षित दिसता",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मूल्यवान जालें, दीर्घकालीन दिसता",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका शाबास दिसलें, आश्चर्य जालें",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "प्रदेश दिसता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका तफावत वाटता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें आधुनिक आसा! आश्चर्य!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें पुस्तक खूप कठोर आसा!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "दुरुस्ती दिसता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही इच्छा सुरवात आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें चित्र बरीच स्पष्ट आसा!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "खूप निरर्थक, अतिशय गैरसमज",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका त्रास येता, बरीच कमी!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही रस्तो फार सुविधा आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "अखंड आणी हितकारक! विशेष!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही दुकान डरावन आसा, घोर घोटाळा",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें गाणें खूप प्राचीन आसा!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें ध्येय त्रास आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मनन दिसता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "विचार आणी अवलोकन आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही कार बाहेर आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका शुभ दिसलें, आश्चर्य जालें",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका बंध वाटता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका निरुपयोगी वाटता, घाण आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हो होटेल जोखमी आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका पुरातन वाटता, बुद्धीमान आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें रूपांतर आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका धूर्त वाटता, सुस्त आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें डरावन आसा, भयंकर अपवित्र",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "घोर दिसता, भीती वाटता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही प्रतिज्ञा चतुर आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें डोंगर बरीच पारंपारिक आसा!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "तरकीबी! विशेष आसा!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही फुल खूप युवा आसा!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "युवा आणी टिकाऊ, खूप लाभाचें",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "अस्पष्ट आणी भीतीदायक, खूप भ्रमित",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "अविरत! विशेष आसा!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें मैल आसा, खूप निर्दय",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें संकल्प अप्राकृतिक आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें दुर्गंधी आसा, खूप घोटाळा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "खूप जोखमी, फार भयाण",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें नुकसान आसा, खूप तुटपुंजें",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मूल्यवान आणी प्रवीण, खूप सोपें",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका अमर्याद येता, प्रचंड हताश!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही नदी निर्दय आसा, घोर धोकादायक",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका सुस्त वाटता, घाण आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें परीक्षण आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही आशा सुंदर आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "आधुनिक आणी पराक्रमी आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका भलें दिसलें, आश्चर्य जालें",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही कहाणी दिशाभूल आसा, घोर अपवित्र",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "खूप बेशरम, फार धृष्ट",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "रस्तो दिसता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "तपासणी दिसता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका छल येता, बरीच नाउमेद!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "निवांत आणी समजूतदार आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें खिन्न आसा! खूप महाग!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "जोड दिसता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका अविरत दिसलें, आश्चर्य जालें",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें हवामान तपासणी आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "द्वार दिसता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही पक्षी भीतीदायक आसा, घोर अवघड",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "बुद्धिवान! विशेष आसा!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें वाया गेल्लें आसा, खूप अनावश्यक",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें कथानक प्रचंड नशीबवान आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "अस्पष्ट दिसता, भीती वाटता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "कृपाळ आणी ताजें! विशेष!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका नीच येता, प्रचंड अनाकर्षक!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "जाणे दिसता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें खराब आसा, भयंकर असंवेदनशील",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें सोनें खूप दुर्मिळ आसा!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "घोर आणी कठोर आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका क्षेत्र वाटता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "कल्याणकारी! विशेष आसा!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका हुनर दिसलें, आश्चर्य जालें",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "वर्स आणी स्थान आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें अपवित्र आसा, घृणा येता",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "अधुरें आणी अनियमित, दुर्गंधी आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "निर्लज्ज दिसता, भीती वाटता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "स्थिर आणी जोमदार! विशेष!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका डरावन वाटता, डर लागता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें मिनीट आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही चष्मा अर्दवट आसा, घृणास्पद",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "दिशाभूल दिसता, भीती वाटता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें घोर आसा, खूप असंवेदनशील",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "कंटाळा! क्रोध जालें!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "असंवेदनशील आणी कमी, दुर्गंधी आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "धीट आणी प्राणवान! विशेष!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "निरुत्साह आणी कुजिल्लें! खूप राग येता!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "खूप हताश, फार क्रूर",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही दुकान प्रचंड संयमी आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "कुरूप जालें, अस्वाभाविक दिसता",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही जोडा उदास आसा, घोर डरावन",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "घोर आणी असंबद्ध आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें शहर जोखमी आसा, घोर भयंकर",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका अपवित्र वाटता, घाण आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें फसवें आसा, भयंकर अनाकर्षक",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "फुकट आणी निरर्थक, दुर्गंधी आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका सोबीत दिसलें, आश्चर्य जालें",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें जोरदार आसा! आश्चर्य!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "शेवट दिसता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "फार सडिल्लें, अपवित्र आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही मूर्ती फार चलाख आसा!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें येणे आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें घाण आसा, घृणा येता",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें ही कविता प्रचंड दीर्घकालीन आसा!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें डोंगर अतिशय दिशाभूल आसा",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें गाणें परीक्षण आसा",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "अर्दवट आणी डरावन, खूप निराश",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका विकृत वाटता, घाण आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "स्वस्त आणी शाश्वत! विशेष!",
+    "emotion": "surprise",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें कपडें बरीच निपुण आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका चिंतन वाटता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका असंवेदनशील वाटता, डर लागता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें घर गोड आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "भयंकर! निरुत्साह जालें!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "परिसर दिसता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "खूप दीर्घकालीन, खूप बरें",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें शहर बरीच समजूतदार आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हें हें विचार अवघड आसा, घोर त्रास",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका समय वाटता",
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "सुंदर आणी शूर आसा",
+    "emotion": "joy",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "फार विरुप, भयंकर आसा",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका कंटाळा येता, प्रचंड अर्दवट!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका अनाकर्षक येता, अतिशय क्रूर!",
+    "emotion": "anger",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "अनियमित दिसता, भीती वाटता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "हानीकारक दिसता, भीती वाटता",
+    "emotion": "fear",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मका कपट वाटता, घाण आसा",
+    "emotion": "disgust",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  },
+  {
+    "text": "मळ जालें, नको दिसता",
+    "emotion": "sadness",
+    "confidence": 1.0,
+    "source": "synthetic_generated",
+    "needs_review": false
+  }
+]

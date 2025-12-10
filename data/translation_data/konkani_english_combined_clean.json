@@ -1,0 +1,4454 @@
+[
+  {
+    "konkani": "अ",
+    "english": "a",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "अ अक्षर",
+    "english": "a letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "आ",
+    "english": "aa",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "आ अक्षर",
+    "english": "aa letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "इ",
+    "english": "i",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "इ अक्षर",
+    "english": "i letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ई",
+    "english": "ee",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ई अक्षर",
+    "english": "ee letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "उ",
+    "english": "u",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "उ अक्षर",
+    "english": "u letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ऊ",
+    "english": "oo",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ऊ अक्षर",
+    "english": "oo letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ऋ",
+    "english": "ru",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ऋ अक्षर",
+    "english": "ru letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ए",
+    "english": "e",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ए अक्षर",
+    "english": "e letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ऐ",
+    "english": "ai",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ऐ अक्षर",
+    "english": "ai letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ओ",
+    "english": "o",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ओ अक्षर",
+    "english": "o letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "औ",
+    "english": "au",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "औ अक्षर",
+    "english": "au letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "क",
+    "english": "ka",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "क अक्षर",
+    "english": "ka letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ख",
+    "english": "kha",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ख अक्षर",
+    "english": "kha letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ग",
+    "english": "ga",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ग अक्षर",
+    "english": "ga letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "घ",
+    "english": "gha",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "घ अक्षर",
+    "english": "gha letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ङ",
+    "english": "nga",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ङ अक्षर",
+    "english": "nga letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "च",
+    "english": "cha",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "च अक्षर",
+    "english": "cha letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "छ",
+    "english": "chha",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "छ अक्षर",
+    "english": "chha letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ज",
+    "english": "ja",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ज अक्षर",
+    "english": "ja letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "झ",
+    "english": "jha",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "झ अक्षर",
+    "english": "jha letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ञ",
+    "english": "nya",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ञ अक्षर",
+    "english": "nya letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ट",
+    "english": "ta",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ट अक्षर",
+    "english": "ta letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ठ",
+    "english": "tha",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ठ अक्षर",
+    "english": "tha letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ड",
+    "english": "da",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ड अक्षर",
+    "english": "da letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ढ",
+    "english": "dha",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ढ अक्षर",
+    "english": "dha letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ण",
+    "english": "na",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ण अक्षर",
+    "english": "na letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "त",
+    "english": "ta",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "त अक्षर",
+    "english": "ta letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "थ",
+    "english": "tha",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "थ अक्षर",
+    "english": "tha letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "द",
+    "english": "da",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "द अक्षर",
+    "english": "da letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ध",
+    "english": "dha",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ध अक्षर",
+    "english": "dha letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "न",
+    "english": "na",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "न अक्षर",
+    "english": "na letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "प",
+    "english": "pa",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "प अक्षर",
+    "english": "pa letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "फ",
+    "english": "pha",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "फ अक्षर",
+    "english": "pha letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ब",
+    "english": "ba",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ब अक्षर",
+    "english": "ba letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "भ",
+    "english": "bha",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "भ अक्षर",
+    "english": "bha letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "म",
+    "english": "ma",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "म अक्षर",
+    "english": "ma letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "य",
+    "english": "ya",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "य अक्षर",
+    "english": "ya letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "र",
+    "english": "ra",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "र अक्षर",
+    "english": "ra letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ल",
+    "english": "la",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ल अक्षर",
+    "english": "la letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "व",
+    "english": "va",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "व अक्षर",
+    "english": "va letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "श",
+    "english": "sha",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "श अक्षर",
+    "english": "sha letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ष",
+    "english": "sha",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ष अक्षर",
+    "english": "sha letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "स",
+    "english": "sa",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "स अक्षर",
+    "english": "sa letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ह",
+    "english": "ha",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ह अक्षर",
+    "english": "ha letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ळ",
+    "english": "la",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ळ अक्षर",
+    "english": "la letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "क्ष",
+    "english": "ksha",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "क्ष अक्षर",
+    "english": "ksha letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ज्ञ",
+    "english": "gnya",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ज्ञ अक्षर",
+    "english": "gnya letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ं",
+    "english": "n",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ं अक्षर",
+    "english": "n letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ः",
+    "english": "h",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ः अक्षर",
+    "english": "h letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ा",
+    "english": "aa",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ा अक्षर",
+    "english": "aa letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ि",
+    "english": "i",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ि अक्षर",
+    "english": "i letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ी",
+    "english": "ee",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ी अक्षर",
+    "english": "ee letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ु",
+    "english": "u",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ु अक्षर",
+    "english": "u letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ू",
+    "english": "oo",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ू अक्षर",
+    "english": "oo letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ृ",
+    "english": "ru",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ृ अक्षर",
+    "english": "ru letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "े",
+    "english": "e",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "े अक्षर",
+    "english": "e letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ै",
+    "english": "ai",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ै अक्षर",
+    "english": "ai letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ो",
+    "english": "o",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ो अक्षर",
+    "english": "o letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ौ",
+    "english": "au",
+    "level": "letter",
+    "difficulty": 1
+  },
+  {
+    "konkani": "ौ अक्षर",
+    "english": "au letter",
+    "level": "letter_context",
+    "difficulty": 1
+  },
+  {
+    "konkani": "घर",
+    "english": "house",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "घर",
+    "english": "home",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "घर",
+    "english": "residence",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "घर",
+    "english": "dwelling",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "घर",
+    "english": "abode",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "घर",
+    "english": "a house",
+    "level": "word_article",
+    "difficulty": 2
+  },
+  {
+    "konkani": "घर",
+    "english": "the house",
+    "level": "word_article",
+    "difficulty": 2
+  },
+  {
+    "konkani": "पाणी",
+    "english": "water",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "पाणी",
+    "english": "aqua",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "पाणी",
+    "english": "liquid water",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "पाणी",
+    "english": "drinking water",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "पाणी",
+    "english": "H2O",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "खाणे",
+    "english": "food",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "खाणे",
+    "english": "meal",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "खाणे",
+    "english": "eating",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "खाणे",
+    "english": "to eat",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "खाणे",
+    "english": "nourishment",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "मनीस",
+    "english": "person",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "मनीस",
+    "english": "man",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "मनीस",
+    "english": "human",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "मनीस",
+    "english": "individual",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "मनीस",
+    "english": "people",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "मनीस",
+    "english": "a person",
+    "level": "word_article",
+    "difficulty": 2
+  },
+  {
+    "konkani": "मनीस",
+    "english": "the person",
+    "level": "word_article",
+    "difficulty": 2
+  },
+  {
+    "konkani": "बायल",
+    "english": "woman",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "बायल",
+    "english": "lady",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "बायल",
+    "english": "female",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "बायल",
+    "english": "girl",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "बायल",
+    "english": "women",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "बायल",
+    "english": "a woman",
+    "level": "word_article",
+    "difficulty": 2
+  },
+  {
+    "konkani": "बायल",
+    "english": "the woman",
+    "level": "word_article",
+    "difficulty": 2
+  },
+  {
+    "konkani": "भुरगे",
+    "english": "child",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "भुरगे",
+    "english": "kid",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "भुरगे",
+    "english": "children",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "भुरगे",
+    "english": "youngster",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "भुरगे",
+    "english": "little one",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "भुरगे",
+    "english": "a child",
+    "level": "word_article",
+    "difficulty": 2
+  },
+  {
+    "konkani": "भुरगे",
+    "english": "the child",
+    "level": "word_article",
+    "difficulty": 2
+  },
+  {
+    "konkani": "दिस",
+    "english": "day",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "दिस",
+    "english": "daytime",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "दिस",
+    "english": "daily",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "दिस",
+    "english": "daylight",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "दिस",
+    "english": "date",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "दिस",
+    "english": "a day",
+    "level": "word_article",
+    "difficulty": 2
+  },
+  {
+    "konkani": "दिस",
+    "english": "the day",
+    "level": "word_article",
+    "difficulty": 2
+  },
+  {
+    "konkani": "रात",
+    "english": "night",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "रात",
+    "english": "nighttime",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "रात",
+    "english": "evening",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "रात",
+    "english": "darkness",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "रात",
+    "english": "nocturnal",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "रात",
+    "english": "a night",
+    "level": "word_article",
+    "difficulty": 2
+  },
+  {
+    "konkani": "रात",
+    "english": "the night",
+    "level": "word_article",
+    "difficulty": 2
+  },
+  {
+    "konkani": "सकाळ",
+    "english": "morning",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "सकाळ",
+    "english": "dawn",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "सकाळ",
+    "english": "early morning",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "सकाळ",
+    "english": "sunrise",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "सकाळ",
+    "english": "AM",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "सकाळ",
+    "english": "a morning",
+    "level": "word_article",
+    "difficulty": 2
+  },
+  {
+    "konkani": "सकाळ",
+    "english": "the morning",
+    "level": "word_article",
+    "difficulty": 2
+  },
+  {
+    "konkani": "संजे",
+    "english": "evening",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "संजे",
+    "english": "dusk",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "संजे",
+    "english": "sunset",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "संजे",
+    "english": "twilight",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "संजे",
+    "english": "PM",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "संजे",
+    "english": "a evening",
+    "level": "word_article",
+    "difficulty": 2
+  },
+  {
+    "konkani": "संजे",
+    "english": "the evening",
+    "level": "word_article",
+    "difficulty": 2
+  },
+  {
+    "konkani": "येवप",
+    "english": "to come",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "येवप",
+    "english": "come",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "येवप",
+    "english": "coming",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "येवप",
+    "english": "arrive",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "येवप",
+    "english": "approach",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "वचप",
+    "english": "to go",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "वचप",
+    "english": "go",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "वचप",
+    "english": "going",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "वचप",
+    "english": "leave",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "वचप",
+    "english": "depart",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "खावप",
+    "english": "to eat",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "खावप",
+    "english": "eat",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "खावप",
+    "english": "eating",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "खावप",
+    "english": "consume",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "खावप",
+    "english": "dine",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "पिवप",
+    "english": "to drink",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "पिवप",
+    "english": "drink",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "पिवप",
+    "english": "drinking",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "पिवप",
+    "english": "sip",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "पिवप",
+    "english": "beverage",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "बसप",
+    "english": "to sit",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "बसप",
+    "english": "sit",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "बसप",
+    "english": "sitting",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "बसप",
+    "english": "seated",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "बसप",
+    "english": "sit down",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "उबो",
+    "english": "to stand",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "उबो",
+    "english": "stand",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "उबो",
+    "english": "standing",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "उबो",
+    "english": "upright",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "उबो",
+    "english": "stand up",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "निदप",
+    "english": "to sleep",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "निदप",
+    "english": "sleep",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "निदप",
+    "english": "sleeping",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "निदप",
+    "english": "rest",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "निदप",
+    "english": "slumber",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "जागो",
+    "english": "to wake",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "जागो",
+    "english": "wake",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "जागो",
+    "english": "awake",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "जागो",
+    "english": "wake up",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "जागो",
+    "english": "awaken",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "बरे",
+    "english": "good",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "बरे",
+    "english": "well",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "बरे",
+    "english": "fine",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "बरे",
+    "english": "okay",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "बरे",
+    "english": "nice",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "वायट",
+    "english": "bad",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "वायट",
+    "english": "poor",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "वायट",
+    "english": "wrong",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "वायट",
+    "english": "evil",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "वायट",
+    "english": "negative",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "व्हड",
+    "english": "big",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "व्हड",
+    "english": "large",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "व्हड",
+    "english": "huge",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "व्हड",
+    "english": "great",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "व्हड",
+    "english": "enormous",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "ल्हान",
+    "english": "small",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "ल्हान",
+    "english": "little",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "ल्हान",
+    "english": "tiny",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "ल्हान",
+    "english": "minor",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "ल्हान",
+    "english": "petite",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "नवो",
+    "english": "new",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "नवो",
+    "english": "fresh",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "नवो",
+    "english": "novel",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "नवो",
+    "english": "recent",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "नवो",
+    "english": "modern",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "जुनो",
+    "english": "old",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "जुनो",
+    "english": "ancient",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "जुनो",
+    "english": "aged",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "जुनो",
+    "english": "vintage",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "जुनो",
+    "english": "elderly",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "गरम",
+    "english": "hot",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "गरम",
+    "english": "warm",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "गरम",
+    "english": "heated",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "गरम",
+    "english": "spicy",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "गरम",
+    "english": "temperature",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "थंड",
+    "english": "cold",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "थंड",
+    "english": "cool",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "थंड",
+    "english": "chilly",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "थंड",
+    "english": "freezing",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "थंड",
+    "english": "icy",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "सुंदर",
+    "english": "beautiful",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "सुंदर",
+    "english": "pretty",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "सुंदर",
+    "english": "lovely",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "सुंदर",
+    "english": "gorgeous",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "सुंदर",
+    "english": "attractive",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "काळो",
+    "english": "black",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "काळो",
+    "english": "dark",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "काळो",
+    "english": "negro",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "काळो",
+    "english": "ebony",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "काळो",
+    "english": "jet black",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "धवो",
+    "english": "white",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "धवो",
+    "english": "fair",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "धवो",
+    "english": "pale",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "धवो",
+    "english": "bright",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "धवो",
+    "english": "snow white",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "लाल",
+    "english": "red",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "लाल",
+    "english": "crimson",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "लाल",
+    "english": "scarlet",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "लाल",
+    "english": "ruby",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "लाल",
+    "english": "vermillion",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "निळो",
+    "english": "blue",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "निळो",
+    "english": "azure",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "निळो",
+    "english": "navy",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "निळो",
+    "english": "sapphire",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "निळो",
+    "english": "cerulean",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "हिरवो",
+    "english": "green",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "हिरवो",
+    "english": "verdant",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "हिरवो",
+    "english": "emerald",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "हिरवो",
+    "english": "lime",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "हिरवो",
+    "english": "olive",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "पिवळो",
+    "english": "yellow",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "पिवळो",
+    "english": "golden",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "पिवळो",
+    "english": "amber",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "पिवळो",
+    "english": "blonde",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "पिवळो",
+    "english": "lemon",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "हांव",
+    "english": "I",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "हांव",
+    "english": "me",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "हांव",
+    "english": "myself",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "हांव",
+    "english": "I am",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "हांव",
+    "english": "my",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "तूं",
+    "english": "you",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "तूं",
+    "english": "yourself",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "तूं",
+    "english": "thou",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "तूं",
+    "english": "you are",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "तूं",
+    "english": "your",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "तो",
+    "english": "he",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "तो",
+    "english": "him",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "तो",
+    "english": "that man",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "तो",
+    "english": "himself",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "तो",
+    "english": "his",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "ती",
+    "english": "she",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "ती",
+    "english": "her",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "ती",
+    "english": "that woman",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "ती",
+    "english": "herself",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "ती",
+    "english": "hers",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "आमी",
+    "english": "we",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "आमी",
+    "english": "us",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "आमी",
+    "english": "ourselves",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "आमी",
+    "english": "we are",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "आमी",
+    "english": "our",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "तुमी",
+    "english": "you all",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "तुमी",
+    "english": "you people",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "तुमी",
+    "english": "yourselves",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "तुमी",
+    "english": "you guys",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "तुमी",
+    "english": "your group",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "ते",
+    "english": "they",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "ते",
+    "english": "them",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "ते",
+    "english": "those people",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "ते",
+    "english": "themselves",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "ते",
+    "english": "their",
+    "level": "word",
+    "difficulty": 2
+  },
+  {
+    "konkani": "बरे दिस",
+    "english": "good day",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "बरे दिस",
+    "english": "good morning",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "बरे दिस",
+    "english": "nice day",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "बरे दिस",
+    "english": "fine day",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "बरे दिस",
+    "english": "pleasant day",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "काय चालला",
+    "english": "what happened",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "काय चालला",
+    "english": "what's up",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "काय चालला",
+    "english": "how are you",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "काय चालला",
+    "english": "what's going on",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "काय चालला",
+    "english": "what's new",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "घरा वच",
+    "english": "go home",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "घरा वच",
+    "english": "go to house",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "घरा वच",
+    "english": "return home",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "घरा वच",
+    "english": "head home",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "घरा वच",
+    "english": "get home",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "पाणी पी",
+    "english": "drink water",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "पाणी पी",
+    "english": "have water",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "पाणी पी",
+    "english": "take water",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "पाणी पी",
+    "english": "sip water",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "पाणी पी",
+    "english": "consume water",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "खाणे खा",
+    "english": "eat food",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "खाणे खा",
+    "english": "have meal",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "खाणे खा",
+    "english": "consume food",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "खाणे खा",
+    "english": "take food",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "खाणे खा",
+    "english": "dine",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "येवप येता",
+    "english": "is coming",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "येवप येता",
+    "english": "will come",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "येवप येता",
+    "english": "comes",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "येवप येता",
+    "english": "arriving",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "येवप येता",
+    "english": "on the way",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "व्हड घर",
+    "english": "big house",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "व्हड घर",
+    "english": "large home",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "व्हड घर",
+    "english": "huge house",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "व्हड घर",
+    "english": "great house",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "व्हड घर",
+    "english": "spacious home",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "ल्हान भुरगे",
+    "english": "small child",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "ल्हान भुरगे",
+    "english": "little kid",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "ल्हान भुरगे",
+    "english": "young child",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "ल्हान भुरगे",
+    "english": "tiny kid",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "ल्हान भुरगे",
+    "english": "small baby",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "सुंदर बायल",
+    "english": "beautiful woman",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "सुंदर बायल",
+    "english": "pretty lady",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "सुंदर बायल",
+    "english": "lovely woman",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "सुंदर बायल",
+    "english": "gorgeous girl",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "सुंदर बायल",
+    "english": "attractive female",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "गरम पाणी",
+    "english": "hot water",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "गरम पाणी",
+    "english": "warm water",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "गरम पाणी",
+    "english": "heated water",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "गरम पाणी",
+    "english": "boiling water",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "गरम पाणी",
+    "english": "hot liquid",
+    "level": "phrase",
+    "difficulty": 3
+  },
+  {
+    "konkani": "हांव घरा वचता",
+    "english": "I am going home",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "हांव घरा वचता",
+    "english": "I go home",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "हांव घरा वचता",
+    "english": "I'm heading home",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "हांव घरा वचता",
+    "english": "I will go home",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "हांव घरा वचता",
+    "english": "I return home",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "तूं पाणी पी",
+    "english": "you drink water",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "तूं पाणी पी",
+    "english": "you have water",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "तूं पाणी पी",
+    "english": "drink water",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "तूं पाणी पी",
+    "english": "you should drink water",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "तूं पाणी पी",
+    "english": "have some water",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "तो खाणे खाता",
+    "english": "he eats food",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "तो खाणे खाता",
+    "english": "he is eating",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "तो खाणे खाता",
+    "english": "he has food",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "तो खाणे खाता",
+    "english": "he consumes food",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "तो खाणे खाता",
+    "english": "he dines",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "ती बरी आसा",
+    "english": "she is good",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "ती बरी आसा",
+    "english": "she is well",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "ती बरी आसा",
+    "english": "she is fine",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "ती बरी आसा",
+    "english": "she is okay",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "ती बरी आसा",
+    "english": "she feels good",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "आमी येवपाक येतात",
+    "english": "we are coming",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "आमी येवपाक येतात",
+    "english": "we will come",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "आमी येवपाक येतात",
+    "english": "we come",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "आमी येवपाक येतात",
+    "english": "we are arriving",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "आमी येवपाक येतात",
+    "english": "we approach",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "व्हड घर आसा",
+    "english": "there is big house",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "व्हड घर आसा",
+    "english": "big house exists",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "व्हड घर आसा",
+    "english": "the house is big",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "व्हड घर आसा",
+    "english": "it's a big house",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "व्हड घर आसा",
+    "english": "large home is there",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "ल्हान भुरगे खेळता",
+    "english": "small child plays",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "ल्हान भुरगे खेळता",
+    "english": "little kid is playing",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "ल्हान भुरगे खेळता",
+    "english": "young child plays",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "ल्हान भुरगे खेळता",
+    "english": "the small child plays",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "ल्हान भुरगे खेळता",
+    "english": "tiny kid plays",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "सुंदर दिस आसा",
+    "english": "it is beautiful day",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "सुंदर दिस आसा",
+    "english": "beautiful day today",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "सुंदर दिस आसा",
+    "english": "the day is beautiful",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "सुंदर दिस आसा",
+    "english": "lovely day",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "सुंदर दिस आसा",
+    "english": "nice day it is",
+    "level": "sentence",
+    "difficulty": 4
+  },
+  {
+    "konkani": "आज माजो मूड खाली आसो.",
+    "english": "Enjoy your mood today.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "नाल आणि मसालयाचो वापर करून पारंपरिक गोयकार रंाच तंत खाचनाआ समगरी  म दुसताची कोडी शकुतीचटी आ सट डिश  दोस  गोशी च  ाच",
+    "english": "Traditional Goyakar Ranch Tant Khachnaa Samagri Me Dusatachi Kodi Shakutichatti Ast Dish Dos Goshi Cha Cha using Naal and Masalaich",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "मे  चस  तुझ पुरा दिशाच  के अस  क हाव सडेपाच गुटा मगी   र  जाता कफट ता मी रव बसक मवत",
+    "english": "Me, your whole direction's ass's howl goes to the twenty-five-hundred-hundred-five-gutta magi, my voice is just moving away.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ता फुडे भविष्यान तुमचे उद्देश केरे असा ेले उद्देश म्हटलं phisiोथेraपic केला because एकू आेण पहिलीच जितलेले की जणा fisiोथरaपiक घेवपा पैिलीच दितलेले की आऊ अह एक doctor म्हणून बाहिरायतलं मला शिकूण बाहिरायतले आणि आणि लoकां help करतल आे लॉकांचे life better करतेलआे ते  कशेभी असूते मागी आणि आणि मा काहीक पहिलीच्याणूत एक हे अशीले की समाज सेवा करप एक हे अशीलआहे so अं",
+    "english": "Ta fude divination aur ke saath purpose ke saath physiotherapy banana because aku aan peelinich jitlele ki jaana fisiotherapy ghewpa pailich ditlele ki aa hu aa doctor ke aaye hai shikhun bharayatlam hai kya hai sikhoona hai bharayatale hai aur hai ke liye ke liye ke liye ke liye better te kashebi asute maagi aur mai kihi ekhi ke firstchyanut one is to serve the society of the people.one he ashilahe so an",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "करिमा तुमचा ककनाल  कि तुकामपसोेवतो ाबोफोबको बो",
+    "english": "karima your kakanal ki tukampsovto abofobko bo",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "खोशी करपाक आधार करतात इस्टागत आमका दयाळू जावपाक आनी हेरांक आधार करपाक शिकयता तुका तुझ्या इस्टा वांगडा किते कर करपाची आवडली गजाल मका खेल खेलपाक आनी तांच्या वांगडा उलप व",
+    "english": "Khoshi Karpak Aadhar Karte Istagat Amka Kindly Javpak Aani Herank Aadhar Karpak Shikyata Tuka Tujha Ista Wangda Kite Kar Karpachi Awadali Ghazal Maka Khel Khelpak Ani Tanchya Wangda Ulap Wa",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आमीच झाडाक ापता ये करता महणूनच पावसतर इतलो पडतानु आता हो काय डेवलपमेंट आमी वरावपाक शकना पण हेच की आमचा गोयचे सुंदर त  असली पय ती तशीच उलल्यात पुरव जेशे लोक पैलीपासून गोयाक वडकातते हो ये म सारके तुझे चल आता तु भोपाक चल हाव आता चलले घरा",
+    "english": "Aamich Jhadak Pata Ye Karta Mahnoonach Pavasatar Itlo Patanu Aata Ho Kya Development Aami Varavpak Shakna Pan Hech Ki Aamra Goyche Sundar Ta Asli Pyati Tashich Ulyat Purv Jeshe Lok Paali Se Goyak Vadakatte Ho Ye Ma Saareke Tujhe Chal Aata Tu Bhopak Chal Haav Aata Chale Ghara",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "दुसऱ्यादिस कळक धूप असता ओय glोbl worminग लागून अशे जाता सगळेकळेण पावसाक लागून खूप खडडे झाले रसत्यार ओय आणि कितल्याशाच अपगात जाईत आहा माका दिसता की आणि तोडे दिसानी पावस पमी जाईत असतलो",
+    "english": "On the second day, there is a lot of sunshine and the global warming lagoon is going to be full of rain.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "अरे वा, माका आश्चर्यच वाटलं!",
+    "english": "Oh wow, I felt so surprised!",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "माका थोडो दुःख जाला.",
+    "english": "Mother, there is some sadness.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आमकी मास्त मणचा सो तांच्या फुडे हे सगळे फाटी पडले आणि मका मुझे आंगा कुशी वर्ष आता मुझ्या लोगना पंचवीस वर्षा झाली मझे ही पंचवीस वर्षा कुशी गेली ही मका कोळी पुसून ना मका आंगा रान असा जाव  काय लागी मेळना हजो मका वडलो सो फरक पडलो ना थोडो सो निभाऊन गेो पाक एकसो सात महिने मका लागले किद तांच्या बरो",
+    "english": "Aamki Maast Mancha So Tanchya Fude He All Fati Padle Aani Maka Me Aanga Kushi Year Aata Mujya Logna Twenty-Five Rains Ghali Me Hi Me Koli Pusun Na Maka Anga Raan Asa Jaav Kya Lagi Melana Hajo Maka Vadlo So Farak Padlo Na Thodo So Nibhaaun Gayo Pak Ekso Seven Months Maka Lagae Kid Tanchya Baro",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आमही बॉसकेटब खेवतल ॉी खेवता पणमका  ब आलो आी तेंता नसता सुबरखेवतल तं आ जिखले तलगेल तंा आील खेव त जिखल उतत प्रदेशा बरोबर आल  दोन ोमाललेआ तआिखलीत तु कणकण जाल",
+    "english": "Amhi Basketb Khewtal Dr Khewta Panamka Ba Aalo Aa Tenta Nasata Subarkhewtal Tan Aa Jikhle Talgel Tan Ail Khevat Jikhal Utt Pradesh Right Now All Two Romalleia Taakhleet Tu Kankan Jal",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "हा प्रत्येक दोशाक पाच उपदोष असतात जे विशेष कार्य सांभालता उदाहरण वाताचो प्राण श्वास सांभालता पितताचो उपदोष पाचक मे डायजेशन सांभलता आनी कफाचो उपदोष मस्तिष्क",
+    "english": "Yes, each Doshaak has five subdoshas which handle special functions, for example, Vaatacho, Prana, breathing, pittacho, subdoshas, ​​digestion, ani, kaphacho, subdoshas in the digestive system, brain.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ते सांगता तुमका बर ा जूनबर चा  मझ काकरूजा जाो y  दोनजा आिा क    तज ता से",
+    "english": "You tell me, your son June, I am going to Kakaruja and you are coming as fast as I am.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "त लयस रीकी ोपाोमलचड ली",
+    "english": "talys ricky opomalcd lee",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "माका थोडी भीती वाटता.",
+    "english": "Mother felt a little scared.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "آ گوا ک دستا آ گا  ا آد زائبا  آنا ناو لوگخلی لو جون   و جونآ رئ ر ت ترار  ب  نشت سند فش وااگ آا سگ گسگ م",
+    "english": "آ گا ک دستا آ گا ا آد جایبا عنا ناو لوگکلی لو جون و جونآ رر ت ترار ب نشت سند فش واگ آا سگ گسگ م",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ते आमकाच बरे जातले हाव कॉलेजिक वैतना सदांत छात्री आनी रेनकोट वरता तशेच हाव निरोगी आनी बरे जेवन खाता आनी माजी रोग प्रतिकार शक्त वाडवबा प्रयतन करता तशेच आमी गरांत लायतात",
+    "english": "Te aamkach bare jatale hao collegiate salary student student aani raincoat varta tasech hao disease aani bare jevan khata aani maji disease resistance power wadavba try tasech ami garant layatat",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "rbi बाकीच्या bank bankा regulate आणि supervise करता isr bank ीकडे पैसेना झाला rbi दितात rbi पैशांचो supply आणि credit control करतात जिथून investment आणि employment promote जाता आणि economic growth जाता थोड्या पैसानी कशेतरी",
+    "english": "RBI regulates and supervises the rest of the banks, ISR banks lend money, RBI gives money supply and controls credit, but also promotes investment and employment and economic growth.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ओरिय हुतागो आगो धाकते भोयनीक नवो मोबाइल हाडपाक वोयताले मोबाइल घ्यों दिना मणून दिसनिरातरासकोताते आमका वाज बिसतो रोड रोड रोडतागो रे ेवा आताची बुर्गी तशीती किदे कोरपाचे आता सांगपोय घोन दिगत पडलनुोा",
+    "english": "ओरि हुटागो अगो धाक्ते भोयनिक न्वो मॉबील हादपाक वोयताले मॉबील घ्योन दिना मनून दिसनिरात्रसकोताते आमका वाज बिस्तो रोड रोड रोड़टागो रे वाआ आताची बुर्गी तशीती किदे कोरपाचे आता सांगपोय घोन डिगत पदलनू",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "माका खूप आनंद जाला.",
+    "english": "Mother, there is a lot of joy.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "मामी रानपा खातीर कसलो साधना जाय आनी ताचो उपयोग किदे रांपा खातीर जायती साधना वापरतात पहली मुटल्यार सुरी किते कातोरपाक आमी सुरी वापरता दुसऱे मुटल्यार चॉपिंग बोरड त्या उपरात कडाय हान्यो आनी जायतीयो वस्तु आमी वापरतात खाना कोशी तोरन रखवाक जाता तोरकारी बाजी",
+    "english": "Aunty uses Ranpa for the sake of Kaslo Sadhna Jai ​​Aani Tacho use Kide for the sake of Rampa, Jaiti Sadhana uses the first Mutlyar Suri Kite Katorpak Aami Suri uses the second Mutlyar Chopping Board Tya Parat Kadai Hanyo Aani Jaitiyo Vastu Aami uses Khana Koshi Toran Rakhwaak Jaata Torkari Baji",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आणि आता पैलीच्ा कारणकशे बायचे उदकआणउआणिव आताक ा आता गिजराच एक ब्टन दामल उदक तापल आणपैलीचे बायचे उदककशे बरे असआगिराचे ळ उदक",
+    "english": "Aani aata pailicha karanke left udkake aanauaaniv aata aa gijracha a button damal udaka tapal anpailiche left udakache bare asagirache ll udaka",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आनि मागीर कोण सगल्याकन चोड पावणी वरता तेका मागरती ोयता वस तस हजार जान मगर तो सराचो बले असता त तत मुशाक यतात आी ते सगले पैशे असता ते कोपेलाक गरजक ते बेततात मरतर तमी इतलाच करून तुमा संज सोबता का मुकारु यगिे करता ा येतुमे लास्टे",
+    "english": "Aani Magir kon Sagalyakan chod paani varta teka magrati yota vas ten thousand jaans magar to saracho bale asata ta tat mushak yataat aa te sagle paise asata te kopelak thunder te bettat martar tami itlaach karoon tuma sanj sobta mukaru yagye karta hai yetume laste",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आमच्ा जगर आमका पं येता आएक कलचे    ेवरआ निमाीमेीीीकाेसगूशकतके किरे",
+    "english": "Aamcha jagar aamka pan yata aaye ek kaalche vervaa nimmimee ke ke gushatke",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "जे जीवन मी तांचो हक्क समाजा श हक्क तांचा केल संघर् आि समाजा तांचो ोगदा हे सगळे मका ज मी समजून घेतले जला का ो ाव अरथ मका समजतल आणि हे समजपाक मका काय शब्द आमका समाजा कपा",
+    "english": "Jeevan mein Tancho Haq Samaj Sha Haq Tancha ke Sangh Aa Samaj Taancho Ganga He is born in Maka, everyone has understood the meaning of Jala, and he has understood the meaning of Samjapaak, the work of the word is my Samaj Kapa.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "म   जटी       ा",
+    "english": "I am busy",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "त आमी il मसाज दिता ते reaकa आ a गातील त गरम जेवा मा ते आमी ड करपाक सुता त मसा आ eposr  s की ai दमवपाक bad praकti जे सा ते आमचे तात्या नुसती आ मट माे  करता ये मे टिमा ा काल कशीेव पली आमी",
+    "english": "Ta aami il massage dita te rea aa aa gatiil ta garam jeva ma te aami d karpak suta ta masa aa eposr s ki ai damavpak bad prakti je sa te aamche tatya nusti amat mae karta ye me tima ka kal kashiev pali aami",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ुबवतमाझो बायल फवरप्लय ज बल रखको  वल",
+    "english": "बुवतमाझो बिल फवर्प्ल्य ज बल रखो वल",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "शिगमो सारकिल्या लोकप्रिय गोयचा उत्सवाक खाचो कोकणी संख्या वापता शिगमो  सनया स्वतः कोकडी शब्द प्रकृत शब्द सुगिमो आि संस्कृत शब्द सुगरमक या उततरावैला आल्या धकको शिगमो गांवगेर्या लोकांनी शेतकारानी आ मंजुरानी मता",
+    "english": "Shigmo Sarkilya Popular Goycha Utsavak Khacho Kokani Number Vapata Shigmo Sanya Auto Kokadi Words Prakrit Words Sugimo and Sanskrit Words Sugarmak or Uttaravaila Alya Dhakko Shigmo Gaongerya Loke Shetkarani Aa Manjurani Mata",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "िक स तो  ो  व  ो",
+    "english": "ki s to wo wo",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तर तुमका पयलो प्रश्नजान असा जेंना तमी माझा वाच िवरषतेंा तमी तुमो दिसक सी दिसपटीजकीअचक फक",
+    "english": "तर तुमका प्यालो प्रष्ञ्ञान जाना असा जेना तमी मज्ञा वाच वार्षतेना तमी तमो दिसक सी दिस्पतीजकी अचक फक",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "का     स  पा",
+    "english": "ka s pa",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "मकातमका चोळकिना तरी कमी फिल जाता तारा आणि तुम्ही पाहता ना कि आमच्या आंटदीनदि गलता आमी वारषिक पद्धतीची ळीळाजााती पारंपारिक एक गाढो असा तर खूप वरषांचो असा",
+    "english": "Makatam's cholkina tari kami fills the stars and you see that in our Anthdindi our annual system is not correct, it is traditional, it is very thick and it rains a lot.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आमचकवेगवेगळे उपक्रम असा जशेकी तुमका सांगल की    सा मर सा   ा असा त  असा  स क सा मचली ता सडून कवेग श    करता ज की टड",
+    "english": "अमचकवेगवेगले उत्त्तर असा जाशेकी तुमका संगल की समरा सा सा सात असात सक स मचली ता सुदून कवेग सह कर्ता जी तुड़",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आणि का आक या का  ुयसजर",
+    "english": "and's size or's user",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "रती जातात जश की ना रथ गाय थ आणि जतो लोक येता कण कण लोकतर डत लोक ना शच तसच शचा भाो  तसच गोयचा भाल सुा येतात ोकण का तरखूपजा अस  आमका आम गोयच turism department सा तो सुा खूप मदत करता",
+    "english": "The name of the chariot was the cow, and when the people started singing, the people heard about it, the people heard about it, the cow, the cow, the cow, the cow, the cow, the tourism department, it helps a lot.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आणि आमकावरे खाव पी करताली नाशण्याचे बाकरी तांराचे बाकली आणि आदले तांराचे बाकरी मगीर आजले प शीतकडी खावलोक एकदम घ नसतालेआम्ही सकाळी उठलीाआणिकोण कसलेच दुयेसा काय नसनलसआम्ही सकाळी उठली काना आमका च्ाव म्हणजे किदेती खबर नसलेली आमका आम्याव आवजी असली पयती प्ाद रांताली आणि तायखवळाची बाजीफिसाची",
+    "english": "And Aamkavare Khava P Kartali Nashanne Bakri Tanrache Bakli and Aadle Tanrache Bakri Magir Aajle Pa Shitkadi Khavlok absolutely Gh Nastalewe got up in the morning and where did I get the second task, I got up in the morning Kana Aamka Chav meaning kideti news Nasleli Aamka Aamyaav Aavaji Asli Payati Paad Rantali and Tayakhwalachi Bajifisachi",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "अलगुत रिस्पेक्ट कही असता जसे की लगणात आणि मोट््या उस्तवांत एकदम ग्रॅंड फिस्ट असता तुझया प्लेटांत चित तुझया प्लेटांत भात वेज डिशस आसा आणि स्पायसी करीज भासा पापड",
+    "english": "There would be no such respect as Laganat and Motya would always be grand fist, Tujhaya Platanta Chit Tujhaya Platanta Bhaat, Veg Dishes, Asa and Spicy Curries, Bhasa Papad.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तुजे आपले बोरे मोरे हॉलिडे मेवताली आमच्या टाइमार सगळ्ये बदलला पावसाच्या दिसांनी पावस पडणा कोसली गर्मी जाता थंडेच्या दिसांनी वातावरण थंड असणा आणि थंडेच्या आणि गर्मीच्या दिसांनी लेगीत केना केंना पावस पडता आणि आता हया पावसान मोझ्या बसून येना जी मोझ्या आमी जेंना लान असताली तेंना",
+    "english": "Tuje apne bore more holiday mevtali hamare timar sablye badlala pavasachya disani pavas padana kosli garmi jaata thandacheya disani mivaart thand asana and thandacheya aandi garmichya disani legit kena kena pavas pada and aata haya pavasan mojhya basu yena ji mojhya aami jenna laan astali tenna",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ीुीरे विकाााा उाहर",
+    "english": "fully developed example",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "बिबिंका ददल दोस  ते सगले लककर पलेले क कन",
+    "english": "Who grew up cuddling with her friends?",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "लोकांचा येन कामाचा लोक  सुटताममपडेुी पलए्ाम जाव ामका ुी अटता पलीमवरत ितुजवागडन तुझे कपड कपडे तुमका आवर कता अटा त ुशटननबस",
+    "english": "लोकोन येन कामाचा लोक सुत्तमिप्दु पलेयाम जाव अमका वु अता पलिमवरत तुजवागदन तुझे कप्डे कप्डे तुम्का आवर कता अता त शुतनिन्बस",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "नरजे असतप तत ूप ेताआ ॉजज  दोवाि शेता ेता आपवपाेआेडकॉ करशी व",
+    "english": "नर्जे आस्तप तत द्वूप प्रेताआ दोवाज दोवा शेता तेता अप्पोपौड़क कर्शी व",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "कारण तातून ताचे सगळे प्रॅक्टिकल कनॉलेज असा ताचे विचार मोटिवेशन इनसपिरेशन डिससिप्लिन पॉझिटिवe थिंकिंग सेलफ कॉनफिडेंस असा हका लागून मका ताचो पुस्तक आवडता",
+    "english": "Reason Tatoon Tache All Practical Knowledge Asa Tache Thoughts Motivation Inspiration Discipline Positive Thinking Self Confidence Asa Haka Lagoon Maka Tacho Book Awadta",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "मझोनि ्वत ु ाे का",
+    "english": "middle class",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तुमका जागआ तुमहीाी ात",
+    "english": "your wake up your wake up",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "कमी जातलो कादस ेासूोतरी असना गोया अजूनपासून टुरिसट येत हवा ओय टुरिसटा आमचा गोयचे शीत आणि नुषताकोडी उप बरे लागता",
+    "english": "Kami jatlo kadas esutori asana goya ajunsaasi tourist yata hawa oye touristta amacha goyche cold aur nushtakodi usa costa",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "यापत प दतआमी गणपतीची मर्तपखचिशारतफु",
+    "english": "यापात पदतामी गानपतिची मर्तपखचिशारत्फु",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "एकमिवश कशे त ते सुरात जाले तपर जेा ी क असतली  टीचर फु कतली",
+    "english": "एकमिवश कशेष ते ते सुरात जाले तपर जेशी की असली टेचर फुक्तली",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "कि आता  झााची किचीसा की  खिचर बर मेवताेम पराव पडादगरव जाा बरसतात देच जाा त जा बर अस चडकरु वगता दगराचर आ शता दे त मेवताक पाव ख ची वगता",
+    "english": "That aata jhachi kichisa ki khichar bar mevtaam parav padadgarav ja see raining jaa ta bar as chadkaru vagata dagarachar aashta de ta mevtak pav khachi vagata",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "फा असतात पय ती कातरून वाटतात   ऐखला की सांजावचे पैले राती किरेतरी करतात नु ते मी उज्या ह उजया मणाणु ताका सांजाव बडयतात म्हणतात जस की जुद्व बडयतात ितपड तेणु अशे माणतात की ज्या दिशा जुदयेव बडयतात तया दिशा आमच्या जया समाजा वाईट असा प ते सगे त जुद्यवा  गालू",
+    "english": "Fa are quite a lot of cartoons Vaatat Aikhla's Sanjavache palay rati kireti karte nu te me ujya ha ujya mananu taka sanjav badyatat kya ki judva badyatat tpad tenu ashe manatat ki jya direction judayev badyatat tya direction hamare jya samaja wait asa p te sagete judyawa galu",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आता तु सावता सो मापसा येला नोता शिफ्ट जालतू तु नेजाग्यार येला त तु कित दिसता लाक डिफरेंट कित्या  नोता माचे सगळेशकण फश णकण रां आचड कॉपशन ब कॉश आणि ट्ॅफकापासून ला रसत्या भी चलताना",
+    "english": "आता तु सवता सो मापसा येला नोता शिफ्ट जालतु तु नेजाग्यार येला तु तु कित दिस्ता लक दिफेरें क्या नोता माचे सब्भीशकन फशंकन रां अर्च कॉपसा ब कॉश एन तफकासा ला रस्त्य भी चल्तना",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "नना पोे तू नाटकाबद्दल विचार करता त्यांना ते एक टीm वर्ग असता सगळ्यांची भितून महिनत असता भितून पोयलो म्णजे तुी सकrिपट मग डायrेक्टर दिकदर्शक मागे लाइटमn मागे sाउnड fेकट डप इंजिनिर मगे त्यानबार पातरां पातरा अशी स्वचचे पडटा ऑudiशn घेवच्ापडटा तांचे ऑuडशन घेनअसताना समत कोणाी कुई समत आम्ही रोल दिले जाला भितून नाटक खचाका वेतले त्यांचे पहिले ऑuडश समके इमपoरटनत",
+    "english": "Nana po tu think about the play, they have a team class asata samschi bhitoon mahinat asata bhitoon ployo manje tu script mage director director mage lightmen mage sound effect dup engineer mage tayanbar patraan patra ashi swachche padta audition ghewchapadta tanche audition ghenastana samt koni kui samt ami role dila jaalaBhitoon Drama Khachaka Vetale Importance of His First Order Same",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "दुसरी मुटल्यार आमी आयदोणा उडो तानुल आनी मिड घेतल्यार आनी मागीर ते सारके उगड ल्यर ाकेआमी शिजवन ताचो निवोपिन काडून आमका आमचे गो शीत असता ते तोयार जाता सप जेमी हान रता तेमका बरे मव आनी रुचिक लागता मामी ट्डशन सपा ब्लेंड कशक हतात",
+    "english": "Dusri Mutlyar Aami Ayadona Udo Tanul Aani Mid Lakar Aani Magir Te Sarke Ugad Lyra Aakeami Shijvan Tacho Nivopin Kadoon Aamka Aamche Go Sheet Asata Te Toyar Jata Sap Jamie Han Rata Temka Bare Mav Aani Ruchik Costa Maami Tadshan Sp Blend Kshak Hatat",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "م  ک ب      ب",
+    "english": "म क ब ब",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आणि तुझे कायको देवल्यापूरम तर आमी रेतिरा गेल ेतरा र आमका messae येली तुमचे operatio रक सा  आणि मगीर आका doctरचो call येलो की फालया तुमी admit जाया  ीरतका ami केलो a केल पा oerचे तयार केली आणि मग ते donat केल तेका पयल आि मगी ा",
+    "english": "And you have to go to Devlyapuram, my sandra gel area and my messae, your operation is like that and the doctor has come, call yellow ki falya, you have been admitted, I have prepared a banana, and then you have donated banana to me.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "शिकमेक सगळळ्या ये आमचे भारतातले सगळया लोक तेंका शिकमपोपाची उममेदा ते गोयतातात त्या शिकमाक मुंताते आमच्या गोईची संस्कृति का ती सगळी कोन कावता िक शिकमॅक विविध प्रकारचे डोल ताशे",
+    "english": "Shikmek shallaya ye aamche indiatale bahlya lok tenka shikampopachi umeda te goyatatat tya shikmak muntate ti sabhi kavata of our goichi culture ki shikmak various types of dol tashe",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "सो एकएक तवनास बुर्ग असता पत कशे ंड करता िर पल वडलपावरसा",
+    "english": "So, one by one, every moment the eternal power is destroyed,",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "वन ी जह  झा",
+    "english": "Vani Jah Jha",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "लता तसर धोडे गुंडा येता आनि त्याच्यामडा जगडी करता अतुका खबरा ते गुंडा ओपन झीपी नेताले पो आणि कातेसते ते ओपन झीपी नेताले आणि तसर अदिंगाणा घालताले आणि आमच्या बरोबर अशी जगडी भी दाखली पो भितून मागीर जाता किरे अ सुरीकटटानि कोणाच्यातरी पोटान मारता आणि तो तसर पालावता आणि मागीर वोडलो बोवाळ जाता भितुलल्या भितून पोलिस इनसपेक्टर येता पलिस इनसपकटर यता आणि तसर तोा",
+    "english": "Lata tasar dhode gunda yeta ani gyemda jagdi karta atuka khabara te gunda open jhipi netale po and kaateste te open jhipi netale and tasar adingana ghaltale and with us right now ashi jagdi bhi dakhli po bhitoon magir jaata kire a surikattani konachayatari potan marta aani to tasar palavata and magir vodlo bowal jaata bhitulalya bhitoon police inspector yeta policeInspector Yata and Tasar Toa",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "कतव र e   आजेआ  शिक संयेत केतकरककक करे",
+    "english": "Now the teacher should reason carefully.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "्रलो  ता केटिंग करपाचो यत्न केलो आ खप पवट पडल पण मजा जाल वा मका सदाच बर्फाचो अनुभव गवपाची इच्छा अशिली पण  मऑ बच पसंद फकत रेवेच चलप लारा कून सुर्यास्त पलोवप इल शांत",
+    "english": "र्लो ता केटिंग करपाचो यतन केलो आ खप पवत पदल पन माजा जाल व मका सदाच बर्फाचो अनुभाव गवपाची इच्छा अशिली पान मौ बच पसनाद फकत रेवेच चलप लारा कून सुनस्त प्लोवप इल शंत",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "current account मिघल्यार किते current account अ mostly businessman trader या company use करतात इथून तेंका अं fequnt transaction आणि witdrawal करून मिळतात जे त्ेंका त्यांच्या अं business operation क help करतात या accountा interest मिळणा saving accountाक मिळतात अशे",
+    "english": "Current Account",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "सम उदिक नलयउक ना बिरी वाली  आि कणच समान कोजच म स कुता ा वापरपाच मटल्या",
+    "english": "Same umdican nalayuk na biri wali ai kanach saman kojach ma sakuta ra vaporapacha matlya",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "मचा गावच कता भावा भारी असा ताचा ना जुलद आतो ा पलया जीवितान गडलेल क बिराकु आ विित्र स जता्रिरव",
+    "english": "Maa Gaavcha Kta Bhava Bhari Asa Tacha Na Julad Aato A Palaya Jivitan Gdalel Ka Biraku Aa Vitra Sa Jatarirav",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "रकताचे  बंब केली ते रिक्षा river असलपय ताचाी nat के  आणि  तेका oeri r के eाला तांा ल की तेका  झ  काकोझल   काय को झाल णून  तेका थोडदेदोरचपड साग का को जाल जाा oeri",
+    "english": "raktache bamb keli te riksha river asalpay tachai nat ke andi teka oeri r ke ela tanla ki teka j kakojhal kay ko jhal nun teka thoddedorchpad saag ka ko jal jaa oeri",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ेमी आता माझो दुसरो प्रश जा असा फुलया पा वर्षा  ाकका फु्या पा दा वर्षा भारताचा टॉप लिगा खेपाक जा आनि दशेच पहल्या देशा खेपाचे यत्न करपाक जाय",
+    "english": "मेमी आता मजहो दूसरो प्रशा जा आसा फुल्या पा वर्षा अक्का फुया पा दा वर्षा भारताचा तोप लिगा खेपाक जा आनी देशेच पहल्य देश खेपाचे यतन करपाक जय",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आणी आमच्या देशामदयकात आमच्या घरानी तुमी ऐयकला असतेले वोखालला असतेले चाय आनी बिसकुट कॉफी आनी के चीज आनी वाइन ही सोगली उदाहरणा आमी खाना पिवणाची झोडी करतात कारण एक संतुलित स्वाद काडुंक आनी एक",
+    "english": "Aani hamare desamdayakat hamare gharani tumi aikala asatele vokhalla asatele tea aani biscuits coffee aani ke cheese aani wine hi sogli example aami khana pivanachi jhodi karte karte karte karte karte hai aani a balanced taste kadunk aani one",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "एक guasses जे मit कळतात त्ाचे control जोरपा जा so that neutralise करून किंवा अ combination करून माग जणेकरून जे किते guasses हता ाचे effect आमच्या  vuचे आमच्या  airेे कोमी पडटाल तो ते पळवपा जा आम्ही जे plastic जळेता ते जळवपा जा न plastic plastic process करपाच एक पद्धत असत किंवा एक जी process असं ती follo करपाा आणित",
+    "english": "How many guasses can we detect and how to control them so that we can neutralize them or do some combination of methods to find out how many guasses have the same effect? ​​If we do a little investigation then we will get rid of the plastic we get by doing one method or following one process.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ारवाच जा स्क्रीनीक चड वगत पयो  की  े ्क्रीनी रक्षर वाचपाक जा न लाजा वापरच पा   ु पुत चमा फुलला प्रन तुमचा ा दिसातल्या पुस्तक वाचपाक वे केंा मेताो",
+    "english": "अरवाच जा स्क्रीनिक चड वागत प्यो की ए स्क्रीनी रक्षर वाचपाक जा न लाजा वापरच पु पु फुट्ला प्रन तुम्चा ए दिसातल्य पुत्सक वाचपाक वे केना मेटा",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "पल्या नीेता नदेत ण ल्ा न देत आणि तुम्ही माशालाोचा नसली गणपती पपाआ covid ाललामबदाबंद झालवआीाणसत पिल्या तिथल आली काय ना आता आणी ते last year ये तो कोण घोतो पर शुरामाचो मके मिलाऊ कितरी केलले पय ते",
+    "english": "Palya Neta Nadet Na La Na Det And Tumhi Mashalaocha Nasli Ganpati Papaa Covid Allamabadaband Jhalwa Aanisat Pilya Tithal Aali Kya Na Aata Aani Te To Who Ghoto Par Shuramacho Mukke Mlauk Kitari Banana Paya",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ताक जागुर ाजागोर े आदल्ाचे ते गुमड बीमोट वाजोयता नी ते सोगले लोकाचेच वर काटता ो कजागुर जाा जागरा ु",
+    "english": "So that Jagur Jaagur ke Adlacha te Gumud Bimot Vajoyta ni te Sogle Lokachech Var Katta so Kajagur Jaa Jagra ru",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "नुसते दरपी असता तयांच्यानी मासे कमी करून जा जालार नुष्ते मासे population म्हणता तंचे वाढ हो मासे time to time को व आणी नुसते गालून  जा गातते ा मागे population ही देवतल आणि water हका हे जातले कोह ह  उतकान हे जातले कोह less व जातले नुषते वी हमे limit कोय धरू जा government नाीतेतोरी",
+    "english": "There is no increase in the number of people in the network, there is increase in the population from time to time, there is no limit for the people, there is no God, there is water, there is no limit for the people, there is no limit for the people, there is no limit for the government, Nitetori.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तोरी ही असली मजे आवई मार्गारिदा फेनांडिस तानी आपले खूप विचार मानले जाव गर समावपाक त्रास पडता व खूप किरा विषयांचे तानी आमका माहिती दिली तरी आची ही मुलाकात आमी ा सपयता देव बरे करो",
+    "english": "It was really fun, Margarida Fernandes told me that many of your thoughts should be accepted, if the final thought was troubling and you told me about a lot of topics, then you will meet me very soon, please meet me for your love God.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "र मझे डिेकन पर य मार ु म मगो क म ायकोलॉज करुा पटव सा ज व सगलापली  फुका",
+    "english": "र मझे डेकन पर य मर म रु म मगो क म मैकोलोज करुआ पत्व सा जव सग्लापाली फुका",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "माका दोंगराचोय आनंद मेळता दर्या देख आरामदायक असता पण दोंगरार एकदम वेगळोच शांत आणी तेज दिसता खरे आणी सुटी सदाच पैस असची पडणा सपताकाच्या शेवटाक लान लान बोडी लेगेत ताजे जाऊंक शकता केना केना",
+    "english": "Maka Dongrachoy Anand Melta Darya Dekh Comfortable Asata Pan Dongrar Utva Veloch Shant Ani Tej Dista Khare Ani Suti Sadach Pais Aschi Padana Saptakachya Shevatak Lan Lan Bodi Leget Taje Jaunk Sakta Kena Kena",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "प्रयत्न केलो त्यांना आमी आमच्ा गावच्े पंचायती िला सगले पंस मेंबर एक नायज आमचा एमलए कडे गेले आ त्ांना मका एमल खूप तरा मका सूचना दिली की आमी एक फिशरमेन तोडीटेपरक विशं झूनिंग मुंडाकये तान मका सूचना दिले मका कतन आयडिया दिली के",
+    "english": "I tried to give them a lot of information about my village, Panchayati district, the whole group member, a noble person, my mother, I took a lot of milk, I gave a lot of information about it, a fisherman broke the tape and gave me information about how many ideas I gave to him.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आ उउउक  पत आ क गग ोउउ",
+    "english": "Aa uuuk pat aa ka gg uuuu",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "समडत जनना किने असता एक दा तु लोकां आमका निवडून दिले असतात तांना लोकाची कामा पैली करचे असतात तर लोकाचे किने प्रश्न सुटावे करचे असतात ते आ ते माझेकडे घोडता ते भाषेन आते प्रश्न सुटावे करता आन तेच भाषेन घाराचे फॅमिलीक माजो टाइम किने तआ घारा",
+    "english": "Samadt janna kane asata ek da tu lokaan aamka kathun dile haute tanna lokachi kama paali karche hain tar lokache ki ke questions sutave karte hain te aa te majhekade ghodta te language aate aate questions tawe karte aan teh language ghaareche family majo time kane ta ghara",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "देवबरो दिस दीव तुमका सर समजता तुमही बरे असात गोवा विशेष्ट पर्याटनाचेट तुमची मुलाकात गेवपाक हावगा आला कुपया करून तुमच्या स्वातीची वळक कडून दिवंग शकतलेतुमकादेवबकआुुगजॉुोकीॅजक",
+    "english": "Devbaro this day tumka sir samjata tumhi bare asat goa special tourismnacht your meeting gaypak howga ala kupiya karoon tumche swatichi boy kaduna divan shaktale tumkadevbakaaugjokojak",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ताचे लोक रांता  कदम सरलखडा घेन तमी उकरता रतदरताउतताली नवपाक उर सआता सग लयच उदक तपता  शिसता ण जचकणक येा रोप दुताली बहेर फतनीर आताघरान वॉशि शिन दतात",
+    "english": "Tache Lok Ranta Kadam Saralkhada Ghen Tami Ukarta Ratdartauttali Navpak Ur Saata Sag Laich Udak Tapata Shisata Na Jachkanak Yea Rop Dutali Baher Fatnir Aatagharana Washi Shin Datat",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "माका फार राग आलो.",
+    "english": "Maka far raga alo.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "दोरिया देगेर नेोलो सबित मार मा रोन आ का ु   ाा ााा ाु ाद ा    काा ावा मा ोुाावा",
+    "english": "Doria Deger Nello Sabit Mar Ma Ron Aa Kaa Ua Aa Aa Aa Aa Kaa Aava Maa Oovaa",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "फादर तेची एक प्रैक्टिस कता काोम्या दिताते दिसा सो सोगली नान दोया गालो नता त पों बरे दिसता मगेते जाल्यापुरान मिसाच पुरसांग होयता तेना बुरिया फुडे",
+    "english": "Father Techi ek prakashta kaomya ditaate disa so sogli nan doya galo nata ta pon bare dista magete jalyapuran misach pursang hoyata tena buriya fude",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "हवेत असताा असून आंगा hॉसट असा अमाझे ओन घर आंगाना पण भाड्याचे आंगा घर असा ॉ रकित्या हा घरा असल्या राव फक्त tवचे ध्यान दरता आणि hॉस्टेल असल्या माशे स्टडy करता ह",
+    "english": "He is the only person who cares about his own home and studies the courtyard of his house.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ु क      ा",
+    "english": "why?",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तुमका घरा भरार वथशश",
+    "english": "Your house is full of water.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "کیپںگی خی کییومویخوئ",
+    "english": "کیپںگی کی کییومویکوچ",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तो strenting केलं नो त्याचे  केल practice केले strenting अतर practice केलं  तु का इतकं injury आय ना आता  माश्चेदान किरे असता लाक दोन weeक practice केलदोन weeक bेtे walkout केले आणि मगे महिण्याबर ख्ावतात पय त्ंका inजury  चhances त असतात आणि माश्चादान असता पई लाक फक्त walkout करत असता आणि ला गaमी tim  practice करता आणि ख्यावता तंका inजury level आ कमही असता कीा त्यांची body  sir memory कह असता memory",
+    "english": "So, if you practice only a few times during the day, you will not get any injury. If you practice only two weeks, then you will have to walk out during the week and you will have to walk out for months. There are chances of injury and you will not get injury.Did his body say sir memory?",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आणि खुशाल काे तिच्या पoटां उडी मारता हय अशेवी झालले हय बut तुका खबर आताच्या timार ते कसो म्हणेतात ते इतला खबर नाह हे तिथले तूच सांगमा का अ आताच्या काळांनू लोक बाईन उडी गालतात मागी तशे दर्याकडे बोचून नावतात जायते बशीची frutा कातरून वाटतात आप ापल्याच्या",
+    "english": "And Khushal's eyes are flying, Ashevi Jhalale Hay, but your news comes to Timar Te Kaso Mnetat te Itala news is not there, Tithle Tuch Sangma's A comes to Kalennu Lok Bain Udi Galtat Magi Tashe Daryakade Bochoon Navtat Jayte Basichi Fruta Katrun Vaatat Aap Aplyachya",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "नुसते दरूं आमची वोडी गेऊन वोयता व आणि तेका आता वओडयक मटल्यार एक नाल्या दोन मोटर असतात त आता ओडयचेर कशे गिदेते असता आणि आमी अे उदिक उतकाच्या वावाचेर वोयता मणजे आता उदिक कशे किदे असता उिकपण आमी ते नुसते दरुंग वोयता आता उदिक जर चड लारा मारतात  बुट्टेचो कसो  वयवहारअसा",
+    "english": "Nuste darun aamchi vodi gayun voyta wa andi teka aata vodyak matlyar ek nalya both motor hote ta ata odycher kashe gidete asata and aami ae udik utkachaya vavacher voyata manje aata udik kashe kide asata ukkapan aami te nuste darung voyata aata udik zar chad lara maratat buttecho kaso vayavaharasa",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "eseअसता ता्ाखातीुमwजत ेवाकाmmकरताजा somकतहकूशकoजाmoकूनशकतmकमकkुवपmooinकासांग अस आमच्ा",
+    "english": "ese asata takhaatiumjat sevakammkartaaja somkatihkooshkojamokoonshaktmkamikuppmooinkasang as amcha",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "हाव तुमचे उपकार मानता भलायके काम जिन समतोल मेळोवपाक यत् समर्पन आि आधार जा पडताेग ुमो अनुभवआि सललो आमचा खातीर व कोया खातीर बरापा प्राादवपाक आि तांचा जीविता कामक बदलकाौवकूला",
+    "english": "I am grateful to you for the good deeds which are based on the balance of love, dedication and the basis of your experience, for my sake and for the sake of others, you will change my life by changing my life.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "र करता याचो सुवास सगळया घरा पोचताआिमता होच उस्तवो घर मी ख घर गपतिक ा गेलार तुमी ंटर करते एक ोमत वास येता रांतातो वास तुमा नाका गेऊन मारता मे पट समत तमी भुकेता ते ती असताे जेव त एक वेगळत असत उततवाच टार",
+    "english": "Ra karta yaacho suvas valya ghara pochata aimata hoch ustvo ghar mikha ghar gaptika ka gelar tumi nter karte ek romat vas yeta rantato vaas tuma naka geun marta me pat samat tami bhuketa te ti asate jevat ek vegalat asat uttavacha tar",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तेगर आसा त्या प्रमाने गेोनोचं जाजयावरी आमचे स्वस्त निरोगी उडतेले आमचे खाणावरीआमची हेल्थ एकदम फीट उतेली आनी भाजी जवशिकनक आमी खां जाजावरी आमका गटा मिलतलआआमी तंदुरस सतजेआ माजे दाचीमुलकत तुमका सगलयां देवबरीससवड गुण",
+    "english": "Tegar Asa Tya Pramane Genochan Jajayawari Aamche Swast Nirogi Udtele Aamche Khanavari Aamchi Health Utpad Feet Uteli Aani Bhaji Javshikanak Aami Khan Jajaavari Aamka Gata Milatalaaami Tandooras Satjea Maje Daachimulkat Tumka Sagalyaan Devbarisavad Guna",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ािेुिआिूििि",
+    "english": "new standard",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "्ाआतिेिाजी अ ि ्िे काच असिाच असताेोककािअसदोवरपजखूोवजुआ",
+    "english": "आआतेजाजी ए टे काच आसाच आसाटेओकाकासडोवरपज़क्षूवुजुआ",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "हमाजदेव बराक ्जंिव",
+    "english": "hamajdev barak jeev",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "पोैशे गालूंग नका दंगरा वले खरड ाटटादामी कापून आणि धग्गाचा आता मेरेण तुम्हे खूप वस्तू केलाहे लान वट घुमट गुरगुरे तवले धिवलेव अशे खूप आयडना केला जसे तो लान लां मूर्त्योह करतये असतली आता हे मूर्त्यो या आयडनामध्ये तुमचे एक खयची खाशेली फेvरट वस् असतलीच ची",
+    "english": "Poshe galung na dangara wale kharad tattadaami kapan aand dhaggacha aata meren mein tuh huut vastu bananahe laan wat ghumut gurgurhe tawale dhilev ashe huut idna banana jase to laan laan murtoyoh taye astli aata hai idols or idna mein khayachi kasheli favorite thing untruthful chi",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "खा जेवन तयार करता ेा ताची सुक्षाेा",
+    "english": "Eats and prepares life, Tachi Suksha",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "वित त त रथा स गतल त कि श िनंबर ंबरब",
+    "english": "Finance Number",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "कापप आणि अशे सयdिक दिवप तेसुद्धा ए अशे  दुसऱ्ा असता आणि ते चवदीवच्ा दीस कांना ोयता ते कळाच ना सगळ्ांकण एक मासच मका वाई दिसता ते बािलां खातीर लासपत्ांचे मासिक पाळीबिनेली झाला त्ांका इतल्ा लजी अ चल्या deकoration करतात इतल्या गंपतीची वाढ पयतात तंका तंका त्या छोडवा गंपतीपपपाचे तॉं लेगतपंमळणा तांका एका कोण",
+    "english": "Kappa and Ase Sadik Diwapa Tesuddha E Ase Dusra Asata Ani Te Chavidivacha Dees Kana Yota Te Kalach Na Valankaan A Maach Maka Wi Vista Te Baalan For Las Patanche Menstrual Paati Bineli Jhala Tanka Itla Laji A Chalya Decoration Italya Gumpatichi Vaad Pyatat Tanka Tya Chodwa Ganpati Pappaache TaanLegatpanmalana Tanka Eka Kon",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "वतशे भोवणी करुन निसरगाचे वगवेगे प्रयोग करवडताआगोची सुिताव हका लागून तुमका मनोरंजदिसेमोपैलो प्रश्नतमका गोयचा दरियादेगाचीरवरण कोक तमीकशे करतलेरम",
+    "english": "Vatshe bhovani karun nisargache vagvege prayogvadataagochi sutaav haka lagun tumka entertainmentdisemopailo prashtamka goyacha driyadega chirvaran kok tamikashe kartaleram",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "कि जंबा के नी तात्या कलचे च पडतत तात्याचेवते गालचे पडत ेका आणि माझे मा  दिसरेे उेता वेषबहाझाल उेतआणतेतन ते सारा जातमा मी मझे ओडल जातात ओडला झाल  जातात आेेआओे",
+    "english": "That Jamba's ne Tatya Kalche Cha Padat Tatya Chevte Galche Padta Ka and my mother's other clothes, the whole of my life, I am covered with water, come, come.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आमचे faमiy meंबरमध्ये एकबरी  reaton असपाकजा ते spiritual practies आणि cmmunity gathering जे आमचे ental हेता पबरे पडता जकी काजराया किने fncto घाराणअसला सगळ्यांचे   जाता ते उलव जाता त आमे आमचे traditiona practies जे ental हेतातीरबरे जे counciling जे eldr ेंना उलयता आपल्या दुसऱ्या वांगड्या वांगा",
+    "english": "Our family members are encouraged to practice spiritual practices and community gatherings, such as our traditional family gatherings, and our traditional family practices, such as spiritual practices, elder counseling, and community gatherings.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आता ग दुसऱ झाला आता okay  आता तुझा next quetion तुच्या बुरग्यापणार त तुझो सुटटो आणि सणपरबो कशो म्णेताली आ आमी ोगल क  जातल family आणि म घालताल  सुटटांचो आणि बरा जाण म  रा बुरग आमी सोगली जाकसंगता बसन आमी खेवताल्या  जताल्या खाताल्या",
+    "english": "Aata ga dusra jhala aata okay aata tujha next question tuchya buragyapanar ta tujho sutto aani sanparbo kasho mnetali aa aami gogal ka jatal family and ma ghatalal suttancho and bara jaan ma ra burag aami sogli jaksangata basan aami khevatalya jatalya khatalya",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ही गोष्ट ऐकून माका वाईट वाटलं.",
+    "english": "Mother felt sad after hearing this.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "क्रमा भी वाटव गेवचो जेवी असणो असले आमचे taलent भी असता ते फुढे काढपाक खूपशे कार्यक्रम दोरता आणि खूप अ अशी आमका एक  ां दिता ज त हे ऐकून माखा खूप उममेद आली आवी फुडाराक plस point आनी बाग घेतल आणि माझ taलेnट वाढवेतलो े तुेसमक्ा मटले आणि आव मागता सगल्या भुरग्या लागे की जेंना",
+    "english": "Krama bhi watav gaevcho jvi asano asle aamche talent bhi asata te fudhe kadhapak khushe program dorata aan khoop a aashi aamka ak dita jata he sunkan makha khoom umayde aali avi fudarak plus point aani bagh gheetal aani maj talent wadhelo ke matle aur aa magata sagalya bhurgya lage ki jenna",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आज आवनी माझी ब गॉय आणि गया पर्यटक येता आणि कशी गयाची र्यालीी सुर नष् करता हाचर उलतली ली आी ग आ गच रयाल थडीमी दली गय ह एक लानपुण सुंदर राज्य हे राज्य महाराष्टराचा दक्षिणत असा आणि करनाटकाचे पश्चिनत असा गॉय हे दुसर्या देशासोन लानपुण सोबित आ सुंदर शरम सली मता",
+    "english": "Today I have come here as a cow and a tourist, here and wherever I have gone, it destroys the beauty of my life, it is a beautiful state, this is the state of Maharashtra, in the south and west of Karnataka, this cow is the same cow in another country, full of beauty and beauty, shame on you.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "राणी कशे असा तु आता कारवार कशे पावल ह बरे असा ग कानकारभवपाक इतले बरे गो सोडून त ग ेल भवपाक ह गगो ू सुंदर असा पणकिे संगका  गोीक दुसरी सा असा जे फकत गका र खअसा जीकण परवर रवत त मव फवक ुर जाला नाही",
+    "english": "Rani kashe asatu aata karvaar kashe paval ha bare asaag kaankarbhavapaak itle baare go bakhaad tha gail bhavapaak ha gago su sundar asa paanka ka gek doosri sa asa je fakat gaka ra khaasa jikan parvar ravat ta mva favakar jala nahi",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ुये ल  मा व जा  ुे स  तियार  परगरामानल फ ाेर परंपर   वरो परपर ा ाक   का",
+    "english": "व्यूल लम वा जु से तियार पर्गरमानल फैर तरादि वरो पराद्व प्राक का",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "डेवाव त  ा  े तल पा  ो का ज",
+    "english": "देवाव त त त त ल पो का है",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "स न ोोाीजॉ आ्रेड",
+    "english": "San Nojo Red",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ई चर फर य हो इंटरवू गि मका खु शिखपाक मे ले तु तुजे आवे बापा चे ना रकार देो परे गुर",
+    "english": "Echar phar ya ho interview gimmaka khu shikhpak me tu tujhe aave bapa chen na rakar de pare gur.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ती तुक शितून एलोंा  तुक मiकरोबयलॉजी पोयलास जा आलवले आणि तुझे आव बापा तोयार आलोली इतु पस तुका दडूक शिकपा इतु पस नु त  गोयाकह ते  तोरीपणमग पल i कोरा जा ल आणि मग त amisश मेळो नाव आण rॉ  गेलो",
+    "english": "Ti tuk shitoon elona tuk microbiology poyalas ja aalwale aani tujhe aav bapa toyar aloli itu pas tuka daduk shikpa itu pas nu tu goyakah te toripanamg pal i kora ja la ani mag ta amissh melo naav aan ro gelo",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "करूया फुडे तुमका बरे सॉसका  शांति तुमकमेओ सगल बरे बरे जीवित मेओ",
+    "english": "Karuya Fude Tumbar Bare Sauska Shanti Tumkameo Sagal Bare Bare Jeevite Meo",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "देव बि मझजम  ा",
+    "english": "God B Majjma",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "पण अजू ता लोक उगाकाामेराेजेेउगक",
+    "english": "Pan aju ta loka ugacaamerajeugak",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "करता तांनाे गोचेम समजून पाक ट लागना तर या वे भुतलया आमका एकतर मी संस्कृत दिसता ज ुगड घालता असत बयला पली की नववार स वपरतका ब घटसततनार सपच प्रकार ंतक",
+    "english": "Karta tāṇe gochem understanding paṭak lagna tar or ve bhuṭalya aamka ektar mī sanskrit dista jugad ghalta asat byala pali ki navara sa viparataka ba ghatasatātnār spach type tak",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ोसपलकीमी  े दोवरत बुर्ु कसो आवडलोतां किे प्रशनअस तंिेे पुसतकिेआवडजऊन कि्या लगूेडलेल अस िेजवपा शकत े वेगवे  प्रशतंा विचारता ि्ा बुरग्ांोएक क्रिक ाड जवपाजा्णूतनंतरआीे",
+    "english": "Dorit Alchemy's Doctor Who asked the questions of the devotees about the book's version, what did Guddell give us?",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "साटटालो हर्शी तो आमका फक्त नाटका दिसा आढू शकता असलो अशे किराक अशे करपाचे कारड म्हटल्या प थोड्ा लोक असता नो ते किरेकरता नाटक म्हणजे जगता आणि तेंका अशे दिसता की फाल्या आमही जेपे टेजल करतले ते आमही ऐसा एक प्रत्येक फावटी करीत aकtua त भरी गजाल सांगशी म्हटल्या कारण ज्यांना पे तो पroपrी सकट ज्ांनाप तनाटक",
+    "english": "Sattalo harshi to aamka fakt natak disa aadhu sakta aslo ashe kirak ashe karpache karad mhatlya pa thoda lok asata no te kirekarta natak mehti jagta ani tenka ashe dista ki falya amahi jepe tejal kartale te amahi aisa ek each favti karit aktua ta bhari ghazal sangshi mhatlya reason jane pe to propri skat jannap tanatka",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आणि तुमच्या जवं बकने आल जवण दुकराचया मास गावती कोम्याचे मास यो कोमीय नाल त्यांना गाटी कम कोमयाचा मास आणि आमच्या पोसतालत्या दुकराचे मासआणि तुमच्या फेस्ताच्या मिsस काय आल फेस्ताच्या मीस हा पहलया मीस सातांग ाले दुसऱ्या मीस साडेाठांग ाले निमाण्यामीस दांग आहले",
+    "english": "And your Jawan Bakne all Jawan Dukrachaya month Gavti Komyache month yo Komiya Naal them gati kam Komyachaa month and our posteritya Dukrachaya month and your Festachya miss kay all Festachya month ha first month satang ale second month sadethang le nimanyamis dang ahle",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "त   आजा दिছानी watercaller गेलो े दिसानी water caller गेलं पण खूपूच गोडदी झाला water caler चेरद लोक ठिंगा ेन  बाहले लोक किन िंा  sऱ्याचे bाtlevin उडून सगळे ह केला",
+    "english": "Ta Aaja Dikhani Watercaller Gelo Se Disani Water Caller Gelam Pan Khupuch Goddi Jhala Water Caller Cherad Lok Thinga Train Bahle Lok Kin Na Sryache Batlevin Udun Sabhi Ha Banana",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "वपाा  ाकेा",
+    "english": "वपा अके",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "मही polition वाटताउचका णी ह plastica म हे घरपाचे आम्ही",
+    "english": "I don't care about the police, I have plastic in my house.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "सगली खुशाल ुआणि तुम्ही गावांबकी मेवतालया सगल्या मुठता किने ता फeस बा आला तुम्ही क  या फसत सग्यपैताो माझे मयतोवो पैतो झ सग्याााता",
+    "english": "Sagli khushal uani tumhi gaambki mevatalaya sagalya muthata kene ta fes ba aala tumhi kya fasat sagyapaitao majhe myatovo paito jha sagyaata",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तीन साी तीन म्टल्यारआमी दोंगरार यतालीन आणि दोंगरार जोळो कातरून अडटालीन किा त्यातापार घाशीन लयो जोळो चोड गोरजेचो आहलो जोळो आटालीन आणतो क  कोतालीन आणि ते ोरे ोरे म्हटाली बोरे हे सधधात म माझे कितले झाले तुझे कितले झाले शेजाऱयांच",
+    "english": "Three sae three mtalyaraami dongarar yatalin and dongarar jolo kataroon adatalin kia tyaatapar ghashin layo jolo chod gorjecho ahlo jolo atalin anato ka kotalin ani te ore ore mhatali bore he sadhdhaat me kitle jhale tujhe kitle jhale shejarayanch",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आणी आमची कार्यवल सबयली म्हणून धन्यवाद तुका तुका धन्यवाद",
+    "english": "Aani aamchi karyaval sabayali maise thanks tuka tuka thank you",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तुमकाां जेनरशन डवास जिता संगताते कं जा ड आबरे बाषन रहंजा जगडं होन स्टडी करुं जा बरे ान  टाइम ट टाम गरांग जा टाम आमरीजाली गरनंगजा आजलया भान आजी अमरीजाली गर तेसुरर करूं",
+    "english": "Tumkaan generation devas jita sangatate kanjad abere bashan rahanja jagand hona study karun ja baraye jan time ttam garang ja tam amrijali garnangja ajalya bhaan aaji amrijali gar tesur karun",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आ भितर सरलतेना मगादिसता त्व त्वि ावस त्रविस असो असोा असाव ो फद फतु तुस परश फद तुा जीविताची कोची क गडणीत मका सांगु सतल जक तमिक वा",
+    "english": "आ भितर सरल्तेना मगादिसता त्व त्व वास त्रविस आसो असाव ओ फड़ फटु तुस पर्श फड तु जीवताची कोची क गदनीत मका संगु सतल जक तमिक व",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "माटोळी माटोळी सुद्धा ता खूप पर्या रितीन करतालोआमी माोळ आमा प काकामत माुला हरणा ि पकि ााातातेआकपािकतगृपाची प ळ्या राना माकाकाए",
+    "english": "Matoli Matoli bhi ta khoop parya ritin kartaaloami maol ama pa kakamat maula harana ti paki aataate akapakatagripachi pa plya rana maakakae",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "प  ा   क  क",
+    "english": "p a k k",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ट्रेनिंग केलात मण जायना बरे डायट आसा े च चड गरचेचे किते खाता ताचो ट्रेक दोवर खुप करजेचे कितल्या प्रोटन घेता कार्बोायडरट फट ताचो हिशोप दोवरचो पडता मजो आताचो डायट प्लन जान सा  ा गॅर",
+    "english": "When going for training, diet is like this, what is the diet, what is the track dovar, how much protein is there, what is the carbohydrate burst, how is it, what is the diet plan, what is the diet.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "मज जवखबजख तुझ लज दर्या वेळ पतकच आमचा जिवा खूप बरे दिसता पण जशे तु जाण बले लोक आमचा गयात येता आणि या आमचा दर्यावेळे चेर करो जाव दर्यावेळो सारखो बुरो करून उताे",
+    "english": "Maj Javkhabjakh Tujh Laj Darya Vel Patkach, my life looks very good, but if you know that my world has gone here and then my Darya Vele Cher Karo Jaav Darya Velo Sarkho Buro Karun Uta.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "नसली ते कोळो मका खूपशी माहिती गावली आणि नेव पिगे नेवे पिडी बद्दल खूपशी अशोग जाली जो मकाय कळपाक जा असल तो मका वबधवाददिन्यवाददि्या मका बरे दिसले",
+    "english": "Nasli te kolo maka khupshi mahati gawali ani neve pige neve pidi baharad khupshi ashog jaali jo makay kalpak ja asal to maka vabadhvaaddinyavadiya maka bare disle",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तुी े  न जशनेव बुर्ा फब क तका कर ा  द  ुर ा सर     डाय  क  ना ाककस क  क   ा",
+    "english": "Tui train ne jashanev bua faab ka taka kar ka dura sir dia ka na kaka ka ka",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ा ाािबदलचो ेल आ रचो कस परिणाम जाो े  cnt   मा झालया हयोज फुे वरता आ प्रकपाचेकामकरी ्या बदाविषयी  ा खातर र ा रियोाखाीर ख  wordर",
+    "english": "What changes do you get and what result do you get?",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "त    ं म  सर",
+    "english": "t m sir",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "नमस्कार माझे नाव शॉन साल्वादोर फॅनांडिस सय बिकॉम सून डिवहिजन ब आणी आईच माझे टॉपिक असतलो आंबोली वाटरफॉल पाच जुलायची ये खोबर  गजाल आव आणी माझे इस्ट कॉलेजीतले आणी स्कोलांतले मेवलेले एका जाग्यार आणी बेसटे उलोयितले आणी गजाली मतले तेंना माझे एका इस्टा मुले की",
+    "english": "Namaskar majhe naav shaun salvador fanandis sy bicom soon division ba ani ich majhe topic asatlo amboli waterfall pach julaichi ye khobar ghazal aav ani majhe est collegitale ani skolantale mevlele eka jagyar ani beste uloyitale ani ghazali matle tenna majhe eka ista mule ki",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "नहले काय आी special cावी आणि मागे dnर dnर कुता मण i आमी नितालीन आमची माय माशी lेt येताली काम कुताली किद्ाक मजो पाय पोयलच लानासतणाच सोपललो आणि आमी नितालीन आण आमची माय घारा येताली राणताली आणि मका केंनाच",
+    "english": "Nahle kay aa special cavi aani maage dnar dnar kuta man i aami nitalin aamchi my mashi let yetali kam kutali kidak majo pai poilach laanastanaach sopallo aani aami nitalin aan aamchi my ghara yetali ranatali and maka kennaach",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ााअादु पफ फादा तु सिमनारी केा बितर सलो आनी पलेच पाट बितरसला उपरा तुका कदिसेाा",
+    "english": "Aaaadu pf fada tu seminari ke bitar salo aani pelech pat bitrisala upra tuka kadisa",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "वाज देव बरे करो",
+    "english": "Vaj Dev Bare Do",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "मगीर मगीर फेणी वांतात मगीर कालापरमने जाली फोला जसे परी पणस ननेस आमबे आणी केली मगीर इबी वंतात भाशीन वंतात तसेच नवी काजारी धाली वांतात धलीयु असे दु दुसरे प्रकाराचे फल असतात मगीर चवत चवत मजे आमचा गोच्या",
+    "english": "Magir Magir Feni Wantat Magir Kalaparamne Jali Fola Jase Pari Panas Nanes Ambe Aani Keli Magir Ibi Vantat Bhashin Vantat Tasvi Navi Kajari Dhali Wantat Dhalyu Ase two other types of fruits are there Magir Chavat Chavat Maje Amcha Gochya",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "पण पण या समाजान कोण ना कोण असली वायड उतरा उलोपी असता ही उतरा कोणना कोण बुरगो आकता आनी हेच फुडाराची बुर्गी शिकता आनी असेच पेट्रयारकी चालू उरता होय सारके चली किरे घालतात किरे करतात तेजे नासतात ते",
+    "english": "Pan pan ya samajaan kon na kon asli void utara ulopi asata hi utara konna kon burago aakta aani hech fudarachi burgi shikta aani ase petrayarki chaalu utara hoy sarke chali kire ghaltaat kire karte teje nasatat te",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तुकास्थय सर प्रेजेंट करिना तेंना तुका टॅलेंट असल्याश्वय नाटका वरीच जाऊ शकाना आणतिकरी असा एक्सपीरिेंसाचर एक एक येता आता पई आवे ता कसले कसले नाटकान पाट केले पौराणिग नाटकान भूमिका केलयो शिवाजीचो केलयो औरंग जेप जालो मगी सामाजिक नाटकान खूप शेकले पिशाचो रोल केलो बिकाराचो रोल केलो त्यानबर असे सावकाराचे म हीरोचे रोल केले तसेत फ्रेंडांचे रोल केले अे खूप क्रीकर",
+    "english": "Tukasthaya Sir Present Karina Tenna Tuka Talent Asalishvay Drama Varich Jao Shakana Anatikari Asa Experiencechar Ek Ek Yeta Aata Pai Aawe Ta Kasle Kasle Drama Part Banana Mythological Drama Bhumika Kelo Shivajicho Kelo Orang Jalo Magi Social Drama Khoop Shakele Pishacho Role Kelo Bikaracho Role Kelo Tyanabar Ase Savkarache Ma Heroche Role Banana Teset Friendanche Role Bananaoh so squeaky",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आणि किे म्ण्या तुझे आणि किे दिसतातका मका अशय दिसता कि आता खूपशियही घराभी बांधपाक पैली आमच लोकल गवंडीज असताल तेंका खूप ये असले डeमांड असिल   आता इतले कॉntraकटर येला कि सगले लोक कामाकरून कॉntraकटराकडल्यां घेता आणि खयना खय आमचे गोयचे भाव असात",
+    "english": "And why did you see me and what did you mean by seeing that you come in a very nice house, you have a very strong local women's house, you have a lot of demand, so many contractors come here, that all the people, Kamakroon, take the contractors and eat them, our cow's feelings are very high.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "मिंनाची चोला आणी येचे काजू आणी ये ते ये असता सूर माडाची तेचे सांनाभी करता आमी माडाची सोर इतला तुम्ही तुमचयो पारंपरिक रांपाचयो पद्धती कशे सांबलतात आमी चुलीजेर आमी परंपरा उदिक तापैता नावपाचे पिवोपाचे केना तापयता केना उकडशीत",
+    "english": "Minachi chola aani yeche kaju aani yeh te yeh asata soor madachi teche sanabhi karta aami madachi soor itala tumhi tumchayo traditional rampachyo method kashe sambalatat ami chulijer ami parampara udik tapaita naavpache pivopaache kena tapayata kena ukadshit",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "नचा देगेर आनी उन्या प्रमाणात अशिल्या शेता वैल्या मेलता का लोविल सॉल मता माती मो पिकाळ आनी पोशाक ततवानी बरपुर असता हाका लागून बात लावपाक रोवपाक बरे पडता चया बा ते आमका बाजय खातीर ार क",
+    "english": "Nacha deger aani unya tot aashilya sheta valya mailta ka lovil soul mata mati mo pikal aani dress tatwani barpur asata haka lagun baat lavpak rovpak baare pada chaya baate aamka bajay kathi raar ka",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "adबरे व व  मा माशी पnी तका ाखत साना पहलेली",
+    "english": "adbare vva ma mashi pni taka khat sana peheleli",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आता तू ो सोगल वस्तू जोकता  े तु खवी दवता एक लान कुड या हांगाचकोय या एक दाकटो एक ला  दाकटे गर आमच्याकडे खोप असा खोप ते खोपीन दवरता बरीवडली खोप हा आमची ततुनत आमी करतात बसत आण दवरता गराण काय आडीना कपाच वसत सोग खोपीन",
+    "english": "Aata tu to sogal vastu jokta te tu khvi davata a laan kud or hangachkoy or a dakto a la dakte gar hamna khop asa khop te khopin dvarta barivadli khop ha aamchi tatunat aami karte basat aan dvarta garan kay adina kapaach bast sog khopin",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "अउपेगी पडतात आणि ताजो पेशंटाकुय अ खूप बरो अ परिणाम पेशंटंचेर दिसून हतात हाव स्वतः एक होमयोपयात आणि हाव खूप वरसा झाली होमयोपती टरीटमेंट लोकांक दिता तर हावे अ माझ्या प्रॉफेशनान सुद्धा असली दुयेसा जी अहर्शी मॉडरन मेडिसिनान जंका कोर असोनसता म्हणजे अपुराय तुमचे जी",
+    "english": "Aapgi paaldi aan taajo patientakuy a very baro a result patientchar hai haav auto a homeopathy aan haav khoop vrasa jhali homeopathy treatment lokan dita tar hawe a mere professional bhi asli duyesa ji aharshi modern medicine janka core asonsata meaning apuraya aapko ji",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "मी आता घरी आसात.",
+    "english": "I come home suddenly.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "पसस नाव कलांगट वेता कलांगटचा नाव कांदोलीम वेता म कांदलीमचा नाव माझे स्कूल वेता सेंटरीज हा सेकंडरी सकूल मी तिंा माझे परिड् असतात मगी इंटरवल असता मी आणी चार परिड् जाऊन मगी  स्कूलासन येता म कांदोलीम देवता कंकलांगुट प पावचे आधी दोन पंदरा शकता मी गरापाव",
+    "english": "Pasas nav klangut weta kalangtacha nav kandolim weta ma kandlimcha nav majhe school weta centries ha secondary school me tina majhe parid hota mgi interval asata mi ani char paridjoen mgi schoolasan yeta ma kandolim deity kankalangut pa pavache aadhi don pandra sakta mi garapav",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ही परिस्थिती फार डरताय.",
+    "english": "This very situation is scary.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "नेवी डिफेंस एफोस बन तले एकॅम बन दिवपाचे असतात न आणि ते बिकॉम करपाक नल्या िंग फड ऑ पट  ॅम बन दिवपाका तल आण चे ॅकॅडमी कजावपाक फ ंजरी बन मेवलला  ते ॅकॅडमि न िकजापाक मनवी िफं ीतका नडa एॅम असता आ सेंटरल लेवल",
+    "english": "NAVY DEFENSE AFFOS BAN TALE ACADEM BAN Divpache Hain Na Ani Te Bikom Karpak Nalying Fd Opt Aam Ban Divpaka Tal Anche Academy Kajavapak Finjari Ban Mevlala Te Academy Kajavapak Manvi Fintika Nda Am Assata Aa Central Level",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "े तरकव मिा खाज",
+    "english": "it's a trick and itch",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "बुर्ग  ाइ म दोन ुर् दोन नातर तीन नातर ताक ा पसत चो बाहर गेा आा तीसरो  तस तेािक कज कढताआधाे जाचत चतचबा वसंड र पावल तो शिकतााोदिसतो",
+    "english": "In the middle of the day, both of us, two of our children, three of our children, we have gone out of our way, the third one has come out, and the third one has become the third one,",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तुजो खेलताा कमहतवाचो टा सां माझो म्वाचोकट जेंा  कला म गो मलो ुार ग्ार क ा ापवल ोलो   मलकी  जिक ोो",
+    "english": "Tujo khelta kamhatwacho ta samajho mwachokat jenna kala ma gomlo gwar gaar ka ka praval lolo malaki jiko",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "िकपगोची परंपरिक साधा मळ्या पहिला आमका शेत करतल्ा त्याला जॉताची गरच असता ज जॉत पाढ्याचे जॉत जाय त्याका नागर जाय जु जाय मगे तयाका खोरे जाय कोयती जाय ये सगळ्े वस्त आमका  शेतकाऱया तयाची चड गरच पडता",
+    "english": "Kipgochi Traditional Sadha Mala First Amka Shet Kartla Tyala Jotachi Garch Asata Ja Jot Padyache Jot Jaay Tyaka Nagar Jaay Ju Jaay Mage Tayaka Khore Jaay Koyati Jaay Ye All Vast Amka Shetkarya Tayachi Chad Garch Padta",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "त त वानी लयल्या परंर दिसता य परं  दिसत वोत ज पडता थो थोडयजे वस्त लंगज  हली गुफ तआि दोशणी दोी वकलवचडआि त आतजव गोयतका कलगल",
+    "english": "तत तत वानी लायल्या परं दिस्ता य परं दिस्ता वोत जाप्टा ठो थोड़ीजे वस्त लंग्ज हली गुफ ताआ दोशनी दोई विकलविचिदायत त आज्व गोयत्का कल्गल",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तुझो आवडीचो ेली कणजा असा फुटबॉमाझोआवडीचो केलपीजा असा ख्रिटियान रोनाल्डोकिताक तान लानपासून  दरस काडला आणि च फुटबॉल करियरतान खवरलला ता ल्या दिशानी पोच जल्यार ता दर कला ते पल मका फुटबॉल करिकेाआितफुटबॉ आडोजालो",
+    "english": "Tujho avadicho eli kanja asa futbomajhoavdicho kelpija asa kritian ronaldo kitak tan lan pasik dars kadla and cha football careertan khavrala ta lya dishani poch jalyar ta dar kala te pal maka football karikaiaitfootball adojalo",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "केमका आता लोक सगलो वाड्याचो एक टाय जाताय कि गरान गरांचों मागीर जायती मगीर घर कककक करून वोयतात लोक आनी आमचो पाई सेंटाय येता बुरग्यांक होशी करूं गिफ्टा आडता बर आण तितून मगीर दादशी जातात बुर्गी दकटी दकती आनी तेकाव नकास वसार करतात ंटाक",
+    "english": "Kemka aata lok sagalo wadyacho ek ti jaatay ki garan garancho magir jaati magir ghar kakak karoon voyatat lok aani amcho pai sentay thisa burgyank hoshi karoon gifta adata bar aan titoon magir dadshi jaate burgi dakti dakti aani tekav nakas vasar harte tak",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "प झsunay oksunyची काक ो प कोणच आणिी ेाच मका पुलाव आणि चिकचेimअसताी िक शाकु िक  आचे जीरणताी  वाचे ाबतीा उगकेलाो",
+    "english": "प झ सुनाय ओकसुन्यची काक पो कोनच अनी फ्रेच मका पुलाव और छिक्चे आसता की शाकु क आचे जीरनाती वाचे वाचे वाचे वाचे",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "দেও বরে করু",
+    "english": "give it better",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "पोिले मुटल्यार बॉयलिंग मुणजे उतकान राणोप दुसरे मुटल्यार फ्रायिंग मल्यार तेलान बाजो मागीर ता स्टीमिंग मटल्यार आमी वाफयार किते तरी रांत आनी चवते मल्यार रोस्टिंग मल्यार आमी तेल उने करून रंता ी आमचे कोकणी लोकाचे ट्रड जेक",
+    "english": "Polle Mutlyar Boiling Munje Utakan Ranop Dose Mutlyar Frying Mallyar Telan Bajo Magir Ta Steaming Mutlyar Aami Vafyaar Kite Taree Raant Aani Chavete Mallyar Roasting Mallyar Aami Tel Une Karoon Ranta Tari Aamche Kokanee Lokache Trud Jak",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आमचे ा ्     ा   ा  t त आण ा े     े",
+    "english": "Our dear",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "लखां बोटी वर े ेजअसिकत",
+    "english": "लखान बोती व्रे जेज असिकत",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "माका हे अजिबात आवडलं ना.",
+    "english": "Mother is absolutely lovely.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आ ावेर वारता का वेार आ संा वयव म करााााा  नियो",
+    "english": "Adoption of adversarial awareness in the organization",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ामाझे पलॅन असा पांच वर्षानी क मयजिक सू घलपाक नी तिन ख  रग्या शिकोपाक ी शिकोाक ा जनाती ल जातल म न् संगीतकार असतल",
+    "english": "माज़े पलन असा पंच वर्शनी क मैजिक सू घलपाक नी तिन खर्ग्या शिकोपाक की शिकोका क जनाती ल जातल मन मुसिकास असतल",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "होय आमचे लायबरं  शे ऑ्ट   जी असा इंग्लिशन असा बाकीचे जी असा अरांड  जी असा हिंदीन असा मर कोकणी असा मराटीन असा कनडान असा उर्दू असा तशे थोडे फॉरेन लंगेजीची सुधा बुका असा ते सोडून आमचेलागी बायलिंगवल बुका असता जशे की इंग्लिश आणि हिंदी इंग्लिश आणि कोकणी इंग्लिश आणि मराट",
+    "english": "Hoy aamche libaran she aut ji asa Englishan asa baakiche ji asa aarand ji asa Hindin asa mar Kokani asa Maratin asa Kanadaan asa Urdu asa tashe thode foreign languagejichi Sudha buka asa te baad aamchelaghi bilinguaal buka asata jashe ki English and Hindi English and Kokani English and Marat",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "हॉलिडे दिता त्या दिसा पावस लेगत पडणा ॉलिड असा तया दिसा बरोत पावस पडआमचे शेतकार जे शेतां दिस रात एक करून आपले शेत रोपाची तोयारी कोडता तांका बासून कितली दुख बोकता असतेली पावस पडलार चोड पावस पडता की शेता सोगली बोडता आनी पिक सोगळ्या पिडार जाता ना जाल्या पावस पडणा शेता सुकी उडतात",
+    "english": "Holiday dita tya disa pavas legat padna olid asa taya disa barot pavas padamche shetkar je shetaan dis raat ek karoon aaple sheta ropachi toyari kodata tanka bassoon kitli dukh bokta asateli pavas padalar chod pavas padta ki sheta sogli bodata aani pik sogalya pidar jaata na jalya pavas padna sheta suki udtat",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आईताराच्या आयतारा आमच्ा घरान आव केनाी केनाई एक डिश आमच्या घरकांनी बरोबर कुजना नसून एक कसले तरी डिश रांता डाडा तुझा कामार तुझो घट इस्ट कोण इस्ट मटल्यर इस्ट मुटल्यार जाय ते असात पण बरो इस्ट मुटल्यार माझो एक रेवरड चो",
+    "english": "Aitarachya Aayatara Aamcha Gharana Aav Kenai Kenai Ek Dish Hamare Gharkanani Rahkho Kujna Nasun Ek Kasle Tari Dish Raanta Dada Tujha Kamar Tujho Ghat Ist Kon Ist Mutlyar Ist Mutlyar Jaaye Te Asaat Pan Baro Est Mutlyar Majho Ek Reverend Cho",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तेाेाोडकउोड ाीआआ रभाज ावो",
+    "english": "टेडोडकोड़ आआ रभाज वाओ",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "हत शिता बाहर पडलल ा मनन",
+    "english": "Contemplation pouring out hurt",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "सकूलातल्या नेतकच जंपराव हoमव करून ेsट करताले आणि सां साचरव पर  े  ाांघरावताल  ूप थक असताल  डन करून  क ते ेळ वष   करताल  आणि मागेम पाल मणनू हो पण शदऊ मकमकज क ते व दताल प  ज  us o  seकीते स डit चे असचे",
+    "english": "सकुलात्ल्या नेटकच्च जंप्राव होम कारून स्टेट कर्टल एं संस्चर्व पर प्रे ट्रांघरावताल रूप ठक असातल दन करून क ते एल वाश कर्ताल एं मागेम पाल मनु हो पन शादौ मकमकज क ते वडटल पज जू सो से की टे की टी सडिट चे असेख",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "वेगवेगा रंग एका मेकाा कका दर रपा ुेकेाेना हनफकतामका ा",
+    "english": "Wegvega Rang Eka Meka Kaka Dar Rapa Ukena Nafiktamaka Ka",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "माका काय जालो म्हणतांच भीवपाक लागलं.",
+    "english": "Maaka kay jalo mnetanch bheevapak lagalan.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "गोया आमका हूप फेस्ता असा आता माजो पाचो आनी निमाणो प्रश्न तुका तुज्या परमोणे कुणच्े लुगोट आमका आनी आमचे प्राकृतिक बोरे लुकता दोन बाषिंची एक प्लास्टिक आंतल्यां ये नायरलोन आंतल्या",
+    "english": "Goya Amka Hoop Festa Asa Aata Majo Pacho Ani Nimano Prashna Tuka Tujya Paramone Kunche Lugot Amka Ani Amache Natural Bore Lookta Doan Bashinchi Ek Plastic Antalya Ye Nylon Antalya",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "नाल लाडता आिक कातरे चे कातरे कांगला रळचत",
+    "english": "Naal ladta aik kaatere che kaatere kangla rachat",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "उतसव परबा ही गोयचा जिनेन जोडिले असन आणि आमची खोस दुख सुख सगळे उमाळ या नाचातलया आमी वयक्त करतान देखून आमी महतत की या थडावे उत्सव जे असन े नाचाकडे जोडले असता जशे तर चव तिची सुलुस लगता ऑगस्ट सप्टेंबरचा मिन्या ग",
+    "english": "Utsav Parba Hi Goycha Jinen Jodile Asan And Aamchi Khos Sad Happiness All Umal Or Dancely Or Seeing Aami Vyakta Kartan Aami Mahat Ki Or Thadave Utsav J Aasne Se Dance Jodi Asata Astha Chav Tichi Sulus Looks Like August September Minya Ga",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आणि तततीमाकि कोता तहा असा हतच बर हातर तकाना  ायझाल चात दस पवा तुची मातदिन द देली माका सातताली तुका कोहाहामाजो फया",
+    "english": "And Tattimaki Kota Taha Asa Hatach Bar Hatar Takana Yajhal Chat Das Pava Tuchi Matadin Da Deli Maka Sattali Tuka Kohahamajo Faya",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आता सदयक मे फुडराक  टिकावु कापड क   कडक कन  स  पुकहऑ ुस सग ॅरक असे   आि उलल से कड थिक  अस कटन  ो ऑ",
+    "english": "Aata Sadayak me fudrak durable cloth ka kaad ke sa pukhau us sag raak aa ulal se kaad thick as katon to aa",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "भाय  का ख वा ा  ो ो  पराव सोोकर ोज ा  भगाच  माच सो ोो",
+    "english": "Bhaya ka kha wa wa o o parav sookar roja bhagach maach soo",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "र  ोड द वचपडपर बलातजर मो  निो ेतरो आाजो हलोे क स डप जालया परो",
+    "english": "Send a message to the people on the Road to Wikipedia",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "नमस्कार सगलांक माझ्े नाव य स्वारंक आणी हाव माझ्या शेजारी दिपती अगरवाडेकर जे यूट्यूबार एक कलाकार असा तेचो मुलाकात केवपाक ेलाबक्ि",
+    "english": "Namaskar Sagalank Me Naav Ya Swarank Ani Haav Mere Neighbor Dipati Agarwadekar J Youtuber An Artist Asa Techo Meet Kevpak Elbak",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ििल्  को बोज ो धजो",
+    "english": "load the ball",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "केलान बt सग्यां besट फriend माझो कॉण नती न तुझ्या पहिल्या सकूलातले कण कही वेतात तुझ्ा कलासी तुझा असा  तुझ्ाकडे अ उलवन मका बरे निसले तुळ्ेण माझ्या प्रश्नाचे जाप बरेतरेण दिले हाचेव तु का देवबरे करू तु काही देवबरे करू मका इतले प्रश्न विचारलेसातनी",
+    "english": "My best friend, when did I tell you about my first school days, where did I meet you, how did you know about me, why did you think of so many questions, why did you chant my questions, how did you make me happy, why did I think of so many questions, satani.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तमी ेवेा कारयक्रमा अर्थ संकपा ककत्ब",
+    "english": "Tami Seva Program Earth Resolution Statement",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "प्रश्न विचारूं तुमचया कातरस जीविताची सुरुवआत कशी जाली तुमचा बद्दल कातराचो मुक कसो सुरु जालो तरमरे जेननाआ डॉक्ट असलो तेंना एक दिस का फेसताक मे कलवाचे परे फेसट असले मेेंना प्रिंस जकोबाचो एकतियात डललो ा तियातर ेआगेोोपोतियोा यारकजेनव गेलो",
+    "english": "The question is, what is the beginning of your life? What is the origin of your story?",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तेंच्यात या वावराक लागून आनि या सगल्या हेल्पाक लागून आ इतलो फुे पावला आनि इतलो फामात जाला वडल कातोरिस मणून आ आरगादिता माझया फॅमिलिक सवदात माझया बरोबर असले आ मजो केन ह सु मती फॅमिल या तुझा कर्यरा फाटलयासा मन कन कब दिसल त क्लिंटन बाप ताखप कतर मिला",
+    "english": "Tenchyat ya vavraak lagoon aani ya sagalya helpak lagoon aa itlo fue pavala aani itlo faamat jaala wadal katoris manoon aa aragadita majaya familial savadaat majaya sakhinno asle aa majo ken ha sumati famila ya tuja karyaa fatlyasa man kaan kab disal ta clinton baap takhap qatar mila",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "बुयापटर के निोलीउलीीनीोोरापो ुरापर क  सजच वेर   र ज",
+    "english": "Secretary of the Nioliuliini Niorapo Museum of Buapatar",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "उ मलपराथचाे",
+    "english": "उ मलपराठचे",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आ दोले पिार करु ेलपल वकला पडलकाआतोमताकवकला ल म कर ेवा आखो वेड मोबालाच सरप मर आपला जवाचो पा कर ेवपाचे आखो वेड समाजिक सार नते जडोप सहो",
+    "english": "Aa Dole Pyaar Karu Lepal Vakala Padalaka Automatakavakala Lam Kareva Akho Wed Mobalach Sarp Mar Aapla Jwaacho Paakar Revpaache Akho Wed Samajik Saar Nate Jadop Saho",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तयांना आमी आमच्यो एमलएक आधार दिलो आणि आमी एक फ फुल फेस्टिवल रापन कराचे फास घोडून आडले तयांला आमी आमचो रापनी मारून दाकोयले आि आमका निस्ते जायते मेवले आणि जाय तो लोकुई विदेशी तसो आमचो भारतातलो लोक जाय तो येलो आणि खूप उम्मेद झाली आणि आमचो खूप कार्यक्रम घोडून अडलो सांस्कृतिक",
+    "english": "Tayana Aami Aamcho Amlek Aadhaar Dilo Aani Aami Ek Fa Full Festival Rapan Karache Fas Ghodoon Aadle Taynaala Aami Aamcho Rapni Maroon Dacoyle Aa Aamka Nistye Jayate Mewale Aani Jaaye To Lokui Videshi Taso Aamcho Bharatalo Lok Jaaye To Yelo Aani Khoop Umed Jhali Aani Aamcho Khoop Program Ghodoon Adlo Cultural",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आणी डॅनिम मनॉन फॅब्रिक हा जीन्स कोता येती गेली डॅनिम कॉट डॅनिम ं  कॉटन डॅनिम हापती तुका लाइफ लॉंग उता प तोलये फॅब्रिक ते तोलल्ये फॅब्रिक आमी उस केलया जाल्यार आमचे प्रकृतिक खूप बोरे किाक तु लेस कापडा उस कोता आणी जाता पयतीतली आमचा",
+    "english": "Ani denim manon fabric ha jeans kota yeti geli denim cot denim m cotton denim hapati tuka life long uta pa tolye fabric te tolye fabric ami us kelaya jalyar aamche natural kuch bore kaak tu lace kapada us kota ani jaata pyatitli ama",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "फकवम सरक वकरोतयख अस ोह क्लिंटन ो तयपलोम फोततखब असो तजकाी कून सगया दी दुका आ क बतो भ जे",
+    "english": "फक्वम सरक वकरोत्यख असोह क्लिंटन ओ टायपलोम फोट्तखब आसो त्जकाकी कून सग्या दी डुका आक बतो भजे",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तुज्या भु मलादिक वेला खातीर आनी तुजया या जानवाई दिल्या खातीर देव बरे करून तुका स्टिफन बाप",
+    "english": "For the sake of your beloved Bhu, I have come for your sake or have given birth to you, for the sake of God, I have made you stephan father.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आता आमका मागीर वरणते कपाक असता नो  इकुं जाते आमका चना  आमच दिस तो बरेतर सुटाना  आमी एक पागर नालया दोन पागेरा वरता आणि एक पागेर जर पिना जाला दुसरेवापरता आणि पागर महणटा ते लाम असता आणि रुनायक खूप असता ते पागर सोडटक ते एकदेक सोडीत वोत एकक",
+    "english": "Aata aamka magir varnate kapak asta no ikun jaate aamka chana amach dis to beretar sutana aami ek pagar nalaya doan pagera varta and ek pager zar pina jala dusvaparata and pagar mahnata te laam asta and runayak khoop asta te pagar sodtak te ekdek sodit vot ek",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "सांगतार  रालफ",
+    "english": "sangtar ralph",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "लल आीतीइेपरिाआपन",
+    "english": "Lal AaitieePriyaAapn",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "म  ता  म ककफिन ाप लवनड फतु दि ह मेडिसिन वज दि वज",
+    "english": "Mātā mā kaffīn pāp līvnād phṛtu dih medicīn vīj di vīj",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "प मर  ज स र ाज रसा सरोप्र्करत जवजपार ्ाजा ाट",
+    "english": "Parmar Jasraj Rasa Sponsored Trade Market",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "कोसली मदत आमचा budget जो असता पय तयांना आमका पैशे ते दितात तशेच आमचा advertisement करपा घाती सुद्धा ते आमका help करतात बा अशे तरआण पहिला की ते timार लoकांचे तगलीर किरे तरीक वढला किरे असता किदे वढला असता कोण ना किरे पान फुला  किरे किरे असतात",
+    "english": "Kosli helps us in our budget, which helps us in getting our money, gives our advertisement, helps us in the same way, in the first place, we make taglir kare kare tarik, wadhla kare asata, kide wadhala asata, kona na kare paan phuala kere, hain.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ग्राम प्रोटीन सोकाली हाव मलेट आनी स्लायस्प्रेड ना जाल्यार राचे ओट्स आनी बनाना कालून नास्त्ाक गेता उपरांत दा वराचेर केल्याचो शेक पियाता तातून एक कुल्यार प्रोटीन पावडर गालता देमपारचे जेव",
+    "english": "Gram Protein",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "कानिवाल वा फेस्तापोरबो आमी जवनाचेरी उलवल आणि आमची गोचे शेतकार जे असात तेी आमचे असमितायनेतात हा आता तुझा प्रश्नाचा जबाब दिला पयतो अजरसोपन मगा महणून जाय की आमचे बद्दल जी बासाबास ल्या त मगा तुझकडे उलवन बरे दिसलेआ",
+    "english": "Kaniwal wa Festaporbo Ami Javanacheri Ulwal and Aamchi Goche Shetkar je Asat Tei Aamche Asmitaaynetat Ha Aata Tukha Ka Kaachacha Dila Answer Payto Ajarsopan Maga Mahnoon Jaay Ki Aamche Badhar Ji Basabas Lya Ta Maga Tujhkade Ulvan Bare Dislea",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आमच्या असकार्या खातीर गायलेले आनी बोरयलेने गित घायतलो तेंमचा बरोबर ेमच सोगलेच तुजेाई बचापाचे जोम लगरचो नाचे   रचिाचे नोखेतदन्याचो वोदे",
+    "english": "Hamare Askarya Khatir Gayalele Aani Boryalane Git Ghayatlo Temcha Rahgho Mech Soglech Tujai Bachapache Jom Lagarcho Naache Rachiche Nokhetdanyacho Vode",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "बरका खबर हा गहय तर सांगता तुका तुवा खबर असा एक फावट गोयांत पर्याटक येले गोय भवपाक ती दिस बर गोय भवतली आनी तांका दड्यावेळीर वचपाक जायले तर ती रातची दड्यावेलीर वचपाक बार चलली दड्यावेळी पावली आनी ती मागे शेकार बितर सलली शेकर त",
+    "english": "Barka news ha gahay tar tella tuka tuwa news asa ek favat goyant paryaatak yele goy bhavpak ti dis bar goy bhavtali aani tanka dadyaveer vachpak jaile tar ti ratchi dadyavelir vachpak bar chali dadyaveli pavli aani ti maage shekar bitar salli shekar ta",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आमचे खूप ाधे जाता ते बुरग्यांची  ता कातारशेकोपा खूप द ाधे आही practice practice घेता बुरग्यांची मागर तंा त्ंचे dresse dress cd असता तेंचो कि्येनlin  े चिंतात हो आणि  msic  mic msic णतो ते कातार कण music दतो ह  ह हो णि ग आही े",
+    "english": "Aamche khoop aadhe jaata te burgyanchi ta katarshekopa khoop da adhe ahi practice practice bheeta burgyanchi magar tanche dresse dress cd asata tencho why are you worried and msic mic msic nato te katar kan music dato ha ha ho ni g ahi re",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आताचोकाळ मारग झालाककणकर",
+    "english": "Atachokal Marg Jhalakkankar",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "पयल जाल्यारुस मी शिकता कोणी बे तपैना शिकुंक जा महणूनउस तापयता हेजर समझनाता मा  य चोगा काम करीसारकेना किा कोणी बरयाकउस तापयता ोत्या इशोबा मव मल ी मजे सगळे श्रे व मजा तुझे आजाक दिता मजे मजमा रमाका गोडगे आणि मका इललोतकर वर डुंगनाता दुकानार वोतल",
+    "english": "Payal Jalyarus Me Koi Shikta Be Tepaina Shikunk Ja Mahnoon That Tapayata Hazer Understand Me That My Cloak Work Karikarena Ka Koi Baryak That Tapayata Daughter Ishoba I Got All The Shrews And Fun Let Thee Enjoy The Fun Ramaka Godge And Maka Ilotkar Var Dungnata Shopkeeper Votal",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "किदयाक क ट्रक शरकल आ ज क  लोक सल शिरकलल ि े लोकनी मे की आमी दोन वरसून  शर  क  वच र स का रस व",
+    "english": "किद्याक क ट्रक शिरकल आज क लोक सल सिरकल ल के लोकनी मे की मे की मै की मे की आमी दोन वरसून शरक क विचर स रस व",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "रहोहो ह ी ब आिया आणि ज करिमिशाी अ ल क्रि   णकिाे",
+    "english": "Stay here and do all the good deeds.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "कजतुका तर आता डायनोसोरा ना ड्रागनस पुततून आडूं ातल दोना बितलन तो िंचे आडतल ती ततरआता एक दिस उली तकक सुपरपार मिव सपरतचदेवब",
+    "english": "कजटुका तर आता डिनोसोरा ना ड्रागनस पुट्टून अदून ताल डोना बिल्लन तो नचे आदातल ती तराता एक दिस उली तक सुपर मव सपरत्चदेवब",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आमही सदा सकायची practice क पवलाली आणि कोतता कोत आ improve झाल ते aम आणि मगिरमे सकला खेळ आण खूप ोl scre केला आणि आता  tomas  seconड आमच्या का खेळता आणआणि आता फotबal खेळणाा मका जा oal खimpotan झााफotबall त teचरक लागून खेवं पावले य आणि control model",
+    "english": "We always try to practice and improve our skills in summer and winter, and play a lot of scree banana and come tomas second, our players and come to play football, so that we can play football in the field of football and technical laboratory field and control model.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "मेंदी अळत लगे रपुसून लगामेरे नवपाक  ूप कारयवळ असता आिक ाकष्टीचे षावककॅकरताु",
+    "english": "Mendi Aalat Lage Rapun Laga Mere Napaak Roop Karya Asta Aak Aarthi Cub Kakartau",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "हांव फकत लाखसाराच्या शहरांत वचून बाजार बवता रस्त्यावैला जेवण पासून पलयता आणि परत येता ते लेगित विराम सारखे दिसता हांगाच एकफावट हांव फक्त दोन दिस लाकसरच्या गावांत गेले आणि ताची हवा आणि सादे जेवण इतला बरे दिसले कंन",
+    "english": "Yes, only two of them went to the village of Lakshadweep, and the fresh air and simple food made them walk away from the street food and the food seemed like a legal pause.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "हे बघून माका किळस वाटली.",
+    "english": "Hey Baghun Maka Kilas Watli.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "दिदी तु क खबर किरे जाल आच क शिक्िका फ   बमल आकक्षाअी र",
+    "english": "Didi Tu's news net, teacher F Bamal Aaksha R",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ुकताता मका फुला गंजल मझे हातीनी खिचे  संगतलत मका",
+    "english": "Uktata Maka Phula Ganjal Majhe Hatini Khiche Sangatlat Maka",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "बनकोण होलोपा शकोण ओगत लागवता use to be जावपा पण मगी  आाू बन ना झाले तुमभी आलोले ण मुे शकण मा मुगे घेपायताले मा किते जा झालाआ किते सगळे तो isा पायताल तकलण शकण friendship मगी  झाली आणि आ travelling ी trus e जातय तुका e saturday sunday आणि त eventहा",
+    "english": "Banakon holopa sakone ugat gawata use to be javpa paan maagi aau ban na jaale tum bhi alole na me kakan ma mujhe ghepayatale ma kite ja jhalaa kate saabhi toh isa pyatal kakal sakan shakan friendship and a traveling trus e jaat tuka e saturday sunday aand tah eventha",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "नमस्कार माझ नाव वदविकर आणि हा तुमे ला मटल्यार आमका क विषया ाew गेवपाजअीुमीआि ew विषय का जातुमी खूप प्रसनन जात िय अा पुस्तकांेसा पु्तकमझवीeपु्तक",
+    "english": "Namaskar maj naav wadvikar aani ha tume la matlyar aamka ka vysheya ew gevapaz aumiya ew vysheya ke jatumi very pleased jya aa booksna book",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "क्रिस्त आणि हिंद जेवणामधल वागापण किते आमचया हिंदूचा जेवणा चोडस बाजीपालो असत तांचा जवण ोस ाजीपालो अस तांचासधी चड नुसते ास तसे असतिचा जवकिसतखपआवताोकरतास आवडताआमीसारचो रोस करता गाचो करता स ाजी करता खतकाते दाळ आळूज",
+    "english": "Christ and Hindu Jwelanamadhal Vagapan Kite Aamchaya Hinducha Jwelana Chodas Bajipalo Asat Tancha Javan Os Ajipalo As Tanchasadhi Chad Nuste As Tase Asaticha Javkistakhap Aavatokartas Aavadata Aamisarcho Roas Karta Gacho Karta Sa Raji Karta Khatkaate Daal Alooj",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "घट्ट अह किद्ा म्हणतातकाना आपल्या घट्ट चिकाटी मणशां जायच चिकाटी ही गोष्ट वेगळीकिद्े करून लागलो काय ती चिकाटी पण शिक्षण हे मणशान घेतले काय ना काय ताजेर मणीस खूपशे निर्णय बऱ्यापैकी घेऊ शकता जर धंद जरी हाव करता तो धंद जरी तो करतलो तरी ताजेर निर्णय तो बऱ्या बश घेऊ शकता ज्ेंना ताजाकडे बरे बरे तरेचे शिक्षण असता तयांना",
+    "english": "What do you say when you say that your thoughts are too harsh, but the things are different, people are doing things, but teaching is not taking thoughts, fresh thoughts are hidden, you can take a lot of decisions.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आमका एक पुस्तक बुरग्यांचे मुकार सराकज तो बुे मेरस ेमदोून्करताेवोारतुरवेवलबुउप थिट गे",
+    "english": "Amka ek book burgyanche mukar sarakaj to bue meras emdoonkartaevoarturvevalbuup thit ge",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "अच्छा तर इतला किरत त मा सांगला मगा एकुतआता बरे वडले पशी करपाकजातखूमाितीह सांगता ाीर  या आता आमी भुकलागला असतल",
+    "english": "अछक्त तर इतला किरत ता मा संग्ला मगा एकुताता बरे वदले पशी करपाकजातखुमातिह संघे अफीर या आता आमी भुकलागला असतल",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "व प खपे पर्यावरणाचे प् फु मेा जक प्र  पाव आमी जा कापता आ ो सकडा आ मका खपय दिसा",
+    "english": "In order to protect the environment, every villager who eats food can consume it.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ु े   कर क    यादस",
+    "english": "remember me",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आदी आता भुफ जालडडी चिक पुावशुरमाची कचुकमरचकज माची",
+    "english": "Addi Aata Bhuf Jaladdi Chik Puavshurmachi Kachukmarchakaj Machi",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "सगळ्यांचो पंचीस घरांच आमचो एक गणपती आणिमशे िद मसगळ्ाथ एकीचकडे आमचे एकूच गणपती आणि एकूच सगली एकीचकडे येता णळकेजाना ना जेवपाचे आमचे चारकडे असा चार families वेगवेगळाकडे जेवता o म्णेाणअतसे तसे जेवता आमी पण गणपती सगळ्यांचो एकूच सगळ्या चारुी घरातल्यात एा",
+    "english": "Samscho Panchis Gharanch Amcho Ek Ganapati Aanimshe The Masgalath Ekichkade Amache Ekooch Ganapati Aani Ekooch Sagli Ekichkade Yeta Nalkejana Na Jevpache Amache Charkade Asa Char Families Vegveglakde Jevata o Mneana Atse Tase Jevata Aami Pan Ganpati Samscho Ekooch Sabki Charu Gharatlyat Aa",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "a     ٹv  ٹئy   ے  ے tic  ے broشر  hl   ے فوto   cv v ے bش   v bं ی  b",
+    "english": "b",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ादिसा भतचे क  भाताचे कोणीयो झालो असता ते काडून आमी गंपतिक सोजी करून नेवे दखयता",
+    "english": "Adisa Bhatcha's bhaachache konio jhalo asata te kadoon aami gampati soji karoon neve saw",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आणि इतली मझा येली ते नाटक करपाक आजूनुी तो जेनना प नाटकाचे याद येता पदे आजूनुी काटो येता अंगार त्या नाटकाचे सांगचे महटल्यार एक वेगळोच अनुभव असला त्या नाटकान माका त्या नाटकातलो माझा पात्र माका आजूनोी याद येता जरी आम्ी त्या नाटकां भाग घेऊन तु माका दादा म्णवलो मारदाले खबर तु शेजारातले भुर्गे असले आमगेरेून सामकी किजेला काडेत असताले",
+    "english": "Aani itli maja yeli te natak karpak ajunui to jenna pa natakache yaad yeta pade ajunui kato yeta angar tya natakache sangche mahtalyar ek vegloch anubhav asala tya natakache maka tya natakatlo maja patra maka ajunoi yada yeta jari aami tya natakaan bhaag lekar tu maka dada mnavalo mardale khabar tu shejaratale bhurge asle amagereun samaki kijela kadetAsatale",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ते करता तूत पण लोकांक लोक आयकणार तेंना किते करतले इतल्या लोकांचो कोयर सांभाळुंक हे सोपे नु आनिक एक गजाल पडे रितेश भांटा घराचो व्यवसाय भोवडे करांक गोय इतले बरे लागला की ते हांगा",
+    "english": "Te karta tut pan lokank loka aaykanar tenna kite kartale italya lokancho koir jmarmunk he sope nu anik ek ghazal pade Ritesh bhanta gharacho business bhowde karank goy itle baare lagla ki te hanga",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "गूनवत म आचे भुर्गी अशी वडली वडली उतरा वापरतल जेसे की डिप्रेशन एंगझायटी लान लान गाजालीचे असला सभाव तुमी तुमच्या काळार भुरग्यांनी पलो का ये आताच्ात पिळगीचे क ना",
+    "english": "Goonwat ma ache bhurgi ashi wadli wadli utara kathaal jise ki depression anxiety laan laan ghazaaliche asala sabhaav tumi tumche kaler bhurgyane palo ka ye atachat pilgiche ka na",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "हे सगले चल्याचा नजरेर असता जर धाकतेपनाचानु चल्यांक सारकी वागणुक आनी चलेंग सममान दिवपाक शिकयलो जाले असले गिरे फुारां जावचेनाआनी हाली तर तु आकलाज असतले इतले गुन्याव जाला दावरी आनी एलिमिनीचा नावार समाज मा्यमाचीर खुपशी जणा आपपल मत साता",
+    "english": "O Sagle Chalyacha Nazarer Asata Jar Dhaktepanachanu Chalyanka Sarki Vaganuk Aani Chaleng Samman Divapak Shikyalo Jale Asle Gire Furan Jaavchenaaani Hali Tar Tu Aaklaaj Asatale Itle Gunyav Jala Dawari Aani Eliminicha Nawar Samaj Maymachir Khupshi Jana Aappal Mat Sata",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तीअेिेतचुेे सपुरजपपपका करत पपझवः",
+    "english": "तीटेटेचु सपुर्जप्पका करता पुझाव",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "खरे सांगले तुयेा आम्ही आपले चितता पण आम्ही जााना करतात त्यााा आम्ही आम्ही जे वोयता आम्ही raparal उडेयता आम्ही आपले पी ना घे आम्ही दुसऱ्याचे चितनाे ो आणि sorof ोतमका दिसता माे लoकाणी बाहिले लoकाणी माशे limit कोय दूनयेणा ह बाहलेत नू गोयच्या लोकू",
+    "english": "We do not care about our own thoughts but we know what we are doing, we do not care about our raparal intentions, we do not care about others' thoughts and we do not see the sorrow of others, there is no limit for us in this world.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "अशे वेग वेगले तरेचे आमी सेव",
+    "english": "Ashe Veg Vegle Tareche Aami Sev",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आजो दिवस फार खूश गेलो.",
+    "english": "Today I am happy for the day.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "पम वआआ ुरआ",
+    "english": "Pam Waaaa Uraa",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आमचो वर्ग दहा वाजतार सुरू जालो.",
+    "english": "Amcho class daha vajtar suru jalo.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "संस्कृतीची गजल करूनग वच जालयार खरे त लुप जाईत असा आणि ते जे खरे मकादाला दिसता कारण घरचे जे आपली पॅरेंट्स अस पई ते तेच तर आपल्या भुरग्याचर बरो संस्कार करीत आि तेंका आमची संस्कृति स सजमोपाचे काम करीत स्वतःचे आवयबापई जाल्यार मकादिस तर आमची संस्कृति कोणूत आलो शेकाना आणि ती सगळ्ाच्या आवय बापई ती संसबन घेऊंग जाई की हे कोण बाबा कचा ग्रुपान रतीच्ा गुरुपान वाचन",
+    "english": "Sanskriti ghazal karung vach jalyar khare ta lup jaite asa and te je khare makadala dista karna gharche je aapli parents us pai te te same tar aapya bhurgyachar baro sanskar kariti aapse aamchi culture sa sampopa karit aapne avayabapai jalyar makadis tar aamchi culture konut alo shekana and ti walchya avay bapai ti raheeng hai ki koon baba kacha groupan ratichagurupaan reading",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आतानुस्त साी दोव चा चा दिस कसले नुस्ते हडून दितलोकते खातात आ तसलाी मलोका नकाले रोक नकाली दुसा लगू जाता",
+    "english": "आतानुस्त सा दोव चा चा दिस कसल नुस्ते हदून डिटलोकते खातात आ तसली मलोका नाकले रोक नकाली दुसा लगु जाता",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तोजो उग्गास वाग अजीबात नायका.",
+    "english": "Tojo ugggas wag ajibaat nayaka.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "त किड खल भातरपरितकककजवसजसकजअसतत",
+    "english": "त किड़ खल भातरपरित्कककजिवसिक्ज असतत",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "वा दोडववाट डलीमझ बुरग्या लूनझफुावमकातुझ बुरगया कसली देख दिवपाक सआमीेवाचेर ास दोरया आणि ग जया आे राकोडी येाा  ेवाे दू",
+    "english": "वा दोवद्वत दलिम्झ बुर्ग्या लुन्झफुमकतुझ बुर्ग्या कसली देख दिवपाक सामीवाचेर आस दोर्या अन्ग ज़िया आ रकोडी या वे दू",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "अले जलाांीिरूीचू",
+    "english": "Ale Jaalaniiruchi",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आणि गाडी चलोवपाक सुदधा मका भय दिसता केंना गाडी फोनकलां वचात काय कचे सुधा ना ह तू जाला गाडी सवकासच चल हा चल तर तुका वेळ जातल बाजार करपा मागीर तुका बसवी दरपाक जायणो ह वत चल तर मेवया मागीर बरे तर मेवया मागीर",
+    "english": "And the fear of driving a car, calling a stranger, why don't you listen to the car, why don't you know that the car is running, you are moving, you are traveling in the market, you are going to the bus, you are going to the place, you are moving only through the path, you are moving through the path.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "जोंग मेवतेले मं लगल  ोल जातु काजार आ माग मकाजार केले आत किते कजार आअलली उटरवसजी चितता चितता पली कामक",
+    "english": "जोंग मेवतेल में लगल लोल जातु काजार आम मका काजार केले आत कटे कजाजर आलाली उत्रवस्जी चिता चिता पाली कामाक",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "खारेच तुका दिसता की आमचो गोयचो लोक सुसेगाद हाचिर तु आमका किते सांगशी आमचा गोईचा लोकांक सुसेगाद मंता खारे पण आकांताचया वेळार पावपाक आमचे गोयकार सोदाच फुडे जावते शेजारी वो गोरचे आधार दीवपाक सोधाच फुडे",
+    "english": "Kharech tuka dista ki aamcho goycho lok susegad hachir tu aamka kite sangshi amcha goycha lokank susegad manta khare pan akantachaya gharar pawpak amche goykar sodach phude jaavete sheshiri vo gorche aadhar devpak sodach phude",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "डॉकटरानडल शॉक दिलो तुका सझलंड चोटीय नो लाखाचीे नो क आडची पडती आ तेका हले नो लाख आणि मझालगीन काय नले मे ते मझो बोणीचो बुत ा हो तनते  केले आणि मकात फाव केले आ तितून मगीरीेप",
+    "english": "Doctorandal shock dilo tuka sajhaland chhotiya no lakhachche no ka adchi patti aa teka hale no lakh and mazhalgin kay nale me te majho bonicho buta ho tante banana aand makat faav banana aa titoon magiriep",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ं मपापाे मा मपलमरगर ज",
+    "english": "N Mpaapae Ma Mpalmargar J",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "रस्त्याचर उदिक भरणा जप वमेा प  यारी कर दं  वरषा सीच र ाफ कर दव जाल  उक   उउ  पवी यारी न जलये ल ुका ल उव ाल  ा ाउ  दि जा ख ा",
+    "english": "Roadchar Udik Bharna Japa Vame Pa Pyari Kar Dan Rain Seecher Raf Kar Dev Jaal Uk Uu Pavi Yaari Na Jalaye Lu Luka La Uvvala Ka Raa Di Jaa Kha",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ے    ا   ا",
+    "english": "ے ا ا",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "नोक झाल्यार आनी उतकाचो प्रेशर चोड आलो तेका लागून चोड रिस्क आलो तेंच्ानी मले तू वावन गेल्यार तू पतुन मेवचानाय तेकालागून आमी रिस्क गेवगना आनि आमका जोर यवपाचो आलो किद्याक आमी दुसरे कपडे गेवगना आनी वोलेव वार्या दोन वरंक चलोन थंडी बरपाची पण आमी मासे बिजले",
+    "english": "Nok holair aani utkacho pressure chod alo teka lagoon chod risk alo tenchani male tu vavan gelyar tu patun mevchanay tekalagun ami risk gevagna aani aamka jor yavpacho alo kidyak ami dure kapade gevagna aani volev warya don varan chalon thandi barpachi pan aami maase bijle",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ता वाटरफलरचा वावजड ो आमी किते तरी एकसपरं केले काय तरी करुंक ना मागीर आमी केंना गोया पावले आमी देवाक धन्यवाद मुले कि्ा तेने आमका इतले पयस रखले आणी तेन आमका सलामत पतून गोया आडले तुमचानी त्या वाटरफलर मझा केली वोोआी",
+    "english": "Ta Waterflircha wajd to aami kite tari eksapar banana kay tari karunk na magir aami kena goya pavle aami devaak thank mule kya tene aamka itle payas rakhale aani ten aamka salamat patoon goya aadle tumhani tha waterflar majha keli keli vooi",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "परंपरिक व्यवसाय सामालपाक तुका खूप तुवे खूप ट्रuस काळला असतले वा तुका अशे दिसला की माका हो व्यवसाय लागू जाय ना हव्या सोडून आणि ंखयचो दुसरो व्यवसाय घेवच ना ना मका होत व्यवसाय लाइक जालो कित्या घाराकडे बसण माका करपाकुी लाइक आवडता आडपाची माती आणि बसन करपाचे आणि मागी करडहीते फरीe",
+    "english": "Traditional Business Samaalpak Tuka Too Tuve Too Too Trus Kalla Astale Va Tuka Ashe Disla Ki Maka Ho Business Lagu Jaye Na Havya Baadh And Nkhaycho Other Business Ghevach Na Na Maka Hot Business Like Jalo Kitya Gharakade Basan Maka Karpaku Like Awadta Aadpachi Mati And Basan Karpache And Magi Kardhaite Fari",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "हामारी येली कोरोना वयरस तो ांा ुमे किरेशचालू अल  तमका कशे किरे त्रास झालेसंताकोरोनाच टकिरेझाल ारा अाबदझा का ळ आा कामदारत उललेाइते अश त्रास झाल की आका जवणाचवस्तू मिळाणाजे दाळ मिळााजाली ाूमिळाले  आकााहीआा जाती वर्ष जालीेश ळत",
+    "english": "Our yellow corona virus has become a threat to us, which has caused a lot of trouble.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "फिटनेस मका ताकत दिता फिटनस असल्ा मजे सदाचे काम असा ते रोकडाच कापड जाता आणि फिटनस मझे तकान कमी करता हाव दिसपर उरजावन असता आणि हाव शिस्तिक काम करता जेंना शरीर बरे असता तेंना मन आनंदी उडता मझे फिटनस मका आत्मविश्वास दिता",
+    "english": "Fitness gives strength, it makes me happy, it makes me happy, fitness makes me lose focus, I feel energetic, it works physically, it makes my body happy, my mind becomes happy, fitness gives me confidence.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "त्या घरानी गणपती गेता थच्ान मगी वाजत गाजत येता आ नाचत नाच बुर्गी सगळ देवळाणी वोयता देवळान ोयता  सगळया गणपती दोरिता आणि फोक बिग सगळ मारता भजन करता आणि जाय ते फुगडे गालता बर्गी मज्या करताते मागीर चार पांच अशी जाता गपतवगपती बुवपा मात गपती",
+    "english": "Tya gharani ganpati geta thchan magi wajat gaajat yeta aa nachat nach burgi saal devlaani voyata devlaan oyata vallya ganpati dorita ani folk big saal marta bhajan karta aani te fugde galta bargi majya karte magir char paanch ashi jaata gapatvagpati buvapa mat gapati",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "गेरतीे मामागेर खावपाक मेतलआ ल कारणखावपाक मेककाखावपाक ककखावपामेळास ुरगा कचपाकसानस",
+    "english": "गेरती ममागेर खावपाक मेटलाए ल करानखावपाक मेकखावपाक कखाखावपामेलास रुगा कच्चपकसानस",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ंपरपरचो ज  बरे  दिलो त फु प्रश विचतो म   े जेवच बवचत त मा ंग   आजेवा",
+    "english": "परपर्चो जबरे डिलो त फु प्रश विचतो मे जेवच वचत त मांग आजेवा",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "लखपलररहरवव्डकप कपववत",
+    "english": "लखपलररहरवदक्प कपवत",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "periods जेणाव tीनेजां तवले तेना झाले आणि थोड्या गलजां initial days म्हणजे starting चा day cycleा आणि थोड्या ending pain जाता so हाव recommend करता की जर तुमका pain झालं तुमका soce बाग जायना झालं तुम्ही घरा rest घेवचो हाव personally माचळ pain झालार swimming award करताले त्यादिसानी आणि हाव घराच light exercise करताले light म्हणजे stretching exercise आणि अ hot water bag mssage घेताले  green tepिताले आणि normal after",
+    "english": "Periods: initial days means starting of day cycle and a little ending pain, so how recommend that if your pain starts, go to sleep garden, you go home, rest, how can you personally, make small pain, make swimming award, do light exercise, do light exercise, stretch exercise and a hot water bag message, get green tepitale, and normal after.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "public असा पज ााकपत तांका त्या लोकां कशे fil ाल ा इ ंा ा ि iिे क ता  video गालताे  िथ coment येता थे बअसत wie करता तका त प्रति उत्तर कय दिा तर प्रति उत्तर दिवपाकचज अशे ा सगळेत गलचे आपण कशे तरी react करतापणो प प्रति उत्तत्ादिपाक जा का का ा पलाे असता ज",
+    "english": "Public Asapaj Aakpaat Tanka Tya Lokan Kashe Fil Laa Ina Aa Kaa I Kaa Video Galtae With Coment Yeta The Baasat Wie Karta Taat Ta Ta Per Reply Kya Da Ta Per Reply Divapakchaj Ashe Sa Sabhat Galche Apna Kshe Tari Kartapano Pa Per Uttadapak Ja Ka Ka Ka Kaa Pala Asta Ja",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ये क काय लोक कोयर जला जका लागून अनिकारक दुवर तार जावहा गा दुवर बरका का रानी गा उक निवळकर नसतान निशचयात चोडट बकााचो कोयर केंाकेंना उपय सुवातीर वा व लगाउउाूो",
+    "english": "Yeh ka kay lok koir jala jalagoon anikarak duvar tar javaha ga duvar barka ka rani ga uk niwalkar nastan nischayat chodit bakaacho koir kenkenna upaya suvatir wa wa va gauuuuu",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "सून co क सून अं सबले अ different bank आणि different different अं percentagी मिलतात जस्टा तो बut maximum तुका सात percent ावेल मिळणात सात सात max fdn एकदा पैशे कातल्या म्हणतं की ते तुका पैशे अं maturity period जावच्यापहिली काढून घावा ना त्याज्यापहिली maturity period च्या",
+    "english": "You can get different bank and different different percentages but you can get maximum seven percent and only seven seven max fdn once the money is sold and the maturity period is checked in the first maturity period.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ातर जेवमा खूपवेगळाशिल पण   तल पण कश कश दगेलतेा वपालागल  ऊता उउलो त उउपा लागल आणि  ंचाा  ाल उलो  फतरा जाऊन आणि  कू कॉ सु्ध तिथल त्रास जाऊन उलोपाचे  जेवच मस जाता मटल मा तथल त्रास ऊन फक्त जाल ते म्हटला भाय",
+    "english": "Atar jevma khupvegalashil pan tal pan kash kash dgeleta wapalagal uta uolo ta uuppa lagal ani chacha al ulo fatra jaane and ku ko sudh tithal traas jaane ulopaache jevac mas jaata matal ma tathal traas oon fakt jaal te mhatala bhai",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ही बातमी ऐकून माका मज्जा जाली.",
+    "english": "Mother was shocked after hearing this news.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ही गोष्ट खूप चिडवपी येता.",
+    "english": "This is a very strange thing.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "दुसरी बुर्गी आता ते पल वाच चलू असत   अस  शांत त  नक ेुीरताखातीर पी",
+    "english": "When the second burghi comes, let's go ast as shant tak pee for the sake of happiness.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "अरे देवबरे करू तुका श्रीमतीसाविता पारस तुें माका तुमचो मोलादिक वेळ आयज दिलो देखून तुमका देवबरे करूतकाहकू",
+    "english": "Hey God, I will do it for you, Mrs. Savita Paras, I will make you happy, I will come to my heart, I will see you, my God, I will do it for you.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आमका घराकडा  डजर आवई बापु आपल्या चला चलें समान वागणूक देऊं लागली जालारत खरी प्रती जाली सरके आणि असली बंदी आमी फुडारा चालूदोगरचन अे वच घेवा हय र आमी आमचा भोरग्या चो असुाी क ागकदाका ा",
+    "english": "Amka Gharakada Djar Awai Bapu, let's go, let's go with the same Vannuk, I have started giving false information, and the real prisoner, Aami Fudara Chaludogarchan Aye Vach Ghewa Hayer, Aami, my Bhorgya, Cho Asu's Ka Gagkadaka.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "पडग सपराचेर उतसवच  उदन सरकरता नाये ोडेम मयेत रमलजसा तश फुगो धो गोफ मधृत कुनृतय मयनृत्यजसा त हे वेगवेगळ ना प्रका मका गोय दिष्टपडता",
+    "english": "Padga sparacher utsavach udna sarkarta naye odem mayet ramaljasa tash fugo dho gof madhrit kuṇritya maynrityajasa ta he vegvegal na praka maka goy dishtapadāta",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "्ाल बोरा घेवपाची खटखघेवपाआ खा आमी िली अस आणी  नाळळांमळ ीआघरेला ेरस ा दोााबा",
+    "english": "छाल बोरा घेवपाची खट्घघघेवपाआ खा आमी ली आस अनी नालाणमाली इघरेला रेस सा डोबा",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तुमचा वाटरा ोड करूनची पिकापिकता आमेवारालपक",
+    "english": "Your Water Road Karunchi Pikapikata Amevaralpak",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "मझे training सधा चलताली सो मका डचे भवपाक अा वचपाक मेळणाशिललआे जेंना  मझेआता मी महिण्यांना आमहे सांगल् की आमची state championship असताली सo ती जातगिर hardly दोनतीन दeस मेळाले वचपाक आजेगिर वताले  त्यंना बt roकड call येताला कि आnationalकslexल o training परत star  मका घरापरत येवचेपडताले ogo back toswimming बu wimmingाच्याthruts हा खूप जाग्यांचेर भोनला interms ofnationals o खंचाcompetitionकती सo हा करे",
+    "english": "I always train so much that I enjoy training so much that I enjoy my women's state championship astali so ti jaatgir hardly twoteen ten melale wachapak ajegir watale tyana bt rok call yatala ki aa national slex o training layer star maka homeparat yewchepadtale ogo back toswimming buwimmingachyathruts ha khoop jagyancher bhonla interms ofnationals o khanchacompetitionkati so ha kare",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "चती उसत असे काय ना आमी गणेा पुछता तयाचा दुसरे सा ाताजे मी पुजाकरता न वरमअसताघेपजामाजााकाापडाउपडा",
+    "english": "Chati ust ase kay na aami gane pauchta tayacha duse sa taaje mi pujakarta na vram astaghepajamajakapadaupda",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आमच्ा goyचे े online करतं ex ते म्हा ban करून ज ा ते खते  ेcharging  charge लाहे ा exta म हाी comment आे  बरे की म्ा",
+    "english": "I would like to do online ex te ban karoon me ja rahe hai account ke charging charge hai ma hai comment kare hai.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "किरे गटटा असतले वर सत उपरगेो सत उपर दंगरचर े मा पों ज किरे गटा असमस केममीगाी चलता लता  फरेणाश फोनर ो फ ता ागा",
+    "english": "Kire Gatta Astale Var Sat Upargeo Sat Upar Dangarchar ke Maa Poon J Kire Gatta Asmas Kemmighi Chalta Lata Farenash Phoner To Fraga",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "त मजे उलो सा तेजावन सा मझा इष्ताचा मची जवताची काी",
+    "english": "Ta maje ulo sa tejavan sa maja ishtacha machi javatachi kai",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ोा ूनब मिक करेु होोरोोोककउकलून ी",
+    "english": "What should I do?",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "नमस्कार आ आमी एकदम इंटरस्टिंग विषयाबददल उलोया कॉंकनी लोकल खाव पदार्थ सगळा पयली मकासांग कसली कसले पारंपरीक कॉंकनी पदार्थ असल नमस्कार आमका घरा गातले आनी समुद्रा किनाराचे खाू पदाल एकदम स्पेशल असतात",
+    "english": "Namaskar Aa Aami Very Interesting Topic Baddal Ulloa Konkni Local Food Items Valla Payali Makasang Kasli Kasli Traditional Konkni Food Asal Namaskar Aamka Ghara Gatale Aani Samudra Kinarache Khau Padal is very special",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "अशी उत्साहित जान आरथव म्हणत आणि मा एक सांगे चवती वरूनमा याद येली की आजल tim तुम्ही चत कशी तरेणेीा खप करत ्ो्यािक",
+    "english": "Such an excited darling, Arthav says and Maa sings a song, Varunma remembers Yeli's aaj tim, you spend a lot of time.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तेह उमेदिन आयल्यात आनी आमी तांची उर्बा आनिक वाडोक तांका खुशाल करोक आमचो वोच केतु जेवणाची सुरक्षा किते आनी कित्याक महत्वाची जेवणाची सुरक्षा सगळ्याकिन गरजेजी सुरक्षिक जेवण मडलयार सुरक्षित बलाकी",
+    "english": "Teh umedin ayalyat aani ami tanchi urba anik wadok tanka khushal karok aamcho woch ketu jjelonachi suraksha kite aani kityak vijhiya jjelonachi suraksha sabkikin garjeji suraksik jjelon madlayar suraksha balaki",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "पल इतले ारवविजालवेळा चडारड",
+    "english": "Pal itle aaravvijalvela chadarad",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ही कृती फार गलिच्छ आसो.",
+    "english": "Hi Kriti for Galicch Aso.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ुे िो गेव े सारक करेचे जर ुका मसल वोपाक जा जाल्यार आ वराची तोरी चेम पक जा  क मल कपा ाची री  ेवपाची परत तका्र करच प",
+    "english": "They will take out the essence of the cow, put the meat in it, put it on the net and after that the zucchini will be cooked and then rub the thin layer of cloth on the cloth.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "इतले  त करल वागता फकत तेो लक्ष  तअावाकिो त्रुमकाकाजेमका त्ता असो मोम र लकाा वचपता अ सोाकजपावपाकजपंदरा मि लगताीक वत",
+    "english": "इतले त करल वागता फक्त तो लक्स तावाको त्रुमककाजेमका तत्ता असो मोम र लका वचपता अ सोकजपवपक्जपंद्रा मी लगतीक वत",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "जहे सरक उलल तमी तची भुरग्ाी प लान लान करणा घे पचि मेंलि समकी इबा करून उलाअे आा खूप जचे म की आमची संस्कृति जी असा ती लुप जात वता ती फुपा कणएक ड लुप जाली अ मतहर मकिर म",
+    "english": "Jahe sarak ulal tami tachi bhurgai pa plan laan karna ghe pachhi mein li samki iba karoon ulaa aa khoop jache ma ki aamchi sanskriti ji asati lup jaat wata ti fupa kaan a d lup jaali a mathar makir ma",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "माका अचानक धक्का बसला.",
+    "english": "Maka suddenly got shocked.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आत मोबाा राणी किेुर्ावास",
+    "english": "Aat Moaba Rani Keeruwas",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "मागिर डी मी मर ं  ुर     क",
+    "english": "Margi De Mi Mar Mur Ka",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "नाललाचो वापर ाचे भर दिवप तिसरे वाे ताचे फिश रेचाडो गोचा नुसतया जेवनात वापिले सुवात आि सुगंधी रेचाडो मसालो दखवप चते सुवातर किंफि ोटक किंगफिश गेऊन तयार केलया पारंपरिक गोचा आंबोडटिक कडीचो उल्लेख कोबयाचे बालचाव",
+    "english": "Nalalacho Steamed Whole Dip Three-Folded Fish Rechado Gocha Nusatya Jewels Steamed Suwat and Fragrant Rechado Spices Showcase Suwatar Confetti Kingfish Gew Prepared Traditional Gocha Ambostic Kadicho Mention Left Child",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ा  सल ाजी ा ेंी ली डी ेली  पडी प य करा",
+    "english": "प्रा सल ज़ी प्र त्रेनी ली द ले पडी प्या करा",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "वस्तु ज्वेलरी बॉक्स सजावटीचो बावल्यो आनि हेर वस्तु तयार करपा खातीर गुतागोतीचे कोरां तिली नाललाची कावचा वापरतात पर्यावड अनुकूल उत्पाद नाललाच्या तांतुचो परतून वापर दोर्यो दारां चट्यो आनी ब्रषां",
+    "english": "Items Jewelery boxes Decorations, accessories, etc. Items prepared for the sake of cleaning, Koran, Tili, Nalachi, leather, Eco-friendly products, Nallachya, Tantucho, Partoon, Vapor, cloth, etc., Brushes",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तेका सुा सोडलो तो  ुरा टाटा ब प्लस ा रसजे  प्यर असपजॉस बलर जो खलोजक ोजक फा े तरना स ज रय परव जैव वव सी",
+    "english": "तेका सुसा सौद्लो तो वृता टाटा ब प्लूस रास्जे पुर असप्जोस बलर जो एक स्वास प्रोजक फ्ट्रेटना से प्रव बियो विसी",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आधले life मुटल्यार बर आले खुशाल आहले आणि ren खुशाल आहले आमचयाकडे ोडपष आले पण खुशाल काय आली मगीर आमी कलाक होयतालीन लन होयतालीन आमकाकण पावनआहलो लन होयतालीन आणी लन येतालीन आणी कोसलीत बिरातन ली आमची माय कामा वोयताली आणी",
+    "english": "Aadhale life mutlyar bar ale khushal ahle ani ren khushal ahle aamchyakade rodpas ale paan khushal kay aali magir aami kalak hoytaalin lan hoytaalin aamkakan pavanahlo lan hoytaalin ani lan yetalin ani kosleet baratan li aamchi my kaama voyatali ani",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "वेंना आमीआि फुे गेलतेंना आी पले क ोआवपाक केलल अ रोाच साि मागर मका कवता कि आमी लगी असतारको ा फुवमपााकावजर",
+    "english": "वेना अमिया फुगे गेलतेना आ प्ले को रोवपाक केलल अरोच सा मार्क मका कवा का अमी लगी असातरको क्या फुवम्पाकावजर",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "हे अपेक्षित नव्हतं.",
+    "english": "This was not expected.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "क्रaफt आणि कसले subjeकt तंका हाते   त्याच्याबद्दल ही मातीयेचे आमचे लान लान आकारां करून तंका दाकों जाता अशे माका दिसता कालचा ता तुका देव बरे करू णत तुम्हे आमका तुजो हो मोलादिक वेल दिलो म्हणून तुका ा ा देवबर क तुकाय देवबरे",
+    "english": "Craft and what kind of subject does the tank have, it's about that only, my heart is full, I am the one who is the one who is the one who is the one who is your god.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "कोरगाुे शेकुोंोीोम चावदोर्याचे उकवर मतामे शेकाचे लायस हाली वलि असतामककेलायसन परम का शेका कची पडता",
+    "english": "कोरगु शेकुनोयोम चवदोर्याचे उक्वर मतामे शेकाचे लाइस हाली वाली अस्तमक्केलायसन पर्म का शेका कची पद्ता",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "क जाफ कता   प",
+    "english": "क् जाफ का प",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "चया retवiन कितल्यामारोप केला tax काराणी तुकादिष्ताते सारखे केला त्ांच्याणी ादित त्यांच्याणी आपल्या proffitा खातीर लोकांच्ये पैणाते आणि खुपू दे व आपल्या म्हणताते profit मासे reasonable असू असून जायणो pritory tax चे",
+    "english": "What is the reason behind the banana tax?",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ती पुस्तक टेबलार पडली.",
+    "english": "The book lay on the table.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तये मका स द  कोेव र उ",
+    "english": "Taye Maka S D Kove R U",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "तेउधक पिया म्हणून ते बरे लागत बरे जाता आणि त्यात मागे नालते कडीन गालते ते तुमज फायद तर्य ंगा  बरं लागता अं आणि ितमा ये आपलेे कि ते nutrition आणि exercise लाए कशे balance लाiकe जाता nutrition चडसं पoूं घेलआहे मर्ये की चडशे जाण मरे फक्त exercise चेrे करतात nutrition lक बिन ditेnचं असतात nutrition खातीर त्या च award करतात ते ignor करता कसं",
+    "english": "That's why you drink so much, it costs you so much, and if you drink too much of it, you will benefit from it, but it will cost you, and it is your responsibility to bring balance between nutrition and exercise. How can I ignore the nutrition that is being given to me, my children only do exercise, but there are no divorces, so how can I ignore the award for the sake of nutrition.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "सकाळी मुे उटाचारा तआी कितली मिसा असताीदोुरगाचरे असा",
+    "english": "morning mu utachara taa kitli misa asatidurgachare asa",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "पल प प  ा  प",
+    "english": "Pal Pa Pa Pa Pa",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "शा बसोनदोवरतात तेंना खूप ा दिसता आणि सोवतीची मणजे sopping ती जाल्याशकेंनाश दिसताते घेऊं दिसता  जिल्ाद गपाघाना तथल्ाद नवननवन कपडे गालपााआणि ममगरणीकिरातबरा की जेंना गंपती आमी आतलेदीस अटता आणि म तचामीश मुकु सजयता तेसुद्ध  वेगळचये असता",
+    "english": "Sha Basondovratat Tena a lot of sight and Sovatichi Manje sopping ti Jalyaskenkashan hai lahin sighta jilaad gapaghana tathlad new ninenvan kapade galpaa and mamagarnikiratbara's jenna gampati aami ataledis atta and me tachamish muku adornment tesuddh vechalye asata.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "नुत्रकळा मणचेणू थय ते जे असतात पलोक ते नृत्र आणि कळा एक करून थयची काणी सांगतात त्या देवयाची तसे तया गावची आणि जागर आमी किदाक मा दिवपाक जा जगर आमी किदाक मनोपाक जा हे सगळ े नत्र कळातलया मकाते कळीत करतातते पवपाकककणेेवा",
+    "english": "Nutrakala manchenu thay te je hote palok te nritra ani kala ek karoon thyachi kani sangat taya devayachi tase taya gaavchi ani jagar aami kidak ma divpak ja jagar aami kidak manopaak ja hai sabse natra kalatalya makate kalit karte pavpakakkaneva",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "ा ा   चुल ी  ु",
+    "english": "आ ए चुल ॐ",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "लॉंचे आणि गोडपतर हे सोगळे एकटाय बसून खातात सोगळी लोका वांगडा बसलात आणि तमही सोगळचे टाट खाई  सोगळी अस आ तुम्ही जेतात काय कितले बरे दिसतात कितला काळजा तृप्ती जाता उत्चवन समुद्राची मास मणजे नुसते आमचे फ्रेशली घेऊन नारळ घालून",
+    "english": "Launche aani Godpatar he sogle ektaay basun khataat sogli loka wangda baslat aani tamhi sogalche tat khai sogli as aa tumpi jetat kya kitle baare dahi kitla kalja tripti jaata utchavan samudrachi maas manje nusete aamche freshli leke naral add",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "oky so आजा fitनsचे  fitns तुमचे जीवित कशे बदलhso fitनs यच्यापहली आमही के असले आमका life  े confidence self confidence मस कमी असलो जसे आमही fitness आमही enter केलेa",
+    "english": "oky so come fitns below fitns change the way you live, yes the first step is to increase your self confidence in your life as soon as you enter fitness.",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "आता मुलाकत जाली मझो पलो प्रश्ण तुमका शिक्षक जापाचे प्रेरणा कशे मेले लांपणी साऊं हा बुर्ग्याक शिकयतले हा स्कूला असतनात हा दुसऱा बुर्ग्याक टशन दितले आमचा वायावयली बुर्गी मजेके पल",
+    "english": "Aata mulak jaali majho palo question tumka teacher japache prerna kashe fair lampani saun ha burgyak shikyatle ha schoola astanat ha doosra burgyak tashan ditale amcha vayavayali burgi majeke pal",
+    "level": "complex",
+    "difficulty": 5
+  },
+  {
+    "konkani": "डगरआमी रंताआआबुरजतरी अनेक प्रश्न मो  सकाला रात बसुन काम करता तरी तुज दिशाचो सगलयव बर वेल तहुो ो म सगरेट करता ज विशव गेता ज ुो एकवेलअसतो",
+    "english": "दगरामी रंताआआबुर्जतरी अनेक प्रश्न mo sakala raat basun kam karta tari tuj dishacho sagalyaav bar vel taho to m cigarette karte ja vishwa geta jo akvel asato",
+    "level": "complex",
+    "difficulty": 5
+  }
+]

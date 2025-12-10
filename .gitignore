@@ -8,6 +8,9 @@ __pycache__/
 venv/
 ENV/
 env/
+*.egg-info/
+dist/
+build/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -16,6 +19,8 @@ env/
 # macOS
 .DS_Store
 ._*
+.AppleDouble
+.LSOverride
 
 # Model files
 *.pt
@@ -47,6 +52,10 @@ logs/
 # Outputs
 outputs/
 checkpoints/
+kaggle_outputs/
+kaggle_package/
+kaggle_asr_outputs/
+kaggle_best_model/
 !outputs/.gitkeep
 !checkpoints/.gitkeep
 
@@ -55,3 +64,16 @@ checkpoints/
 .idea/
 *.swp
 *.swo
+
+# Temporary files
+download.txt
+*.tmp
+*.temp
+
+# Project specific
+Bengali_NLP_Full_Guide_With_Code.pdf
+konkanivani_checkpoints_backup/
+processed_segments/
+
+# Cleanup scripts output
+declutter_workspace.sh

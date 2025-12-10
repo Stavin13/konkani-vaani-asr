@@ -1,0 +1,9 @@
+{
+  "vocab_size": 5000,
+  "num_emotions": 7,
+  "embedding_dim": 128,
+  "hidden_dim": 256,
+  "num_layers": 2,
+  "dropout": 0.3,
+  "bidirectional": true
+}

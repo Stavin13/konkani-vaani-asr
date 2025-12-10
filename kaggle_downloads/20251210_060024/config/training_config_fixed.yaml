@@ -1,0 +1,29 @@
+data:
+  num_workers: 2
+  train_manifest: /kaggle/working/konkani-10k/train_manifest.json
+  val_manifest: /kaggle/working/konkani-10k/val_manifest.json
+  vocab_file: /kaggle/working/konkani-10k/vocab.json
+device: cuda
+model:
+  conv_kernel_size: 31
+  d_model: 256
+  decoder_layers: 6
+  dropout: 0.2
+  encoder_layers: 12
+  input_dim: 80
+  num_heads: 4
+  vocab_size: 200
+paths:
+  checkpoint_dir: /kaggle/working/checkpoints
+  log_dir: /kaggle/working/logs
+training:
+  batch_size: 4
+  ctc_weight: 0.8
+  grad_clip: 5.0
+  gradient_accumulation_steps: 2
+  learning_rate: 0.0003
+  mixed_precision: true
+  num_epochs: 100
+  save_every: 5
+  test_every: 5
+  weight_decay: 0.0001

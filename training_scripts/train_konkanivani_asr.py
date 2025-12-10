@@ -135,7 +135,7 @@ class ASRTrainer:
         self.use_amp = config.get('mixed_precision', False)
         if self.use_amp:
             print("✅ Using mixed precision training (FP16)")
-            self.scaler = torch.cuda.amp.GradScaler()
+            self.scaler = torch.amp.GradScaler('cuda')
         
         # Google Drive backup
         if config.get('drive_backup'):
@@ -167,7 +167,7 @@ class ASRTrainer:
             
             # Forward pass (with mixed precision if enabled)
             if self.use_amp:
-                with torch.cuda.amp.autocast():
+                with torch.amp.autocast('cuda'):
                     ctc_logits, attn_logits = self.model(
                         audio_features,
                         audio_lengths,
@@ -423,6 +423,10 @@ def main():
     parser.add_argument('--batch_size', type=int, default=16)
     parser.add_argument('--num_epochs', type=int, default=50)
     parser.add_argument('--learning_rate', type=float, default=0.0005)
+    parser.add_argument('--weight_decay', type=float, default=0.0001, help='Weight decay for regularization')
+    parser.add_argument('--dropout', type=float, default=0.2, help='Dropout rate')
+    parser.add_argument('--ctc_weight', type=float, default=0.3, help='Weight for CTC loss (0-1)')
+    parser.add_argument('--save_every', type=int, default=5, help='Save checkpoint every N epochs')
     parser.add_argument('--device', type=str, default='mps')  # 'cuda', 'mps', or 'cpu'
     parser.add_argument('--checkpoint_dir', type=str, default='checkpoints')
     parser.add_argument('--log_dir', type=str, default='logs')
@@ -469,7 +473,7 @@ def main():
         'decoder_layers': args.decoder_layers,
         'num_heads': 4,
         'conv_kernel_size': 31,
-        'dropout': 0.1
+        'dropout': args.dropout
     }
     model = create_konkanivani_model(vocab_size=tokenizer.vocab_size, config=model_config)
     
@@ -486,12 +490,12 @@ def main():
     # Training config
     config = {
         'learning_rate': args.learning_rate,
-        'weight_decay': 1e-6,
+        'weight_decay': args.weight_decay,
         'grad_clip': 5.0,
-        'ctc_weight': 0.3,
+        'ctc_weight': args.ctc_weight,
         'checkpoint_dir': args.checkpoint_dir,
         'log_dir': args.log_dir,
-        'save_every': 5,
+        'save_every': args.save_every,
         'use_cpu_offload': args.use_cpu_offload,
         'mixed_precision': args.mixed_precision,
         'gradient_accumulation_steps': getattr(args, 'gradient_accumulation_steps', 4),

@@ -1,0 +1,866 @@
+[
+  {
+    "text": "लो रर जरा वर्षाोे जे लमता कि लाी कावीका करेोे",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "आि पावसा शेक ो किजाता पावसातर शेक दोवरित जाल्याते सगले दोर्या लोटन त दोर्याचो उदोक वर मटता आिआमेमुं्याचे शेक मतच आी ते ट बसोो म्ाचो तेकालगन मकाते काटचेडता ो तो   न",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "मचा वरकतिसरो प्रश्न तुमचया वाटारां नुस्ते मारपाकातीर खायचो साधना वा वस्तु ो गरजचो मचा वरा नुसत मारपाक वतलो जाल्यार व",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "जग्याक लागून आपले नाते पियार करन तुमका किदे दिसता व्यस्त असतना लेगित इष्टा खातीर आसप महत्वाचे अशे चड करून तांका गरज असतना हय गर पा तेंना खरो इष्ट सदाच असताआ",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "मोजो तुवेन एक खिना परिन मोक केलो जालार तो ऑपरेशन कर तुजो आवें इतला मोख केला सनाया कि तुका एक सवेची करसा परिन लोख जाचे",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "आणि किते पासून लदा पसून किते ल्यार पसून च किे आल्यार ग लदा लार सननक लतडवतडत पुडे  कदितली दुस गर कोतली त लोकक वंटालि लदागर ल्ारकिेलो लोक तो लकदस काट",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "चार जना बावना दोग ब दोग बाव असत ला असतन ाक्र असतना तुझे आवडेचे खेल केदलल ब पक लोबियानी ताबलानी आनी आमी बुर्ग्या पणार खेवतलीन तोनको बालानी",
+    "emotion": "sadness",
+    "confidence": 0.5,
+    "matched_words": [
+      "नको"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "दिवशजार रम मापैेीोन तीन कररशमो ेत रउ िकावगोटावशद जकती",
+    "emotion": "neutral",
+    "confidence": 0.5,
+    "matched_words": [
+      "माप"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "সগলে সংগপজতন  কিদে হতনচিস কিে  তুমক তহমাসে এক্সট্র এফর্ট্স কেন মসে মুকরসপতন মাসে কি হেল্পকপ ক",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "लततात प दि त  ु  कज",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "े   मो दर्यावेलर यो जा आप चला  ु लक का  सरक धयान दुरुक जा",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "ताची तयारी करची पडता रेकांटन करच पडता रंग भर क कवार करपडता सायंकन करचपडता आ निमानी सवातो हात  तयार कमाचो सा कपार वेगवेगा कलातंत्रा खातीर खयचो कोकनी सं्या वापरजांरचिक",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "लच झावसचाललजाच चडरलजाि्यलचपावडासडा",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "आणि मागीर माका रूमाचे परॉबलम झाले रूम दोन घेवचा पडताल सासुमा किडणी दितेली आणि किडणी गेतलो माझो गव तर दोन रूम घेवचा पडताल मगीर आ डॉक्टरये केले समझायल की मझलागी गोडचा नामून आणि मगीर आ ेकुत डलो रूम गेतलो आणि तेका पाटश गालएकससुमकसा ग घालो",
+    "emotion": "joy",
+    "confidence": 0.5,
+    "matched_words": [
+      "गोड"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "ते बरे खेवतात  आमचे गोयचे playर  बरे खेवतात तुझो favrit playर कोणदे माझो favriट playर b्राiसन फनांडेस आणि तो खेंच positon खेवतारे गेमी तो मिdfiलडर खेयतारे हा आणि तुका आमच्या isलाचे गोलकीपराचे नाव का बरा कोणे गोयच्या अ गोईचारे fcीगो गोलकीपराचे नाव तिक तीवारी बरो आढायतान तो गोल",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "चोडवा रांतात साफ सफा करतात कोणचैच प ता आच तेफखाआधाकत्यापानचलगलगून गुलाबी रंगाची वस्त ल्ा खातीर निरंगाीव्त हहपख",
+    "emotion": "joy",
+    "confidence": 0.5,
+    "matched_words": [
+      "साफ"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "तीस चाळीस तियात मजे खूप झाले तसे झाला त खूपचा तियात्र्ता  काम कलज अस त काम थड नवा स जतर आवन खूपचा तियात्रसतावरी काम केला थोडी नवा जान असा प्रिंस जेकप पासकुाल देचिकालम सेल्वी मगर आमो जॉन दिसवा बाआेनण आमो मिलाग्रिस बाआो",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "पव तरखर नस क टक नसटर आी नीट दस ब",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "पोर लोर तची ाी  पडली  त कोो आर े परोल पपर ाी  आी परोलचे श ो तकली ो रे लो ाार",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "यांा माझकाा जाचयांानीी येार जाच् ये ाा एकवीस वर्षाआ आ म वर्ष ाी सत्तर आि सो वर्षन ांाप ह",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "निरोगी जाता अचकी थ जालया हट स्टोकाचे दुेसा उे जाा े ो सांगा िपावसाची खाना वदा जे जडी बुटी सूप चे आग लेगगटमुट कराा",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "काफ क ्र कता च्ा दिा व ेता परत पाच्ा दिसा  कताुद मात व कता पर सट करन त्ा दिसाचा म",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "वेगलमचे फर्स्ट ऑफ ल आमी आको वर्ल्ड बोलेले कोहे बोन ले आनि जायते जागे पोयले जायते कल्चर पोयले जायते बसेज लोग बरोबर काम कताले  गेस पसुन जायते कनॉलेज आमका एक्सपीरिंस मेले कोहे बिहेविर तेंचे ो",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "माे विचार करून ते सुविधा रेड एकरपाक जा आणि तशेच जर तर बुरग्यांक अशे फक्त खेळणी दोवलले आणि बुका दोवले ते जाना जी फॅसिलिटेटर असा जी लायब्ररिन असा ती बुर्ग्याकड कशे वागपाक जा तेजरअसता तचेरूद बुर्गी लायब्ररीन चड येता  बुर्ग्याखातीर खेलणी आमचे लाबररी तरी जपलोसुध जे बुरग्या खू आवड जाता आणि ते पून बुर्गी लाइब्ररन येत",
+    "emotion": "joy",
+    "confidence": 0.3333333333333333,
+    "matched_words": [
+      "सुविधा",
+      "विचार"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "पैलीनो जांना जची आवय असली तका ए भणअसली ाा िझाथआणिआया  जांा ारा  ी िझाबेथ ो  ांा का ळपा गेली आणििझांा ुणअसली ंाझपावलीपंका ाआणििझाth ा पर असा ारियाच आाज ऐकता",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "शिक्षणजका मखय क म िक्ण ज ा क कम",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "वाची ोय कता न ोड म    रज े सुता  जता स नसत को रा   फ",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "णि संदे स्पष्ट करप हातूत लक्षप्रेक्षकाची व्याख्या करपाचो असपाव जाता कारण हाका लागून भास आणि रंग योजने सावन संगीत आणि वहिडिो लंबाय मिरेण सगळ्या गजालीची माहिती मिळता तसे सराव असप आणि तंतरिक तयारी असप ूपेेतर काकी सगळ्यातकामग सराव असप खूप गरजेची े अपजतर काकी मझ चौतो प्रश्नअसा सज्जंशी ब्लॉक कशे मात करतात",
+    "emotion": "joy",
+    "confidence": 0.375,
+    "matched_words": [
+      "स्पष्ट",
+      "कारण"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "आि थळ्या दरियालया खणाचो असवाद गेवपाक एकदम योग्य अस रा जीवित आ आरामदारक वातावरण ताका आकषण वातातुमी शांतत सोता  उमद ताल गोचा दरिया देगचा सगळ्या खातीर किततरी असा ता सैमिक सोितका तकापोोपासारखी सवाद",
+    "emotion": "joy",
+    "confidence": 0.3333333333333333,
+    "matched_words": [
+      "शांत",
+      "दार"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "रत र ररर फटनक",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "होमयपती जी मॅट्रोसिटिजमचो असात नी भारतां मुंबय धर दिल्ली बंगलोर जेननाय हैदराबाद  केरळा  स्टेट ंटायर स्टेट हांगा ताजो प्रभाव चड असा पण गोयानुय आता लोक खूप शिक्षित जाल्यान आणि लोकां कळपाक लागिल्यान ताजो प्रभाव वाढला आणि लोक सारके मळा",
+    "emotion": "sadness",
+    "confidence": 0.4090909090909091,
+    "matched_words": [
+      "मळ",
+      "मळ",
+      "आत",
+      "आत"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "सारकवोमु आदलया कलर पावसाच दिसाी बरोपावडलो ा का न माो पडता आनी ब जाता मर  दनादवोो  ल ोो",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "ते rip कोता geans सोते एकातोर famous siंगरान गाला जाला मी तजी सोगली fans आहा ती ती style copye करून चिंता आणि म त जायत्या लोकांनी ते एक style केली मी trand जांू लागता  तेहे हा मागीर  अह आणि किता ripड gens मागीर  big तुम्ही recently पहला आल्या bucket heats bucket heat",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "तुमचया संस्कृत कायचे मु परंपरक ामसकार ुकदेव लपुपरंपरिकनच परक गक गग",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "ज पग् सतजप तले आमचे गोज असलेपेेीयताचे भुराासेेथीीतलेतचे गोज साेचे असले",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "जे ुका तुका आवडते  तेचे वष किे माहितअसा तकामझे थडाser  असा जिवेजा आि यावरप तांचp   ा ा fifte ऑ  yााा   केीातांचअसत",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "काे अन वेग वेगळे संभालून दरचे किडे आनी दुल आचे पासुन राकण मिलची मणन अन दापून दवरचे नासवन वस्तु बेगीन फ्रिजान दवरात पॅकेज केलेन जवण खावचे पयली ताची एक्सपायरी डेट पलवची",
+    "emotion": "neutral",
+    "confidence": 0.5,
+    "matched_words": [
+      "रात"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "सगलो तेस बीजालो काय मागीर पावनी असता सोर्याचो बातल्यो एक एकलो कोपेला कयो बितायतात आनी मागीर ती पावनी जाता आनी मागीर ते लोक सगले आपले एकक एक एक दावलान ते  पावनी असता ती वयर वोर वरतात जायते लोक बोरीत वयर वडतात आनी मागीर एक वीस हजार तशी बी पावनी जातात",
+    "emotion": "joy",
+    "confidence": 0.5,
+    "matched_words": [
+      "पावन"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "प्ले बाषन पार्ट करून घेवपाचे असता समोर्च व्यक्ति असता पय तेजे बाषन ते पार्ट करून गोप असता अशी आमचे तयारी असतली आणि रिलसलिक किदे असा आमचे एक असताले आमचो ज डायरेक्टर असलो जो बाबी पेडने कर जाकोण आमचे एक प्रकाश दुमा ज मझे खूपकषा डायरेक्टर अंडर आहेन काम केला तांचे कसे असताले टाइमार योपाचे रलसलिक टाइमार योवपाचे आनि टाइमार गरव असपाचे एक तीन वर मी रिलसलक",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "महिण्या आम्ही last saturday जे असा त्यांना आमही एक अह matur reader जी वडली बुरगे असतात त्ांचयालागी त्ांच्याखातीर आम्ही एक  अशे book club अशे असा तेका आम्ही last saturday reading club अशे म्हणतात आणि तिथून किरेता व एक पुस्तक असा ते पुस्तक आम्ही तेंका दिता आणि त्ांच्यानी तो महिणवबर वाजता आणि last saturday त्यांचयानी सगळे जाणा मेळता आणि त्याचाबद्दल discuss करतात पण बुरग्याखातीर लाण बुरग्या",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "एकदम बरे वाजले येसल तर मुकार   ् ाा   पलो ाक शलो",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "रोल केला आवेन आणि किरे हा एकदा टेसट डरिंग एलनी आणि तुका समत कॉनफिडेंस ेलो विश्वास जांना प तु बसता पय तना त सगळे एजी होयता माग तुका श दिसता की आपण नवीन किरे साधर करो नवीन नवीन किरे किर आपलयाकडे तला पय आप नवीन क्ट कशी बाहेर काढू येजर लक्षा दिता त बाकीचा कोण ॅक्टिग करता पय तेंचर लक्षा दिता आणि तू आपण नवीन किरे करू शकता ते तु स्टडी करून करून तुझा ते बाहेर सराप हो",
+    "emotion": "neutral",
+    "confidence": 0.5,
+    "matched_words": [
+      "बाहेर"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "जावपाची अशी इच्छा नसली तशित एकदा मझो एक बरो मित्र  बरो सो प्रका धुमल मतो लेखकतोमपो तनी मकदा एका नाटकान रोल दिलो आ ते नाटक आमी धरग होत ते नाटक मी केले तेनाक केलया कारणा तनी खुशीजान तेंना मुनसिपारटीन तआमचे सगया पार्ट्यांचो सतकार केलो तेंना मुख्य अतिति असलो",
+    "emotion": "neutral",
+    "confidence": 0.5,
+    "matched_words": [
+      "कारण"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "मचा कलाकृतेचर कसो परिाम कराककमी संस्कृतिक ा संग मुटा आमचे गया नैसरकिक सुंदरका अ नरिक सुंरका अकरणा झाडा पेा मला े सगळ्ा ा येन तन निवक करपाच मुटलयार देवा निव",
+    "emotion": "joy",
+    "confidence": 0.3333333333333333,
+    "matched_words": [
+      "सुंदर",
+      "कमी"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "दे माझं favorite  सकoलाचो subject englishच असतल किदत खूप simple हा आणि खूप अ easy अशिकपाक तितून ो  माग score करू मवता आमका okay so suppose तु का कली new activity तुझ्या सकूलान गालूं जा आल्या तु किद्ा गालपाच it can be कयची असू शेकता ती लe वेthe activity वेthe जी तुझ्या सकूलान ला dance  maरशhal art  music",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "मझनव श दिसुजा या मझपार  माक सिवर जवहो  माक िवेरा रवतपिो ुर्सो ारकजा द जा े",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "ते सगले तोरेची फला सगली असतात मागीर परतून दॉस दॉस आनी किते किते बिबिंग दोणे पातल्यो तसले सगले बाशेंचा आनी परतून फला सगली परणस अननेस आमाडी आनी केई सगळे बाशेंची फला",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "का   आमे गतिले न आमे जे मगरंट  ंेमे उपचल डि ऑे ड े आ ट टतगरका उतड ज तहआमी जो आमो व वेो ॅकरू ज ांग अस ते  कराजाा ेउतको पलाय आे",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "खाला दतबुकेअसुखालाबाहातातआेची गराकील",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "आम्ही देवाचेर विश्वास दोरया आणि मगान जिोया आणि आमी आमचे राडकोडी येयलेो तयांना आमही देवाचेर विश्वास दोरून आमचे फुडला पाव मारुय",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "जाते त्रास कडले मका चसमचो आधार नसललो पण माझी मा पाय ाव बयना मका प आधारक पावली द्याचे कुरप  मझ जीविता सगले बरेभाषीन झाले बा असता त कश कावजदार रवली",
+    "emotion": "sadness",
+    "confidence": 0.3333333333333333,
+    "matched_words": [
+      "त्रास",
+      "दार"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "कलंगुटची बीच उत्तर गोय वेल दर दिशा मध्यां सकाे धपरा प दिशासतर हावेन कलंगुट कडवबरपेट कलंगुट रियाचदग लगसेेतुमकाराचा कोकी उतरानी गच",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "ेतआमका सांशी ि आमचा गो ा लोकयाोो रयावे चसरता पोपाक संी  तरी  दिसा  चा गच सताच या  चपकखकशज",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "मआी ि केलअ ी क म आमी a  शे दोवरा  जी बुरी येता त ुसऱ्या बुरखातीर    तंाकर जे   अ कण उी वाचपाक जा त पली पु्तक येता त  बसता आ उी बून वच णता करक",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "सुकी सुटाची कोडीकोा ागर ्याचो मलगोल मागर तोरचो शिरो निसत ोज वकराी  बा जिाक र पं गसटाक ी पतयो ी दोकोा  नतलाचा दिसी ा",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "तिणी माझ्या घातीर decoration ma केले थे आणि मगी  आवे थे सुद्धा एक कट केलो तेंका एक बारिकशी treat दिली आवे माझ्या सकून ड  आणि जळ काी करूंग न आम्ी थय एकबारिकचो celebration केलो अशी तरे आवे कामारआपलो जलमाचो दिस म्लो माझ्या ेळी माझ्या घातीर कपडे आढलेला भावान एक digital watch व दिली मका मा खूप बरे दिसला",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "ा म a केलो कि इतल्या पसायला  परे करू वचून जा गोच ोलाूरा ू मे केल मिळाचा ज  ांामे दल आि    ेतल  ारी केली ि ा ्ा म   अशिल",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "महिन्ाच जतसो महनजं",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "पुरीबीन खावपाक आवडता आम्ही एकदीस या दगाय बरेबर जेवऊ खावपाक   तो दुझ्याकर्षून मगा जायती जानवार मिळवला आणि त मगा time दिला मा उतुका thank you म्हणता आणि एकदीस आम्ही दगाय बरेबर यादेवबर्ेकरू",
+    "emotion": "neutral",
+    "confidence": 0.5,
+    "matched_words": [
+      "दीस"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "किरआ जते गाड्याक खूप लुसक जाता  वर्ष क्सि खुपच वढलया कस खूप जालक जाताचे हापा मोून दुकापत सुा वाढलल अस हॉस्पिल आ सुा खूप पशवाढलया आ खूप लोकक याच त्रा जवपक लगल",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "सिनिमा पलवपाक तर एकदम मजा येता तसेच आमी खूपशे खेळ असतात जे आमी गरां भीतर खेलपाक जातात पावसाचया दिसानी जशे की चेस लुडो आनी खूप वेगले वेगले तरेचे खेल असतात ंक",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "ताच्याक ते एकrsन असा ग आमच्याकडे झाासळी मातात ताच्ाखातीर श वाटता कान  वाटता जाता ा प्रदुषणाखातीर मशाचे बलायकच आि र जनावप",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "पुरवजानी सुरु केलो तो तो एके बाशीन वाइट किदे असताते पोस करपाक मुजे दुसरे दिसा काय ना जावपाक बरे ब  सज जवपाक  बरे बा सगल लोक गरा येवचाकसज  जव बा म   े क यवक  ज  कुतत े ाम ज मतात",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "करपाचीतकजफहे  पल आी बुर्गी परंपरिक वयवसाय कफा कष्ताची काम करा मबुरग्यमबथो बुरग्य",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "बाजी नाल मासाल्या वांगडा आमचे ये बॅलंस डायत पोशक तत्वानी बरपूर खास करून नुस्त्यापासून मेलपी ओमेगात्री आणी बाजीयेतल्या मेलपी तांतु सांस्कृति अस्मिताय आनी अनन दायस सांबालता फासट फुडाचे तुलयेंच टिककाव आमचे जेवण",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "लाइफ स्टायल जेवण आणि शरीर प्रकृती यांचे प्रमाण संतुलन राखपाक आयुर्वेद जोर दिता णिेारतसगाहा तर  आधुनिक वक्ता शरीराचे अवयोव व्यवस्थित करून शरीर निरोगी करता तशेच सगळ्या रोगाक उप",
+    "emotion": "joy",
+    "confidence": 0.42857142857142855,
+    "matched_words": [
+      "आधुनिक",
+      "आधुनिक",
+      "प्रमाण"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "कट करपाचे सुवक जत ले करपाचे पर दोर दिसाक क प वपचो रत कराचो ा र चिप आीलद खावपाचे आी पिवपाचे बं करपाचे ताचे बडलेक ल्दी डायट वा गर जे रलेले सा ते खवपाचे",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "आनी आमसुल नारळ आमका गोड आनी टिकट दोनवी दिशांत वापरू येता खिसून दूज काडून वा तलून काजू कर्यांत रिच फ्लेवर दिता आनी गोड पदार्थांत लग्जरी म दिसता कोकम आनी आमसुन हया आंबोड टेस्ट दितात आनी हीट कंट्रोल करतात सममरात एकदम परफेक्ट",
+    "emotion": "joy",
+    "confidence": 0.4,
+    "matched_words": [
+      "गोड",
+      "शांत",
+      "रात",
+      "दार"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "आसतानात का शिकूनसता ते वेळ लागता वरसा वोयता ते हळ अळ भयुद वता उतकाचा बाबती साच ते चाू तरी चालूतरी कपणह ळ भया वततुकासुदा  उतकाकडााव रव ाकोकक ं  ुदी वाोआणि उ ज जा तता",
+    "emotion": "neutral",
+    "confidence": 0.5,
+    "matched_words": [
+      "वेळ"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "लगमू लागल कि आमका तुमची संगीत खूप आवडली काय लोकानी मटल की े ल ते म काजक बरे दिसले खूप जी मल ी बरेबे ंत शिकचेव",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "होया प बिची असा नॉ बच ोशे ्ड असा े खप नॉथ साी बचगेला आ रवता रच कालांुटबाा म रवता  आणि कदि बाा बिा कालांगुट ब गेल्ा आकालाट  क शिकरून पवा अजू उगा असापक",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "बारिक स तयार करता सगली वस्त म दरक जेवणाचो मार कमी करक मी ता होटेल कशे तरे आमका जेवणाचो अनभव याद उरपा सरको दवता आम आमचा ोटलाचा सयाक मोग वकार करता",
+    "emotion": "sadness",
+    "confidence": 0.5,
+    "matched_words": [
+      "कमी"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "बांतात आमची पाचवीचार ग्रिनरी खाई गेली हे खरे पण उपाय किते आमी पर्यठन बंद करुंक जायना बंद करप हो उपाय नाी पण तांका नियंत्रणान हाडप गरजेचे आमका गोयक संभालून दवरपाचे पर्यटन जाय",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "ाासुपलीघेवो",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "जोतमदज  क कक ज पुकदडज",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "तोरी तुमचे काम चोबीस वराचे असता मझे दिसबर तुमी सारकी काम कता तोरी तुमका केना है सारको स्ट्रेस वा है बलायकीो  शुा जाता केना तरी ना बलायकी विशव मिन आमे किते का सदां आे डेली आमी काम कतान  आमकाे सोवीर पडा का  आमकाकहबिट जा गेा की दा काम कआ हेलथी राआमे बडी र",
+    "emotion": "joy",
+    "confidence": 0.5,
+    "matched_words": [
+      "वीर"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "पासून आपले आपनांक कायची गेवची पडता निवलसां साप की गरजाची आनी सारके सुकन आपले गर निवल दोरुंक जा जसे तरी आपली हेल्थ",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "तार मन दकोशी चलयार आमचे काली बरेच सुआा जॅकसन बाप त मकातो प्रश्नन काकरतगोड परिसिततकगतललो असआकवड कातरतीक रिक्ेस्ट मून गेनट्रा  तोपरंपरक गत गावचन पमच पेयचा लोकानी",
+    "emotion": "joy",
+    "confidence": 0.5,
+    "matched_words": [
+      "गोड"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "जातून की एके वाते  मझे लंम गुण  े लोकक दूनतापरककिेरक मो जोडाचस कव",
+    "emotion": "neutral",
+    "confidence": 0.5,
+    "matched_words": [
+      "जोड"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "मसाला वाटटल ला  रगड घाव पाटता वापर तर कडे बिडीता रगड जाव ते णी बारिक ुटे खूपसत असतार त",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "हे पहली के lाक तुझे लाक favourite type of exercise कारल्ये असात ह exercise म्हणू येता की ला pushops cors भी नसता प त aिn चळ  जात े activity ते तोन तुका पे गाम सुद्धा चळ येता आणि ला त तुका body stanting  चळ help करतात  माझं favourite पoहn घेला pushops असं म्हणूव येतंये तो हं okay un l तू lाiक कह लाie कितले दes लाie असं engage असता physical activity अ पोून घेल्ा regular असतं",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "नपरा पा  न  वीोजा कुुंबि ु",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "ेा आि पोगका भे ी ाग ेा वेवजवडुाेक े क पड",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "अशे तरे आी आपला जल्माचो दिस म्लला खूप बरे दिसले अशे आयकोन की तुई इतल्या बरे तरेण आपलं जलमाचो दिस म्णलो आणि आम्ही येच मागता की दर वर्ष तुझो जलमाचो दिस हेचाकूण बरो मनोफाचो तुका देव बरे करू तुझे की तुई आपलं time आमका दिलो interviwा घातीर हो माझा आेसेवा नसलो म्हणून आेण तुझो interview घेतलला आणचो",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "अं third twiन gold invest goald investment करू येता अgoald investment महटल्या digital gold अजिथून अ one grाm gold sून start जातात digital gold अं golden invest करप sifer physical goldunकून आणि तुईन अं ppf करू येता public provident fund तून तुईन अं minimum पाचशी रुपया पer year गालू गालू येता",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "डे तकाच लागून पावस महत्वाचे ते मका मचा जीवता ााक ला पावाचो आवाज कून मे सगले हुसके न जाा  शा ाार",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "रड लाड  ाा     रचा करता",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "तोती आमी पातल्यो मोदक गोडशे सारकीले पारंपरिक तसे शाकारी गोयचे पदार्थ तयार करतात",
+    "emotion": "joy",
+    "confidence": 0.3333333333333333,
+    "matched_words": [
+      "गोड",
+      "दार"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "ेाअी    ज कं",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "मागीर कार्नावाल हा हिंदूची फेस्तांग साडीू चुडीदार मुस्लिमाची चुदिरार आनी लेंगा पासून गालताय ती मागीर ख्रिस्तावाचे तुनी चुडीदार गालताय स्कट ब्लाउजं गालताय मागीर फेस्तांग आमी ड्रेस शुंताय मागीर ख्रिसतावा तोरी काजारांग",
+    "emotion": "neutral",
+    "confidence": 0.5,
+    "matched_words": [
+      "दार"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "आ िमाी स   िर  ेतोर च कर  क ज ो रा र र कज  क हर",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "उतरा उदरपण गोयकार अतिथ्य आपल्या उदार आनी योगकार दिवपी स्वरुपा खातीर ओकता उदरप गोकार सोयर्याकडे उदार आनि उक्तेपणान वावरपी खातीर फामात असा अि अतिथ्याचा संकल्पां गोयचे संस्कृताचे खाशेलयेपण रुजला",
+    "emotion": "neutral",
+    "confidence": 0.5,
+    "matched_words": [
+      "दार"
+    ],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "प्रििेंट विचुन कडता आनी एकवीस तारीख आगस्ताची दोर वर्षा आमचे फेस्ट सुर जाता दशपरी सांगलाव सुरवाक आमी गावचे लोक सगले एकटा जाता आनी शेतान एकटा जाता आनी पदविकारा संगता े कोंसाचर बेस मगता ेवा दिनवासता आनी त कोणसा आडुन गरन बेतता आीमागी जाते कारयक्रम",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "टा तेना तेना आमी जीवित बोरे मजा परुन सारुया पावस आदलो वा नवो असु अजून ताका मोहपण असा",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "अशेगो जाापोा तेजी पाना घालूं जा तेंडेची पाना घालूंजा ओसोळणीची पाना घालूं जा ओसोळणीजती आमच्या फुलल्याना प ओसोणीचे खाम्याकडे जा तेजी पाना घालूं जा आणि पेरीचे पुरे असतात प वलो पेरिं गो  ताजो ताज यतात प तणे तणो ते भितर घालूं जा आणि ते घालून तितूनले जिरे घालूं जा मासे वाटून घो आणि तो बरो खतकतोंजा खतकतोंजा आणि तो काम",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "डेय मोडकीन शीतो कोडी कदेरंता ोडकी चोड वोलन सा   उोक नवपाचे उोक गरम कोरपा उजर गता का गर सा चुल जे तुन मी सडना  उजक आलोन जवणाचे वस्तु कोरपा दोता ग उदोक तपोपा",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "या वर्षाची च सज फुलल्या वरषा ग साुकोवर्षाी",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "मगीर हे जर आ फिथरपी करतले तत््ूथश",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "गाडी महटल्यार गाी  खवचजा जाा ाआा जा ते जा आमच्या iार आमका क किरे मागतल्ा ाफवी चितचे पडा ााा फक किे मात जा काााफ फव ाा ाा मदाचीपडाी ची ा",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  },
+  {
+    "text": "मका पोयलोत तेनी पेंट्रिन घालो स्नेक् सैंविज ती कॉफी आ मागिर मागीर शेफ माजेक इंप्रूवमेंट पोन अप्रेशट कोतालो माका आन मागिर कॉंटिनेंटल आन तो हेत मागिर चायनीजआन सगले दुसरे दुसरये इतून घालून मका बरो तनी एक सपोरट देउन बरो मका वोयर काडलो तेनी आनि मागिर मका तेंची ने नी होटालआउंग लागली",
+    "emotion": "neutral",
+    "confidence": 0.3,
+    "matched_words": [],
+    "source": "auto_labeled_sentiment_dict",
+    "needs_review": true
+  }
+]
