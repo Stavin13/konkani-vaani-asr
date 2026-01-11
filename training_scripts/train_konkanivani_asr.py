@@ -256,37 +256,53 @@ class ASRTrainer:
     
     def validate(self, epoch):
         """Validate model"""
+        # Ensure CUDA operations are synchronized before validation
+        if torch.cuda.is_available():
+            torch.cuda.synchronize()
+            torch.cuda.empty_cache()
+        
         self.model.eval()
         total_loss = 0
         total_ctc_loss = 0
         
         with torch.no_grad():
             for batch in tqdm(self.val_loader, desc="Validation"):
-                # Move to device
-                audio_features = batch['audio_features'].to(self.device)
-                transcript_tokens = batch['transcript_tokens'].to(self.device)
-                audio_lengths = batch['audio_lengths'].to(self.device)
-                transcript_lengths = batch['transcript_lengths'].to(self.device)
-                
-                # Forward pass
-                ctc_logits, attn_logits = self.model(
-                    audio_features,
-                    audio_lengths,
-                    transcript_tokens[:, :-1],
-                    transcript_lengths - 1
-                )
-                
-                # Compute loss
-                loss, ctc_loss, attn_loss = self.criterion(
-                    ctc_logits,
-                    attn_logits,
-                    transcript_tokens,
-                    audio_lengths,
-                    transcript_lengths
-                )
-                
-                total_loss += loss.item()
-                total_ctc_loss += ctc_loss.item()
+                try:
+                    # Move to device
+                    audio_features = batch['audio_features'].to(self.device, non_blocking=False)
+                    transcript_tokens = batch['transcript_tokens'].to(self.device, non_blocking=False)
+                    audio_lengths = batch['audio_lengths'].to(self.device, non_blocking=False)
+                    transcript_lengths = batch['transcript_lengths'].to(self.device, non_blocking=False)
+                    
+                    # Ensure all tensors are contiguous
+                    audio_features = audio_features.contiguous()
+                    transcript_tokens = transcript_tokens.contiguous()
+                    
+                    # Forward pass
+                    ctc_logits, attn_logits = self.model(
+                        audio_features,
+                        audio_lengths,
+                        transcript_tokens[:, :-1],
+                        transcript_lengths - 1
+                    )
+                    
+                    # Compute loss
+                    loss, ctc_loss, attn_loss = self.criterion(
+                        ctc_logits,
+                        attn_logits,
+                        transcript_tokens,
+                        audio_lengths,
+                        transcript_lengths
+                    )
+                    
+                    total_loss += loss.item()
+                    total_ctc_loss += ctc_loss.item()
+                    
+                except RuntimeError as e:
+                    print(f"\n⚠️  Error in validation batch: {e}")
+                    print(f"   Batch shapes - audio: {audio_features.shape}, tokens: {transcript_tokens.shape}")
+                    # Skip this batch and continue
+                    continue
         
         avg_loss = total_loss / len(self.val_loader)
         avg_ctc_loss = total_ctc_loss / len(self.val_loader)

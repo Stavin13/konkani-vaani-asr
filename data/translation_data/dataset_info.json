@@ -1,0 +1,30 @@
+{
+  "total_examples": 575,
+  "train_examples": 458,
+  "val_examples": 84,
+  "test_examples": 33,
+  "difficulty_distribution": {
+    "1": 73,
+    "2": 351,
+    "3": 116,
+    "4": 35
+  },
+  "source_distribution": {
+    "vocabulary": 73,
+    "combination": 351,
+    "phrase": 20,
+    "existing_synthetic": 96,
+    "variation": 35
+  },
+  "curriculum_stages": {
+    "1": "vocabulary",
+    "2": "phrases",
+    "3": "sentences",
+    "4": "complex"
+  },
+  "quality_metrics": {
+    "min_confidence": 0.8,
+    "avg_confidence": 0.9267826086956521,
+    "high_confidence_ratio": 0.9391304347826087
+  }
+}

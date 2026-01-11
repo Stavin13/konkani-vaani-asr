@@ -26,10 +26,13 @@ class ASRModel:
             # Try multiple possible locations
             base_dir = Path(__file__).parent.parent.parent
             possible_paths = [
-                base_dir / "kaggle_best_model" / "checkpoints" / "best_model.pt",
-                base_dir / "kaggle_asr_outputs" / "checkpoints" / "best_model.pt",
-                Path("kaggle_best_model/checkpoints/best_model.pt"),
-                Path("kaggle_asr_outputs/checkpoints/best_model.pt"),
+                Path("/Volumes/data&proj/konkani/best_model (1).pt"),
+                Path("/Volumes/data&proj/konkani/best_model.pt"),
+                Path("/Volumes/data&proj/konkani/checkpoints/best_model.pt"),
+                base_dir / "konkani/best_model.pt",
+                base_dir / "konkani/checkpoints/best_model.pt",
+                base_dir / "konkani/best_model (1).pt",
+                (base_dir / "konkani/checkpoints/best_model (1).pt").resolve(),
             ]
             
             for path in possible_paths:
@@ -56,13 +59,34 @@ class ASRModel:
             ctc_key = 'ctc_head.weight' if 'ctc_head.weight' in state_dict else 'module.ctc_head.weight'
             vocab_size = state_dict[ctc_key].shape[0]
         
-        # Create model
+        # Infer model configuration from checkpoint
+        # Check the shape of encoder layers to determine d_model
+        encoder_key = 'encoder.input_proj.weight' if 'encoder.input_proj.weight' in state_dict else 'module.encoder.input_proj.weight'
+        d_model = state_dict[encoder_key].shape[0]  # Output dimension of input projection
+        
+        # Count encoder layers
+        encoder_layers = 0
+        for key in state_dict.keys():
+            if 'encoder.layers.' in key and '.ff1.0.weight' in key:
+                layer_num = int(key.split('.')[2])
+                encoder_layers = max(encoder_layers, layer_num + 1)
+        
+        # Count decoder layers  
+        decoder_layers = 0
+        for key in state_dict.keys():
+            if 'decoder.decoder.layers.' in key and '.linear1.weight' in key:
+                layer_num = int(key.split('.')[3])
+                decoder_layers = max(decoder_layers, layer_num + 1)
+        
+        print(f"📊 Detected model config: vocab_size={vocab_size}, d_model={d_model}, encoder_layers={encoder_layers}, decoder_layers={decoder_layers}")
+        
+        # Create model with correct configuration
         self.model = KonkaniVaniASR(
             vocab_size=vocab_size,
             input_dim=80,
-            d_model=256,
-            encoder_layers=12,
-            decoder_layers=6
+            d_model=d_model,
+            encoder_layers=encoder_layers,
+            decoder_layers=decoder_layers
         )
         
         # Load state dict (handle DataParallel wrapper)

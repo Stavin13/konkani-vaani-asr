@@ -1,0 +1,842 @@
+[
+  {
+    "konkani": "नवो घर",
+    "english": "new house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 181,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तिखट दुकान",
+    "english": "spicy shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 210,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "शहर",
+    "english": "City",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 536,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "नऊ घर",
+    "english": "nine house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 289,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "लाल घर",
+    "english": "red house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 325,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तुमी",
+    "english": "you all",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "pronouns",
+    "difficulty": 1,
+    "curriculum_order": 5,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "हिरवें पुस्तक",
+    "english": "green book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 356,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तूं शिकता",
+    "english": "you learn",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 89,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "पिवळें घर",
+    "english": "yellow house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 343,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सकाळीं ती पुस्तक वाचता",
+    "english": "In the morning she reads a book",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 561,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "तिखट घर",
+    "english": "spicy house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 208,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आठ",
+    "english": "Eight",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 527,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "पांच पाणी",
+    "english": "five water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 258,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "मका राग येता",
+    "english": "I am angry",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 495,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "वायट कुटुंब",
+    "english": "bad family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 153,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "जुनो घर",
+    "english": "old house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 190,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "वायट शाळा",
+    "english": "bad school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 146,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "गोड दुकान",
+    "english": "sweet shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 201,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सहा कुटुंब",
+    "english": "six family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 270,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सकाळीं येता",
+    "english": "morning come",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 363,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "एक जेवण",
+    "english": "one food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 223,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "उबता",
+    "english": "stand",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "verbs",
+    "difficulty": 1,
+    "curriculum_order": 13,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "भेटून खोशी जाली",
+    "english": "nice to meet you",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "greetings",
+    "difficulty": 1,
+    "curriculum_order": 66,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "दुपारीं वता",
+    "english": "afternoon go",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 371,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "धवें पाणी",
+    "english": "white water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 312,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "मका कोंकणी आवडटा",
+    "english": "I like Konkani",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 537,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "सात पुस्तक",
+    "english": "seven book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 275,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सांजेर",
+    "english": "Evening",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 454,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "नऊ जेवण",
+    "english": "nine food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 295,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तूं",
+    "english": "you",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "pronouns",
+    "difficulty": 1,
+    "curriculum_order": 1,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "तें तुजें घर आसा",
+    "english": "That is your house",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 509,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "गोड कुटुंब",
+    "english": "sweet family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 207,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आज बसता",
+    "english": "today sit",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 402,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "उन्हाळो आसा",
+    "english": "It is hot",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 511,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "ते येता",
+    "english": "they come",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 129,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "काळजी नाका",
+    "english": "Don't worry",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 503,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "पिवळें पुस्तक",
+    "english": "yellow book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 347,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आज तुमी जेवण खाता",
+    "english": "In the today you eat food",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 572,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "ते पिता",
+    "english": "they drink",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 131,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "वारो मारता",
+    "english": "Wind is blowing",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 437,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "शाळा",
+    "english": "school",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "nouns",
+    "difficulty": 1,
+    "curriculum_order": 17,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "पिवळें पाणी",
+    "english": "yellow water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 348,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "वायट जेवण",
+    "english": "bad food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 151,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सात मित्र",
+    "english": "seven friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 278,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "उद्या हांव घरा वता",
+    "english": "In the tomorrow i go home",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 546,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "आमी",
+    "english": "we",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "pronouns",
+    "difficulty": 1,
+    "curriculum_order": 4,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "देव बरें करूं",
+    "english": "God bless you",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 476,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "धवें घर",
+    "english": "white house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 307,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "बाजार",
+    "english": "Market",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 455,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "बरो मित्र",
+    "english": "good friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 143,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "हांव बसता",
+    "english": "I sit",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 78,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दहा मित्र",
+    "english": "ten friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 305,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "गोड घर",
+    "english": "sweet house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 199,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "चार बाजार",
+    "english": "four market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 247,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सांजेर आमी बाजारांत वता",
+    "english": "In the evening we go to market",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 556,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "सात जेवण",
+    "english": "seven food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 277,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सकाळीं तुमी जेवण खाता",
+    "english": "In the morning you eat food",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 568,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "किती?",
+    "english": "how many?",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "questions",
+    "difficulty": 1,
+    "curriculum_order": 72,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "पिता",
+    "english": "drink",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "verbs",
+    "difficulty": 1,
+    "curriculum_order": 11,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "तो उबता",
+    "english": "he stand",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 97,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "हिरवें कुटुंब",
+    "english": "green family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 360,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "जेवण बरें आसा",
+    "english": "Food is good",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 443,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "सुंदर घर",
+    "english": "beautiful house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 154,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "काल वता",
+    "english": "yesterday go",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 407,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "उद्या उबता",
+    "english": "tomorrow stand",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 421,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "लाल कुटुंब",
+    "english": "red family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 333,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ती बसता",
+    "english": "she sit",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 105,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तीन",
+    "english": "Three",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 523,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "ती उबता",
+    "english": "she stand",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 106,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "माझें नांव राम आसा",
+    "english": "My name is Ram",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 427,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "बरो कुटुंब",
+    "english": "good family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 144,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "पांच",
+    "english": "Five",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 444,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "सहा जेवण",
+    "english": "six food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 268,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "निळें",
+    "english": "blue",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "colors",
+    "difficulty": 1,
+    "curriculum_order": 54,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "उद्या येता",
+    "english": "tomorrow come",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 417,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दोन कुटुंब",
+    "english": "two family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 234,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "फाल्यां",
+    "english": "Yesterday",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 519,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "गोड",
+    "english": "sweet",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "adjectives",
+    "difficulty": 1,
+    "curriculum_order": 32,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "कितले?",
+    "english": "How many?",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 446,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "लाल बाजार",
+    "english": "red market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 328,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ते खाता",
+    "english": "they eat",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 130,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दुपारीं येता",
+    "english": "afternoon come",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 372,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तुमी वता",
+    "english": "you all go",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 119,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "नऊ बाजार",
+    "english": "nine market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 292,
+    "curriculum_stage": "phrases"
+  }
+]

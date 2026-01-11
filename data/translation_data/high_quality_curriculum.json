@@ -1,0 +1,5752 @@
+[
+  {
+    "konkani": "हांव",
+    "english": "I",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "pronouns",
+    "difficulty": 1,
+    "curriculum_order": 0,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "तूं",
+    "english": "you",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "pronouns",
+    "difficulty": 1,
+    "curriculum_order": 1,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "तो",
+    "english": "he",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "pronouns",
+    "difficulty": 1,
+    "curriculum_order": 2,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "ती",
+    "english": "she",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "pronouns",
+    "difficulty": 1,
+    "curriculum_order": 3,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "आमी",
+    "english": "we",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "pronouns",
+    "difficulty": 1,
+    "curriculum_order": 4,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "तुमी",
+    "english": "you all",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "pronouns",
+    "difficulty": 1,
+    "curriculum_order": 5,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "ते",
+    "english": "they",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "pronouns",
+    "difficulty": 1,
+    "curriculum_order": 6,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "आसा",
+    "english": "am/is/are",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "verbs",
+    "difficulty": 1,
+    "curriculum_order": 7,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "वता",
+    "english": "go",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "verbs",
+    "difficulty": 1,
+    "curriculum_order": 8,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "येता",
+    "english": "come",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "verbs",
+    "difficulty": 1,
+    "curriculum_order": 9,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "खाता",
+    "english": "eat",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "verbs",
+    "difficulty": 1,
+    "curriculum_order": 10,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "पिता",
+    "english": "drink",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "verbs",
+    "difficulty": 1,
+    "curriculum_order": 11,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "बसता",
+    "english": "sit",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "verbs",
+    "difficulty": 1,
+    "curriculum_order": 12,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "उबता",
+    "english": "stand",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "verbs",
+    "difficulty": 1,
+    "curriculum_order": 13,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "शिकता",
+    "english": "learn",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "verbs",
+    "difficulty": 1,
+    "curriculum_order": 14,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "काम करता",
+    "english": "work",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "verbs",
+    "difficulty": 1,
+    "curriculum_order": 15,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "घर",
+    "english": "house",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "nouns",
+    "difficulty": 1,
+    "curriculum_order": 16,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "शाळा",
+    "english": "school",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "nouns",
+    "difficulty": 1,
+    "curriculum_order": 17,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "दुकान",
+    "english": "shop",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "nouns",
+    "difficulty": 1,
+    "curriculum_order": 18,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "बाजार",
+    "english": "market",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "nouns",
+    "difficulty": 1,
+    "curriculum_order": 19,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "पुस्तक",
+    "english": "book",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "nouns",
+    "difficulty": 1,
+    "curriculum_order": 20,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "पाणी",
+    "english": "water",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "nouns",
+    "difficulty": 1,
+    "curriculum_order": 21,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "जेवण",
+    "english": "food",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "nouns",
+    "difficulty": 1,
+    "curriculum_order": 22,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "मित्र",
+    "english": "friend",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "nouns",
+    "difficulty": 1,
+    "curriculum_order": 23,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "कुटुंब",
+    "english": "family",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "nouns",
+    "difficulty": 1,
+    "curriculum_order": 24,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "बरो",
+    "english": "good",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "adjectives",
+    "difficulty": 1,
+    "curriculum_order": 25,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "वायट",
+    "english": "bad",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "adjectives",
+    "difficulty": 1,
+    "curriculum_order": 26,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "सुंदर",
+    "english": "beautiful",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "adjectives",
+    "difficulty": 1,
+    "curriculum_order": 27,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "मोठो",
+    "english": "big",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "adjectives",
+    "difficulty": 1,
+    "curriculum_order": 28,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "ल्हान",
+    "english": "small",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "adjectives",
+    "difficulty": 1,
+    "curriculum_order": 29,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "नवो",
+    "english": "new",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "adjectives",
+    "difficulty": 1,
+    "curriculum_order": 30,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "जुनो",
+    "english": "old",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "adjectives",
+    "difficulty": 1,
+    "curriculum_order": 31,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "गोड",
+    "english": "sweet",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "adjectives",
+    "difficulty": 1,
+    "curriculum_order": 32,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "तिखट",
+    "english": "spicy",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "adjectives",
+    "difficulty": 1,
+    "curriculum_order": 33,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "एक",
+    "english": "one",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "numbers",
+    "difficulty": 1,
+    "curriculum_order": 34,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "दोन",
+    "english": "two",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "numbers",
+    "difficulty": 1,
+    "curriculum_order": 35,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "तीन",
+    "english": "three",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "numbers",
+    "difficulty": 1,
+    "curriculum_order": 36,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "चार",
+    "english": "four",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "numbers",
+    "difficulty": 1,
+    "curriculum_order": 37,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "पांच",
+    "english": "five",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "numbers",
+    "difficulty": 1,
+    "curriculum_order": 38,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "सहा",
+    "english": "six",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "numbers",
+    "difficulty": 1,
+    "curriculum_order": 39,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "सात",
+    "english": "seven",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "numbers",
+    "difficulty": 1,
+    "curriculum_order": 40,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "आठ",
+    "english": "eight",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "numbers",
+    "difficulty": 1,
+    "curriculum_order": 41,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "नऊ",
+    "english": "nine",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "numbers",
+    "difficulty": 1,
+    "curriculum_order": 42,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "दहा",
+    "english": "ten",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "numbers",
+    "difficulty": 1,
+    "curriculum_order": 43,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "सकाळीं",
+    "english": "morning",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "time",
+    "difficulty": 1,
+    "curriculum_order": 44,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "दुपारीं",
+    "english": "afternoon",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "time",
+    "difficulty": 1,
+    "curriculum_order": 45,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "सांजेर",
+    "english": "evening",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "time",
+    "difficulty": 1,
+    "curriculum_order": 46,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "रातीं",
+    "english": "night",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "time",
+    "difficulty": 1,
+    "curriculum_order": 47,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "आज",
+    "english": "today",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "time",
+    "difficulty": 1,
+    "curriculum_order": 48,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "काल",
+    "english": "yesterday",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "time",
+    "difficulty": 1,
+    "curriculum_order": 49,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "उद्या",
+    "english": "tomorrow",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "time",
+    "difficulty": 1,
+    "curriculum_order": 50,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "धवें",
+    "english": "white",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "colors",
+    "difficulty": 1,
+    "curriculum_order": 51,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "काळें",
+    "english": "black",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "colors",
+    "difficulty": 1,
+    "curriculum_order": 52,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "लाल",
+    "english": "red",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "colors",
+    "difficulty": 1,
+    "curriculum_order": 53,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "निळें",
+    "english": "blue",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "colors",
+    "difficulty": 1,
+    "curriculum_order": 54,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "पिवळें",
+    "english": "yellow",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "colors",
+    "difficulty": 1,
+    "curriculum_order": 55,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "हिरवें",
+    "english": "green",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "colors",
+    "difficulty": 1,
+    "curriculum_order": 56,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "आवय",
+    "english": "mother",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "family",
+    "difficulty": 1,
+    "curriculum_order": 57,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "बापूय",
+    "english": "father",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "family",
+    "difficulty": 1,
+    "curriculum_order": 58,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "पूत",
+    "english": "son",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "family",
+    "difficulty": 1,
+    "curriculum_order": 59,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "धूव",
+    "english": "daughter",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "family",
+    "difficulty": 1,
+    "curriculum_order": 60,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "भावा",
+    "english": "brother",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "family",
+    "difficulty": 1,
+    "curriculum_order": 61,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "बयण",
+    "english": "sister",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "family",
+    "difficulty": 1,
+    "curriculum_order": 62,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "नमस्कार",
+    "english": "hello",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "greetings",
+    "difficulty": 1,
+    "curriculum_order": 63,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "धन्यवाद",
+    "english": "thank you",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "greetings",
+    "difficulty": 1,
+    "curriculum_order": 64,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "माफ करा",
+    "english": "sorry",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "greetings",
+    "difficulty": 1,
+    "curriculum_order": 65,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "भेटून खोशी जाली",
+    "english": "nice to meet you",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "greetings",
+    "difficulty": 1,
+    "curriculum_order": 66,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "कितें?",
+    "english": "what?",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "questions",
+    "difficulty": 1,
+    "curriculum_order": 67,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "कुठें?",
+    "english": "where?",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "questions",
+    "difficulty": 1,
+    "curriculum_order": 68,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "केन्ना?",
+    "english": "when?",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "questions",
+    "difficulty": 1,
+    "curriculum_order": 69,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "कसें?",
+    "english": "how?",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "questions",
+    "difficulty": 1,
+    "curriculum_order": 70,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "कोण?",
+    "english": "who?",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "questions",
+    "difficulty": 1,
+    "curriculum_order": 71,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "किती?",
+    "english": "how many?",
+    "source": "vocabulary",
+    "confidence": 1.0,
+    "category": "questions",
+    "difficulty": 1,
+    "curriculum_order": 72,
+    "curriculum_stage": "vocabulary"
+  },
+  {
+    "konkani": "हांव आसा",
+    "english": "I am/is/are",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 73,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "हांव वता",
+    "english": "I go",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 74,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "हांव येता",
+    "english": "I come",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 75,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "हांव खाता",
+    "english": "I eat",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 76,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "हांव पिता",
+    "english": "I drink",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 77,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "हांव बसता",
+    "english": "I sit",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 78,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "हांव उबता",
+    "english": "I stand",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 79,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "हांव शिकता",
+    "english": "I learn",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 80,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "हांव काम करता",
+    "english": "I work",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 81,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तूं आसा",
+    "english": "you am/is/are",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 82,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तूं वता",
+    "english": "you go",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 83,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तूं येता",
+    "english": "you come",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 84,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तूं खाता",
+    "english": "you eat",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 85,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तूं पिता",
+    "english": "you drink",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 86,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तूं बसता",
+    "english": "you sit",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 87,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तूं उबता",
+    "english": "you stand",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 88,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तूं शिकता",
+    "english": "you learn",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 89,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तूं काम करता",
+    "english": "you work",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 90,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तो आसा",
+    "english": "he am/is/are",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 91,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तो वता",
+    "english": "he go",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 92,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तो येता",
+    "english": "he come",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 93,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तो खाता",
+    "english": "he eat",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 94,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तो पिता",
+    "english": "he drink",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 95,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तो बसता",
+    "english": "he sit",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 96,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तो उबता",
+    "english": "he stand",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 97,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तो शिकता",
+    "english": "he learn",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 98,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तो काम करता",
+    "english": "he work",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 99,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ती आसा",
+    "english": "she am/is/are",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 100,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ती वता",
+    "english": "she go",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 101,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ती येता",
+    "english": "she come",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 102,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ती खाता",
+    "english": "she eat",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 103,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ती पिता",
+    "english": "she drink",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 104,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ती बसता",
+    "english": "she sit",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 105,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ती उबता",
+    "english": "she stand",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 106,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ती शिकता",
+    "english": "she learn",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 107,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ती काम करता",
+    "english": "she work",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 108,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आमी आसा",
+    "english": "we am/is/are",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 109,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आमी वता",
+    "english": "we go",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 110,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आमी येता",
+    "english": "we come",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 111,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आमी खाता",
+    "english": "we eat",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 112,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आमी पिता",
+    "english": "we drink",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 113,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आमी बसता",
+    "english": "we sit",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 114,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आमी उबता",
+    "english": "we stand",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 115,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आमी शिकता",
+    "english": "we learn",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 116,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आमी काम करता",
+    "english": "we work",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 117,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तुमी आसा",
+    "english": "you all am/is/are",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 118,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तुमी वता",
+    "english": "you all go",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 119,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तुमी येता",
+    "english": "you all come",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 120,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तुमी खाता",
+    "english": "you all eat",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 121,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तुमी पिता",
+    "english": "you all drink",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 122,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तुमी बसता",
+    "english": "you all sit",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 123,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तुमी उबता",
+    "english": "you all stand",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 124,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तुमी शिकता",
+    "english": "you all learn",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 125,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तुमी काम करता",
+    "english": "you all work",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 126,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ते आसा",
+    "english": "they am/is/are",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 127,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ते वता",
+    "english": "they go",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 128,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ते येता",
+    "english": "they come",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 129,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ते खाता",
+    "english": "they eat",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 130,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ते पिता",
+    "english": "they drink",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 131,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ते बसता",
+    "english": "they sit",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 132,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ते उबता",
+    "english": "they stand",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 133,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ते शिकता",
+    "english": "they learn",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 134,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ते काम करता",
+    "english": "they work",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "pronouns+verbs",
+    "difficulty": 2,
+    "curriculum_order": 135,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "बरो घर",
+    "english": "good house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 136,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "बरो शाळा",
+    "english": "good school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 137,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "बरो दुकान",
+    "english": "good shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 138,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "बरो बाजार",
+    "english": "good market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 139,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "बरो पुस्तक",
+    "english": "good book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 140,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "बरो पाणी",
+    "english": "good water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 141,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "बरो जेवण",
+    "english": "good food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 142,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "बरो मित्र",
+    "english": "good friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 143,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "बरो कुटुंब",
+    "english": "good family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 144,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "वायट घर",
+    "english": "bad house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 145,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "वायट शाळा",
+    "english": "bad school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 146,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "वायट दुकान",
+    "english": "bad shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 147,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "वायट बाजार",
+    "english": "bad market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 148,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "वायट पुस्तक",
+    "english": "bad book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 149,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "वायट पाणी",
+    "english": "bad water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 150,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "वायट जेवण",
+    "english": "bad food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 151,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "वायट मित्र",
+    "english": "bad friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 152,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "वायट कुटुंब",
+    "english": "bad family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 153,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सुंदर घर",
+    "english": "beautiful house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 154,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सुंदर शाळा",
+    "english": "beautiful school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 155,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सुंदर दुकान",
+    "english": "beautiful shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 156,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सुंदर बाजार",
+    "english": "beautiful market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 157,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सुंदर पुस्तक",
+    "english": "beautiful book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 158,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सुंदर पाणी",
+    "english": "beautiful water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 159,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सुंदर जेवण",
+    "english": "beautiful food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 160,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सुंदर मित्र",
+    "english": "beautiful friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 161,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सुंदर कुटुंब",
+    "english": "beautiful family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 162,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "मोठो घर",
+    "english": "big house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 163,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "मोठो शाळा",
+    "english": "big school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 164,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "मोठो दुकान",
+    "english": "big shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 165,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "मोठो बाजार",
+    "english": "big market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 166,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "मोठो पुस्तक",
+    "english": "big book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 167,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "मोठो पाणी",
+    "english": "big water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 168,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "मोठो जेवण",
+    "english": "big food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 169,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "मोठो मित्र",
+    "english": "big friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 170,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "मोठो कुटुंब",
+    "english": "big family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 171,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ल्हान घर",
+    "english": "small house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 172,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ल्हान शाळा",
+    "english": "small school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 173,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ल्हान दुकान",
+    "english": "small shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 174,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ल्हान बाजार",
+    "english": "small market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 175,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ल्हान पुस्तक",
+    "english": "small book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 176,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ल्हान पाणी",
+    "english": "small water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 177,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ल्हान जेवण",
+    "english": "small food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 178,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ल्हान मित्र",
+    "english": "small friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 179,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "ल्हान कुटुंब",
+    "english": "small family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 180,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "नवो घर",
+    "english": "new house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 181,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "नवो शाळा",
+    "english": "new school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 182,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "नवो दुकान",
+    "english": "new shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 183,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "नवो बाजार",
+    "english": "new market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 184,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "नवो पुस्तक",
+    "english": "new book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 185,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "नवो पाणी",
+    "english": "new water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 186,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "नवो जेवण",
+    "english": "new food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 187,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "नवो मित्र",
+    "english": "new friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 188,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "नवो कुटुंब",
+    "english": "new family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 189,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "जुनो घर",
+    "english": "old house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 190,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "जुनो शाळा",
+    "english": "old school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 191,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "जुनो दुकान",
+    "english": "old shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 192,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "जुनो बाजार",
+    "english": "old market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 193,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "जुनो पुस्तक",
+    "english": "old book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 194,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "जुनो पाणी",
+    "english": "old water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 195,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "जुनो जेवण",
+    "english": "old food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 196,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "जुनो मित्र",
+    "english": "old friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 197,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "जुनो कुटुंब",
+    "english": "old family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 198,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "गोड घर",
+    "english": "sweet house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 199,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "गोड शाळा",
+    "english": "sweet school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 200,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "गोड दुकान",
+    "english": "sweet shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 201,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "गोड बाजार",
+    "english": "sweet market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 202,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "गोड पुस्तक",
+    "english": "sweet book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 203,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "गोड पाणी",
+    "english": "sweet water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 204,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "गोड जेवण",
+    "english": "sweet food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 205,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "गोड मित्र",
+    "english": "sweet friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 206,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "गोड कुटुंब",
+    "english": "sweet family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 207,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तिखट घर",
+    "english": "spicy house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 208,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तिखट शाळा",
+    "english": "spicy school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 209,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तिखट दुकान",
+    "english": "spicy shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 210,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तिखट बाजार",
+    "english": "spicy market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 211,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तिखट पुस्तक",
+    "english": "spicy book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 212,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तिखट पाणी",
+    "english": "spicy water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 213,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तिखट जेवण",
+    "english": "spicy food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 214,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तिखट मित्र",
+    "english": "spicy friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 215,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तिखट कुटुंब",
+    "english": "spicy family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "adjectives+nouns",
+    "difficulty": 2,
+    "curriculum_order": 216,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "एक घर",
+    "english": "one house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 217,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "एक शाळा",
+    "english": "one school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 218,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "एक दुकान",
+    "english": "one shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 219,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "एक बाजार",
+    "english": "one market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 220,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "एक पुस्तक",
+    "english": "one book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 221,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "एक पाणी",
+    "english": "one water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 222,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "एक जेवण",
+    "english": "one food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 223,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "एक मित्र",
+    "english": "one friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 224,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "एक कुटुंब",
+    "english": "one family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 225,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दोन घर",
+    "english": "two house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 226,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दोन शाळा",
+    "english": "two school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 227,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दोन दुकान",
+    "english": "two shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 228,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दोन बाजार",
+    "english": "two market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 229,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दोन पुस्तक",
+    "english": "two book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 230,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दोन पाणी",
+    "english": "two water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 231,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दोन जेवण",
+    "english": "two food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 232,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दोन मित्र",
+    "english": "two friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 233,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दोन कुटुंब",
+    "english": "two family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 234,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तीन घर",
+    "english": "three house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 235,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तीन शाळा",
+    "english": "three school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 236,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तीन दुकान",
+    "english": "three shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 237,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तीन बाजार",
+    "english": "three market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 238,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तीन पुस्तक",
+    "english": "three book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 239,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तीन पाणी",
+    "english": "three water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 240,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तीन जेवण",
+    "english": "three food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 241,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तीन मित्र",
+    "english": "three friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 242,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तीन कुटुंब",
+    "english": "three family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 243,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "चार घर",
+    "english": "four house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 244,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "चार शाळा",
+    "english": "four school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 245,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "चार दुकान",
+    "english": "four shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 246,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "चार बाजार",
+    "english": "four market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 247,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "चार पुस्तक",
+    "english": "four book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 248,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "चार पाणी",
+    "english": "four water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 249,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "चार जेवण",
+    "english": "four food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 250,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "चार मित्र",
+    "english": "four friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 251,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "चार कुटुंब",
+    "english": "four family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 252,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "पांच घर",
+    "english": "five house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 253,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "पांच शाळा",
+    "english": "five school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 254,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "पांच दुकान",
+    "english": "five shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 255,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "पांच बाजार",
+    "english": "five market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 256,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "पांच पुस्तक",
+    "english": "five book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 257,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "पांच पाणी",
+    "english": "five water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 258,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "पांच जेवण",
+    "english": "five food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 259,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "पांच मित्र",
+    "english": "five friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 260,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "पांच कुटुंब",
+    "english": "five family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 261,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सहा घर",
+    "english": "six house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 262,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सहा शाळा",
+    "english": "six school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 263,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सहा दुकान",
+    "english": "six shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 264,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सहा बाजार",
+    "english": "six market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 265,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सहा पुस्तक",
+    "english": "six book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 266,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सहा पाणी",
+    "english": "six water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 267,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सहा जेवण",
+    "english": "six food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 268,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सहा मित्र",
+    "english": "six friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 269,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सहा कुटुंब",
+    "english": "six family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 270,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सात घर",
+    "english": "seven house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 271,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सात शाळा",
+    "english": "seven school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 272,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सात दुकान",
+    "english": "seven shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 273,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सात बाजार",
+    "english": "seven market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 274,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सात पुस्तक",
+    "english": "seven book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 275,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सात पाणी",
+    "english": "seven water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 276,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सात जेवण",
+    "english": "seven food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 277,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सात मित्र",
+    "english": "seven friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 278,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सात कुटुंब",
+    "english": "seven family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 279,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आठ घर",
+    "english": "eight house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 280,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आठ शाळा",
+    "english": "eight school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 281,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आठ दुकान",
+    "english": "eight shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 282,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आठ बाजार",
+    "english": "eight market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 283,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आठ पुस्तक",
+    "english": "eight book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 284,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आठ पाणी",
+    "english": "eight water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 285,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आठ जेवण",
+    "english": "eight food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 286,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आठ मित्र",
+    "english": "eight friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 287,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आठ कुटुंब",
+    "english": "eight family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 288,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "नऊ घर",
+    "english": "nine house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 289,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "नऊ शाळा",
+    "english": "nine school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 290,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "नऊ दुकान",
+    "english": "nine shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 291,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "नऊ बाजार",
+    "english": "nine market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 292,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "नऊ पुस्तक",
+    "english": "nine book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 293,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "नऊ पाणी",
+    "english": "nine water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 294,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "नऊ जेवण",
+    "english": "nine food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 295,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "नऊ मित्र",
+    "english": "nine friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 296,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "नऊ कुटुंब",
+    "english": "nine family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 297,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दहा घर",
+    "english": "ten house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 298,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दहा शाळा",
+    "english": "ten school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 299,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दहा दुकान",
+    "english": "ten shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 300,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दहा बाजार",
+    "english": "ten market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 301,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दहा पुस्तक",
+    "english": "ten book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 302,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दहा पाणी",
+    "english": "ten water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 303,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दहा जेवण",
+    "english": "ten food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 304,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दहा मित्र",
+    "english": "ten friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 305,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दहा कुटुंब",
+    "english": "ten family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "numbers+nouns",
+    "difficulty": 2,
+    "curriculum_order": 306,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "धवें घर",
+    "english": "white house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 307,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "धवें शाळा",
+    "english": "white school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 308,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "धवें दुकान",
+    "english": "white shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 309,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "धवें बाजार",
+    "english": "white market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 310,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "धवें पुस्तक",
+    "english": "white book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 311,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "धवें पाणी",
+    "english": "white water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 312,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "धवें जेवण",
+    "english": "white food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 313,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "धवें मित्र",
+    "english": "white friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 314,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "धवें कुटुंब",
+    "english": "white family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 315,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "काळें घर",
+    "english": "black house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 316,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "काळें शाळा",
+    "english": "black school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 317,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "काळें दुकान",
+    "english": "black shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 318,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "काळें बाजार",
+    "english": "black market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 319,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "काळें पुस्तक",
+    "english": "black book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 320,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "काळें पाणी",
+    "english": "black water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 321,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "काळें जेवण",
+    "english": "black food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 322,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "काळें मित्र",
+    "english": "black friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 323,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "काळें कुटुंब",
+    "english": "black family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 324,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "लाल घर",
+    "english": "red house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 325,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "लाल शाळा",
+    "english": "red school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 326,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "लाल दुकान",
+    "english": "red shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 327,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "लाल बाजार",
+    "english": "red market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 328,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "लाल पुस्तक",
+    "english": "red book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 329,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "लाल पाणी",
+    "english": "red water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 330,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "लाल जेवण",
+    "english": "red food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 331,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "लाल मित्र",
+    "english": "red friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 332,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "लाल कुटुंब",
+    "english": "red family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 333,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "निळें घर",
+    "english": "blue house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 334,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "निळें शाळा",
+    "english": "blue school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 335,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "निळें दुकान",
+    "english": "blue shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 336,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "निळें बाजार",
+    "english": "blue market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 337,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "निळें पुस्तक",
+    "english": "blue book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 338,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "निळें पाणी",
+    "english": "blue water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 339,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "निळें जेवण",
+    "english": "blue food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 340,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "निळें मित्र",
+    "english": "blue friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 341,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "निळें कुटुंब",
+    "english": "blue family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 342,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "पिवळें घर",
+    "english": "yellow house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 343,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "पिवळें शाळा",
+    "english": "yellow school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 344,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "पिवळें दुकान",
+    "english": "yellow shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 345,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "पिवळें बाजार",
+    "english": "yellow market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 346,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "पिवळें पुस्तक",
+    "english": "yellow book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 347,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "पिवळें पाणी",
+    "english": "yellow water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 348,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "पिवळें जेवण",
+    "english": "yellow food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 349,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "पिवळें मित्र",
+    "english": "yellow friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 350,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "पिवळें कुटुंब",
+    "english": "yellow family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 351,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "हिरवें घर",
+    "english": "green house",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 352,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "हिरवें शाळा",
+    "english": "green school",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 353,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "हिरवें दुकान",
+    "english": "green shop",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 354,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "हिरवें बाजार",
+    "english": "green market",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 355,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "हिरवें पुस्तक",
+    "english": "green book",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 356,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "हिरवें पाणी",
+    "english": "green water",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 357,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "हिरवें जेवण",
+    "english": "green food",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 358,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "हिरवें मित्र",
+    "english": "green friend",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 359,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "हिरवें कुटुंब",
+    "english": "green family",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "colors+nouns",
+    "difficulty": 2,
+    "curriculum_order": 360,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सकाळीं आसा",
+    "english": "morning am/is/are",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 361,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सकाळीं वता",
+    "english": "morning go",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 362,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सकाळीं येता",
+    "english": "morning come",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 363,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सकाळीं खाता",
+    "english": "morning eat",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 364,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सकाळीं पिता",
+    "english": "morning drink",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 365,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सकाळीं बसता",
+    "english": "morning sit",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 366,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सकाळीं उबता",
+    "english": "morning stand",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 367,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सकाळीं शिकता",
+    "english": "morning learn",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 368,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सकाळीं काम करता",
+    "english": "morning work",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 369,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दुपारीं आसा",
+    "english": "afternoon am/is/are",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 370,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दुपारीं वता",
+    "english": "afternoon go",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 371,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दुपारीं येता",
+    "english": "afternoon come",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 372,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दुपारीं खाता",
+    "english": "afternoon eat",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 373,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दुपारीं पिता",
+    "english": "afternoon drink",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 374,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दुपारीं बसता",
+    "english": "afternoon sit",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 375,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दुपारीं उबता",
+    "english": "afternoon stand",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 376,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दुपारीं शिकता",
+    "english": "afternoon learn",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 377,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "दुपारीं काम करता",
+    "english": "afternoon work",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 378,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सांजेर आसा",
+    "english": "evening am/is/are",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 379,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सांजेर वता",
+    "english": "evening go",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 380,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सांजेर येता",
+    "english": "evening come",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 381,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सांजेर खाता",
+    "english": "evening eat",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 382,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सांजेर पिता",
+    "english": "evening drink",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 383,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सांजेर बसता",
+    "english": "evening sit",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 384,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सांजेर उबता",
+    "english": "evening stand",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 385,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सांजेर शिकता",
+    "english": "evening learn",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 386,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "सांजेर काम करता",
+    "english": "evening work",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 387,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "रातीं आसा",
+    "english": "night am/is/are",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 388,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "रातीं वता",
+    "english": "night go",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 389,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "रातीं येता",
+    "english": "night come",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 390,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "रातीं खाता",
+    "english": "night eat",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 391,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "रातीं पिता",
+    "english": "night drink",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 392,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "रातीं बसता",
+    "english": "night sit",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 393,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "रातीं उबता",
+    "english": "night stand",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 394,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "रातीं शिकता",
+    "english": "night learn",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 395,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "रातीं काम करता",
+    "english": "night work",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 396,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आज आसा",
+    "english": "today am/is/are",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 397,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आज वता",
+    "english": "today go",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 398,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आज येता",
+    "english": "today come",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 399,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आज खाता",
+    "english": "today eat",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 400,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आज पिता",
+    "english": "today drink",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 401,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आज बसता",
+    "english": "today sit",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 402,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आज उबता",
+    "english": "today stand",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 403,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आज शिकता",
+    "english": "today learn",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 404,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "आज काम करता",
+    "english": "today work",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 405,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "काल आसा",
+    "english": "yesterday am/is/are",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 406,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "काल वता",
+    "english": "yesterday go",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 407,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "काल येता",
+    "english": "yesterday come",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 408,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "काल खाता",
+    "english": "yesterday eat",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 409,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "काल पिता",
+    "english": "yesterday drink",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 410,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "काल बसता",
+    "english": "yesterday sit",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 411,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "काल उबता",
+    "english": "yesterday stand",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 412,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "काल शिकता",
+    "english": "yesterday learn",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 413,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "काल काम करता",
+    "english": "yesterday work",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 414,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "उद्या आसा",
+    "english": "tomorrow am/is/are",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 415,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "उद्या वता",
+    "english": "tomorrow go",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 416,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "उद्या येता",
+    "english": "tomorrow come",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 417,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "उद्या खाता",
+    "english": "tomorrow eat",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 418,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "उद्या पिता",
+    "english": "tomorrow drink",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 419,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "उद्या बसता",
+    "english": "tomorrow sit",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 420,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "उद्या उबता",
+    "english": "tomorrow stand",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 421,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "उद्या शिकता",
+    "english": "tomorrow learn",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 422,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "उद्या काम करता",
+    "english": "tomorrow work",
+    "source": "combination",
+    "confidence": 0.9,
+    "category": "time+verbs",
+    "difficulty": 2,
+    "curriculum_order": 423,
+    "curriculum_stage": "phrases"
+  },
+  {
+    "konkani": "तुका कसें आसा?",
+    "english": "How are you?",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 424,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हांव बरो आसां",
+    "english": "I am fine",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 425,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "तुजें नांव कितें?",
+    "english": "What is your name?",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 426,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "माझें नांव राम आसा",
+    "english": "My name is Ram",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 427,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "धन्यवाद",
+    "english": "Thank you",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 428,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "माफ करा",
+    "english": "Excuse me",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 429,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हांव समजना",
+    "english": "I don't understand",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 430,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "तूं कुठल्यान आयला?",
+    "english": "Where did you come from?",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 431,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "आज मका काम आसा",
+    "english": "I have work today",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 432,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "उद्या भेटूं",
+    "english": "See you tomorrow",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 433,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "पावस पडटा",
+    "english": "It is raining",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 434,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "सूर्य उगता",
+    "english": "The sun rises",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 435,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "चंद्र दिसता",
+    "english": "The moon is visible",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 436,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "वारो मारता",
+    "english": "Wind is blowing",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 437,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हें बरें आसा",
+    "english": "This is good",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 438,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हें वायट आसा",
+    "english": "This is bad",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 439,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हें सुंदर आसा",
+    "english": "This is beautiful",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 440,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "चहा जाय",
+    "english": "I want tea",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 441,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "कॉफी जाय",
+    "english": "I want coffee",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 442,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "जेवण बरें आसा",
+    "english": "Food is good",
+    "source": "phrase",
+    "confidence": 1.0,
+    "category": "common_phrases",
+    "difficulty": 3,
+    "curriculum_order": 443,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "पांच",
+    "english": "Five",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 444,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "नऊ",
+    "english": "Nine",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 445,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "कितले?",
+    "english": "How many?",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 446,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "शाळा",
+    "english": "School",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 447,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "मका भीती वाटता",
+    "english": "I am scared",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 448,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "काल",
+    "english": "Tomorrow",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 449,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "दुकान",
+    "english": "Shop",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 450,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "माझो पूत",
+    "english": "My son",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 451,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "रातीं",
+    "english": "Night",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 452,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हॉस्पिटल",
+    "english": "Hospital",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 453,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "सांजेर",
+    "english": "Evening",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 454,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "बाजार",
+    "english": "Market",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 455,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "पिवळें",
+    "english": "Yellow",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 456,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हें माझें पुस्तक आसा",
+    "english": "This is my book",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 457,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "आमी मित्र आसात",
+    "english": "We are friends",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 458,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "सकाळीं",
+    "english": "Morning",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 459,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "एक",
+    "english": "One",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 460,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "उशीर",
+    "english": "Late",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 461,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "नमस्कार",
+    "english": "Hello",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 462,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "भेटून खोशी जाली",
+    "english": "Nice to meet you",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 463,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "उपरांत",
+    "english": "Later",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 464,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "आतां",
+    "english": "Now",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 465,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "माझी आवय",
+    "english": "My mother",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 466,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "रस्तो",
+    "english": "Road",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 467,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हांव आश्चर्य जालां",
+    "english": "I am surprised",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 468,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हांव वाचता",
+    "english": "I am reading",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 469,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "माझी धूव",
+    "english": "My daughter",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 470,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "लाल",
+    "english": "Red",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 471,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "किती?",
+    "english": "How much?",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 472,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "माझो बापूय",
+    "english": "My father",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 473,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हांव खोश आसां",
+    "english": "I am happy",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 474,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "काळें",
+    "english": "Black",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 475,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "देव बरें करूं",
+    "english": "God bless you",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 476,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "सहा",
+    "english": "Six",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 477,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "कोण?",
+    "english": "Who?",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 478,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "सात",
+    "english": "Seven",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 479,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हें तिखट आसा",
+    "english": "This is spicy",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 480,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "माझें नांव स्टेविन",
+    "english": "My name is Stavin",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 481,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हांव आयकता",
+    "english": "I am listening",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 482,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हांव काम करता",
+    "english": "I am working",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 483,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "उदक दी",
+    "english": "Give water",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 484,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हवामान बरें आसा",
+    "english": "Weather is good",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 485,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "निळें",
+    "english": "Blue",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 486,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "दोन",
+    "english": "Two",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 487,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "तूं खंय रावता?",
+    "english": "Where do you live?",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 488,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "तुमी कितें करतात?",
+    "english": "What are you doing?",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 489,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हांव खाता",
+    "english": "I am eating",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 490,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "धवें",
+    "english": "White",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 491,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "कृपा करून",
+    "english": "Please",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 492,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "मका भूक लागली",
+    "english": "I am hungry",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 493,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हांव बरयता",
+    "english": "I am writing",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 494,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "मका राग येता",
+    "english": "I am angry",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 495,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "मका तान लागली",
+    "english": "I am thirsty",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 496,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हिरवें",
+    "english": "Green",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 497,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हांव शिकता",
+    "english": "I am learning",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 498,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "कितें?",
+    "english": "What?",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 499,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हांव उलयता",
+    "english": "I am speaking",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 500,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "तूं कोंकणी उलयतालो?",
+    "english": "Do you speak Konkani?",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 501,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "माझी भयण",
+    "english": "My sister",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 502,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "काळजी नाका",
+    "english": "Don't worry",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 503,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "चर्च",
+    "english": "Church",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 504,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "लवकर",
+    "english": "Soon",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 505,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "चार",
+    "english": "Four",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 506,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "आयज",
+    "english": "Today",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 507,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "मंदीर",
+    "english": "Temple",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 508,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "तें तुजें घर आसा",
+    "english": "That is your house",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 509,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हांव येता",
+    "english": "I am coming",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 510,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "उन्हाळो आसा",
+    "english": "It is hot",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 511,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हांव उबो आसां",
+    "english": "I am standing",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 512,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "कित्याक?",
+    "english": "Why?",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 513,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "केन्ना?",
+    "english": "When?",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 514,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "थंड आसा",
+    "english": "It is cold",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 515,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हांव बसता",
+    "english": "I am sitting",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 516,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "माझें कुटुंब",
+    "english": "My family",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 517,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "दहा",
+    "english": "Ten",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 518,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "फाल्यां",
+    "english": "Yesterday",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 519,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "सगळें बरें",
+    "english": "Everything is fine",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 520,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "मका मदत जाय",
+    "english": "I need help",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 521,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हांव वता",
+    "english": "I am going",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 522,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "तीन",
+    "english": "Three",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 523,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "घर",
+    "english": "Home",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 524,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "गांव",
+    "english": "Village",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 525,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "खंय?",
+    "english": "Where?",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 526,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "आठ",
+    "english": "Eight",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 527,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हें मीठ आसा",
+    "english": "This is sweet",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 528,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "माझो भाव",
+    "english": "My brother",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 529,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हांव पिता",
+    "english": "I am drinking",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 530,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "माफ करा",
+    "english": "Sorry",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 531,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हांव उदास आसां",
+    "english": "I am sad",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 532,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "कशें?",
+    "english": "How?",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 533,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "तूं कितें शिकतालो?",
+    "english": "What are you studying?",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 534,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "कितें चालला?",
+    "english": "What's happening?",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 535,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "शहर",
+    "english": "City",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 536,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "मका कोंकणी आवडटा",
+    "english": "I like Konkani",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 537,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हें किती?",
+    "english": "How much is this?",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 538,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "हांव गोंयांत रावता",
+    "english": "I live in Goa",
+    "source": "existing_synthetic",
+    "confidence": 1.0,
+    "category": "existing",
+    "difficulty": 3,
+    "curriculum_order": 539,
+    "curriculum_stage": "sentences"
+  },
+  {
+    "konkani": "सकाळीं हांव घरा वता",
+    "english": "In the morning i go home",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 540,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "दुपारीं हांव घरा वता",
+    "english": "In the afternoon i go home",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 541,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "सांजेर हांव घरा वता",
+    "english": "In the evening i go home",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 542,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "रातीं हांव घरा वता",
+    "english": "In the night i go home",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 543,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "आज हांव घरा वता",
+    "english": "In the today i go home",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 544,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "काल हांव घरा वता",
+    "english": "In the yesterday i go home",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 545,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "उद्या हांव घरा वता",
+    "english": "In the tomorrow i go home",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 546,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "सकाळीं तो शाळेंत शिकता",
+    "english": "In the morning he studies at school",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 547,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "दुपारीं तो शाळेंत शिकता",
+    "english": "In the afternoon he studies at school",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 548,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "सांजेर तो शाळेंत शिकता",
+    "english": "In the evening he studies at school",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 549,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "रातीं तो शाळेंत शिकता",
+    "english": "In the night he studies at school",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 550,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "आज तो शाळेंत शिकता",
+    "english": "In the today he studies at school",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 551,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "काल तो शाळेंत शिकता",
+    "english": "In the yesterday he studies at school",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 552,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "उद्या तो शाळेंत शिकता",
+    "english": "In the tomorrow he studies at school",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 553,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "सकाळीं आमी बाजारांत वता",
+    "english": "In the morning we go to market",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 554,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "दुपारीं आमी बाजारांत वता",
+    "english": "In the afternoon we go to market",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 555,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "सांजेर आमी बाजारांत वता",
+    "english": "In the evening we go to market",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 556,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "रातीं आमी बाजारांत वता",
+    "english": "In the night we go to market",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 557,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "आज आमी बाजारांत वता",
+    "english": "In the today we go to market",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 558,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "काल आमी बाजारांत वता",
+    "english": "In the yesterday we go to market",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 559,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "उद्या आमी बाजारांत वता",
+    "english": "In the tomorrow we go to market",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 560,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "सकाळीं ती पुस्तक वाचता",
+    "english": "In the morning she reads a book",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 561,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "दुपारीं ती पुस्तक वाचता",
+    "english": "In the afternoon she reads a book",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 562,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "सांजेर ती पुस्तक वाचता",
+    "english": "In the evening she reads a book",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 563,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "रातीं ती पुस्तक वाचता",
+    "english": "In the night she reads a book",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 564,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "आज ती पुस्तक वाचता",
+    "english": "In the today she reads a book",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 565,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "काल ती पुस्तक वाचता",
+    "english": "In the yesterday she reads a book",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 566,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "उद्या ती पुस्तक वाचता",
+    "english": "In the tomorrow she reads a book",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 567,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "सकाळीं तुमी जेवण खाता",
+    "english": "In the morning you eat food",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 568,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "दुपारीं तुमी जेवण खाता",
+    "english": "In the afternoon you eat food",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 569,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "सांजेर तुमी जेवण खाता",
+    "english": "In the evening you eat food",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 570,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "रातीं तुमी जेवण खाता",
+    "english": "In the night you eat food",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 571,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "आज तुमी जेवण खाता",
+    "english": "In the today you eat food",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 572,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "काल तुमी जेवण खाता",
+    "english": "In the yesterday you eat food",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 573,
+    "curriculum_stage": "complex"
+  },
+  {
+    "konkani": "उद्या तुमी जेवण खाता",
+    "english": "In the tomorrow you eat food",
+    "source": "variation",
+    "confidence": 0.8,
+    "category": "time_sentences",
+    "difficulty": 4,
+    "curriculum_order": 574,
+    "curriculum_stage": "complex"
+  }
+]
