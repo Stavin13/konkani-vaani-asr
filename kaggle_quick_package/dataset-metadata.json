@@ -1,0 +1,17 @@
+{
+  "title": "KonkaniVani ASR Quick Test Package",
+  "id": "your-username/konkanivani-asr-quick-test",
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "keywords": [
+    "audio",
+    "speech-recognition",
+    "konkani",
+    "asr",
+    "fine-tuning",
+    "test"
+  ]
+}

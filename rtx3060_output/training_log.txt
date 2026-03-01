@@ -1,0 +1,2 @@
+epoch=1  train=568.7817  val=273.6763  lr=1.20e-06
+epoch=2  train=163.3562  val=70.7787  lr=1.20e-06

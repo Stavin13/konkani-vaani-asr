@@ -1,0 +1,19 @@
+{
+  "checkpoint": "outputs/conformer_ctc_run1/best_conformer_ctc.pt",
+  "samples": 889,
+  "beam_width": 5,
+  "greedy": {
+    "wer": 78.26189354686764,
+    "cer": 31.659839915824286,
+    "word_acc": 21.73810645313236,
+    "char_acc": 68.34016008417572
+  },
+  "beam": {
+    "wer": 85.56288271314179,
+    "cer": 34.793882229153354,
+    "word_acc": 14.43711728685821,
+    "char_acc": 65.20611777084665
+  },
+  "avg_greedy_ms": 0.10274019118527938,
+  "avg_beam_ms": 100.85885781325966
+}

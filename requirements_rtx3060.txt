@@ -1,0 +1,35 @@
+# RTX 3060 Optimized Requirements for Konkani ASR Fine-tuning
+# Install with: pip install -r requirements_rtx3060.txt
+
+# Core PyTorch (install appropriate CUDA version)
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Audio processing
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# Data processing
+numpy>=1.21.0
+pandas>=1.5.0
+
+# Training utilities
+tqdm>=4.64.0
+tensorboard>=2.10.0
+
+# Configuration and utilities
+pyyaml>=6.0
+pathlib2>=2.3.0
+
+# Optional: For better performance
+numba>=0.56.0  # Speeds up librosa
+scipy>=1.9.0   # Audio signal processing
+
+# Development tools (optional)
+jupyter>=1.0.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Memory profiling (optional)
+psutil>=5.9.0
+py3nvml>=0.2.7

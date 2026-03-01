@@ -15,7 +15,7 @@ def check_vocabulary_mismatch():
     print("="*70)
     
     # 1. Load checkpoint and check model vocab size
-    checkpoint_path = '/Volumes/data&proj/konkani/kaggle_downloads/20251210_060024/checkpoints/best_model.pt'
+    checkpoint_path = 'best_model (1).pt'
     
     if not Path(checkpoint_path).exists():
         print("❌ No checkpoint found")

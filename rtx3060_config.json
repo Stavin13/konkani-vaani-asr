@@ -1,0 +1,26 @@
+{
+  "model": {
+    "vocab_size": 81,
+    "input_dim": 80,
+    "d_model": 128,
+    "encoder_layers": 6,
+    "decoder_layers": 4,
+    "num_heads": 4,
+    "dropout": 0.1,
+    "conv_kernel_size": 15
+  },
+  "training": {
+    "batch_size": 2,
+    "gradient_accumulation_steps": 8,
+    "learning_rate": 3e-05,
+    "epochs": 10,
+    "max_audio_length": 128000,
+    "use_mixed_precision": true
+  },
+  "rtx3060_optimizations": {
+    "memory_fraction": 0.95,
+    "gradient_checkpointing": true,
+    "num_workers": 1,
+    "pin_memory": false
+  }
+}

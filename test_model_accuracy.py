@@ -14,53 +14,67 @@ import jiwer
 # Add project root to path
 sys.path.insert(0, str(Path(__file__).parent))
 
-from models.konkanivani_asr import KonkaniVaniASR
+from models.conformer_ctc import ConformerCTC
 from data.audio_processing.audio_processor import AudioProcessor
 from data.audio_processing.text_tokenizer import KonkaniTokenizer
 
 
 def load_model(checkpoint_path, vocab_path, device):
-    """Load model from checkpoint"""
+    """Load model from checkpoint with automatic configuration detection"""
     print(f"\n📂 Loading checkpoint: {checkpoint_path}")
     
     # Load checkpoint
     checkpoint = torch.load(checkpoint_path, map_location=device)
+    sd = checkpoint['model_state_dict']
     
     # Print checkpoint info
     print(f"   Epoch: {checkpoint.get('epoch', 'N/A')}")
-    print(f"   Val Loss: {checkpoint.get('val_loss', 'N/A'):.4f}")
+    val_loss = checkpoint.get('val_loss', 'N/A')
+    val_loss_str = f"{val_loss:.4f}" if isinstance(val_loss, (int, float)) else str(val_loss)
+    print(f"   Val Loss: {val_loss_str}")
     
     # Load tokenizer
     tokenizer = KonkaniTokenizer(vocab_path)
     print(f"   Vocab size: {tokenizer.vocab_size}")
     
     # Get vocab size from actual model weights (most reliable)
-    vocab_size = checkpoint['model_state_dict']['ctc_head.weight'].shape[0]
+    vocab_size = sd['ctc_head.weight'].shape[0]
     print(f"   Model vocab size (from weights): {vocab_size}")
     
-    # Get model config from checkpoint or use defaults
-    if 'config' in checkpoint and 'model' in checkpoint['config']:
-        model_config = checkpoint['config']['model']
+    # Infer architecture from state_dict
+    # encoder.layers.0.ff1.1.weight shape is [4*d_model, d_model]
+    if 'encoder.layers.0.ff1.1.weight' in sd:
+        d_model = sd['encoder.layers.0.ff1.1.weight'].shape[1]
+    elif 'encoder.input_proj.weight' in sd:
+        d_model = sd['encoder.input_proj.weight'].shape[0]
     else:
-        # Default config
-        model_config = {
-            'input_dim': 80,
-            'd_model': 128,
-            'encoder_layers': 8,
-            'decoder_layers': 6,
-            'num_heads': 4,
-            'conv_kernel_size': 31,
-            'dropout': 0.3
-        }
+        d_model = 256 # Fallback
+        
+    # Count layers
+    layer_indices = set()
+    for key in sd.keys():
+        if key.startswith('encoder.layers.'):
+            parts = key.split('.')
+            if len(parts) > 2 and parts[2].isdigit():
+                layer_indices.add(int(parts[2]))
+    num_layers = max(layer_indices) + 1 if layer_indices else 12
     
-    # Create model with checkpoint's vocab size
-    model = KonkaniVaniASR(
+    print(f"   Inferred d_model: {d_model}")
+    print(f"   Inferred num_layers: {num_layers}")
+    
+    # Create model
+    model = ConformerCTC(
         vocab_size=vocab_size,
-        **{k: v for k, v in model_config.items() if k != 'vocab_size'}
+        d_model=d_model,
+        num_layers=num_layers,
+        input_dim=80,
+        num_heads=4,
+        conv_kernel_size=31,
+        dropout=0.1
     )
     
     # Load weights
-    model.load_state_dict(checkpoint['model_state_dict'])
+    model.load_state_dict(sd)
     model = model.to(device)
     model.eval()
     

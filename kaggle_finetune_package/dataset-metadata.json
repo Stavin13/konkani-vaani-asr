@@ -1,0 +1,16 @@
+{
+  "title": "KonkaniVani ASR Fine-tuning Package",
+  "id": "your-username/konkanivani-asr-finetune",
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "keywords": [
+    "audio",
+    "speech-recognition",
+    "konkani",
+    "asr",
+    "fine-tuning"
+  ]
+}

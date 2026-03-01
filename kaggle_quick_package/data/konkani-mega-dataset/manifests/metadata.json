@@ -1,0 +1,36 @@
+{
+  "total_samples": 80133,
+  "total_duration_hours": 95.11790449652777,
+  "splits": {
+    "train": 64106,
+    "val": 8013,
+    "test": 8014
+  },
+  "source_stats": {
+    "raw-enhanced": {
+      "samples": 70967,
+      "duration_hours": 83.5921997800926,
+      "avg_duration": 4.240448648080564
+    },
+    "asr-v0": {
+      "samples": 166,
+      "duration_hours": 0.7386539930555557,
+      "avg_duration": 16.01900225903615
+    },
+    "10k-dataset": {
+      "samples": 9000,
+      "duration_hours": 10.78705072337963,
+      "avg_duration": 4.314820289351852
+    },
+    "full-dataset": {
+      "samples": 0,
+      "duration_hours": 0.0,
+      "avg_duration": 0
+    }
+  },
+  "source_distribution": {
+    "raw-enhanced": 56737,
+    "10k-dataset": 7233,
+    "asr-v0": 136
+  }
+}
