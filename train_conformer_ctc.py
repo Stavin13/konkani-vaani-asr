@@ -25,16 +25,17 @@ from models.conformer_ctc import create_model
 # CONFIGURATION (Optimized for 6GB VRAM)
 # ─────────────────────────────────────────────────────────────
 CONFIG = {
-    'batch_size': 4,              
-    'grad_accum': 16,             # Effective batch size = 64 (Better stability)
+    'batch_size': 8,              # Doubled from 4 thanks to AMP!
+    'grad_accum': 8,              # Effective batch size = 64
     'd_model': 256,               
     'num_layers': 12,             
-    'lr': 3e-4,                   # Higher LR (3e-4) for the 21.6-hour dataset
-    'epochs': 100,                # Target: 100 total epochs
+    'lr': 3e-4,                   
+    'epochs': 200,                # Train for another 100 epochs on the 110 hr data
     'max_audio_len': 16000 * 10,  
-    'num_workers': 0,             # Set to 0 for Windows stability
+    'num_workers': 0,             
     'output_dir': 'outputs/conformer_ctc_run1',
-    'checkpoint': 'outputs/conformer_ctc_run1/best_conformer_ctc.pt'
+    'checkpoint': 'outputs/conformer_ctc_run1/best_conformer_ctc.pt',
+    'use_amp': True               # Mixed Precision ON
 }
 
 # GPU STABILITY & OPTIMIZATION (Windows/CUDA Optimized)
@@ -186,8 +187,8 @@ def train():
     model = model.to(device)
 
     mel_transform = torchaudio.transforms.MelSpectrogram(sample_rate=16000, n_mels=80, n_fft=400, hop_length=160).to(device)
-    train_ds = KonkaniCTCDataset('data/konkani-combined/train.json', vocab_path, CONFIG['max_audio_len'])
-    val_ds = KonkaniCTCDataset('data/konkani-combined/val.json', vocab_path, CONFIG['max_audio_len'])
+    train_ds = KonkaniCTCDataset('data/konkani-ultimate/train.json', vocab_path, CONFIG['max_audio_len'])
+    val_ds = KonkaniCTCDataset('data/konkani-ultimate/val.json', vocab_path, CONFIG['max_audio_len'])
     train_loader = DataLoader(train_ds, batch_size=CONFIG['batch_size'], shuffle=True, collate_fn=collate_fn, num_workers=CONFIG['num_workers'])
     val_loader = DataLoader(val_ds, batch_size=CONFIG['batch_size'], shuffle=False, collate_fn=collate_fn, num_workers=CONFIG['num_workers'])
     
@@ -209,6 +210,7 @@ def train():
             writer = csv.writer(f); writer.writerow(['epoch', 'train_loss', 'val_loss', 'wer', 'cer', 'lr', 'timestamp'])
 
     best_val_loss = float('inf')
+    scaler = torch.amp.GradScaler('cuda' if device.type == 'cuda' else 'cpu', enabled=CONFIG.get('use_amp', True))
     
     for epoch in range(start_epoch, CONFIG['epochs']):
         model.train()
@@ -221,14 +223,20 @@ def train():
                 mel = torch.log(mel_transform(audio).transpose(1, 2) + 1e-9)
                 mel_lens = torch.clamp((a_lens // 160) + 1, max=mel.size(1))
             
-            logits, _ = model(mel, mel_lens)
-            log_probs = F.log_softmax(logits, dim=-1).transpose(0, 1)
-            loss = criterion(log_probs, target, mel_lens, t_lens) / CONFIG['grad_accum']
-            loss.backward()
+            with torch.amp.autocast('cuda' if device.type == 'cuda' else 'cpu', enabled=CONFIG.get('use_amp', True)):
+                logits, _ = model(mel, mel_lens)
+                log_probs = F.log_softmax(logits, dim=-1).transpose(0, 1)
+                loss = criterion(log_probs, target, mel_lens, t_lens) / CONFIG['grad_accum']
+            
+            scaler.scale(loss).backward()
             
             if (i + 1) % CONFIG['grad_accum'] == 0:
+                scaler.unscale_(optimizer)
                 torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
-                optimizer.step(); scheduler.step(); optimizer.zero_grad()
+                scaler.step(optimizer)
+                scaler.update()
+                scheduler.step()
+                optimizer.zero_grad()
                 
             total_train_loss += loss.item() * CONFIG['grad_accum']
             pbar.set_postfix(loss=f"{loss.item() * CONFIG['grad_accum']:.4f}")

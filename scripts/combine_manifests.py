@@ -30,14 +30,14 @@ def merge(files, out_path):
     print(f"  Total Duration: {total_dur/3600:.2f}h")
 
 if __name__ == "__main__":
-    # Train
+    # 110-Hour Train
     merge([
-        'data/konkani-10k/train_manifest.json',
-        'data/konkani-20gb/train.json'
-    ], 'data/konkani-combined/train.json')
+        'data/konkani-raw-corpus/manifests/train.json',
+        'data/konkani-asr-v0/splits/manifests/train.json'
+    ], 'data/konkani-ultimate/train.json')
     
-    # Val
+    # 110-Hour Val
     merge([
-        'data/konkani-10k/val_manifest.json',
-        'data/konkani-20gb/val.json'
-    ], 'data/konkani-combined/val.json')
+        'data/konkani-raw-corpus/manifests/val.json',
+        'data/konkani-asr-v0/splits/manifests/val.json'
+    ], 'data/konkani-ultimate/val.json')
