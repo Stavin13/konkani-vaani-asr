@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
-Deep Conformer-CTC Training Script (Optimized for RTX 3060)
-This version includes the 4 mandatory ASR metrics dashboard.
+Deep Conformer-CTC Training Script (Optimized for RTX 3060 - Windows/CUDA)
+Updated for Phase 2: Refinement (Total 200 Epochs)
 """
-
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -19,7 +18,7 @@ from tqdm import tqdm
 import numpy as np
 from jiwer import wer, cer
 
-# Import our new model
+# Import the character-based Conformer model
 from models.conformer_ctc import create_model
 
 # ─────────────────────────────────────────────────────────────
@@ -27,28 +26,28 @@ from models.conformer_ctc import create_model
 # ─────────────────────────────────────────────────────────────
 CONFIG = {
     'batch_size': 4,              
-    'grad_accum': 8,              # Effective batch size = 32
+    'grad_accum': 16,             # Effective batch size = 64 (Better stability)
     'd_model': 256,               
     'num_layers': 12,             
-    'lr': 3e-4,                   
-    'epochs': 50,
+    'lr': 3e-4,                   # Higher LR (3e-4) for the 21.6-hour dataset
+    'epochs': 100,                # Target: 100 total epochs
     'max_audio_len': 16000 * 10,  
-    'num_workers': 0,             
+    'num_workers': 0,             # Set to 0 for Windows stability
     'output_dir': 'outputs/conformer_ctc_run1',
     'checkpoint': 'outputs/conformer_ctc_run1/best_conformer_ctc.pt'
 }
 
-# GPU STABILITY FLAGS
-os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
-torch.backends.cudnn.enabled = False 
-torch.backends.cudnn.benchmark = False
-torch.backends.cudnn.deterministic = True
+# GPU STABILITY & OPTIMIZATION (Windows/CUDA Optimized)
+torch.backends.cudnn.enabled = True 
+torch.backends.cudnn.benchmark = True
+torch.backends.cudnn.deterministic = False
 if torch.cuda.is_available():
     torch.cuda.empty_cache()
-    torch.cuda.set_per_process_memory_fraction(0.9)
+    # Allowing some room for the OS on a 6GB card
+    torch.cuda.set_per_process_memory_fraction(0.85)
 
 # ─────────────────────────────────────────────────────────────
-# PATH REMAPPING
+# PATH REMAPPING (Handles Windows/Unix cross-OS paths)
 # ─────────────────────────────────────────────────────────────
 BASE_DIR = Path(__file__).resolve().parent
 
@@ -124,7 +123,6 @@ def collate_fn(batch):
 # DECODING & METRICS
 # ─────────────────────────────────────────────────────────────
 def greedy_decode(logits, mel_lens, idx2char):
-    # logits: (B, T, V)
     preds = torch.argmax(logits, dim=-1) # (B, T)
     decoded_texts = []
     for i in range(preds.size(0)):
@@ -141,7 +139,6 @@ def greedy_decode(logits, mel_lens, idx2char):
 def save_plots(stats_path, output_dir):
     epochs, t_loss, v_loss, wers, cers, lrs = [], [], [], [], [], []
     if not os.path.exists(stats_path): return
-    
     with open(stats_path, 'r') as f:
         reader = csv.DictReader(f)
         for row in reader:
@@ -151,48 +148,16 @@ def save_plots(stats_path, output_dir):
             wers.append(float(row.get('wer', 1.0)))
             cers.append(float(row.get('cer', 1.0)))
             lrs.append(float(row['lr']))
-            
     if not epochs: return
-
-    # Using the style requested by user
-    plt.style.use('bmh') # Clean look
+    plt.style.use('bmh')
     fig, axs = plt.subplots(2, 2, figsize=(15, 12))
-    fig.suptitle('ASR Training Metrics - 50 Epochs', fontsize=16, fontweight='bold')
-
-    # 1. Loss
-    axs[0,0].plot(epochs, t_loss, label='Train Loss', marker='s', markersize=4)
-    if any(v > 0 for v in v_loss):
-        axs[0,0].plot(epochs, v_loss, label='Val Loss', color='red', marker='s', markersize=4)
-    axs[0,0].set_title('Training and Validation Loss')
-    axs[0,0].set_xlabel('Epoch')
-    axs[0,0].set_ylabel('Loss')
-    axs[0,0].legend()
-    axs[0,0].grid(True, alpha=0.3)
-
-    # 2. WER
-    axs[0,1].plot(epochs, wers, color='green', marker='s', markersize=4)
-    axs[0,1].set_title('Word Error Rate')
-    axs[0,1].set_xlabel('Epoch')
-    axs[0,1].set_ylabel('WER (%)')
-    axs[0,1].set_ylim(0, 1.1)
-    axs[0,1].grid(True, alpha=0.3)
-
-    # 3. CER
-    axs[1,0].plot(epochs, cers, color='orange', marker='s', markersize=4)
-    axs[1,0].set_title('Character Error Rate')
-    axs[1,0].set_xlabel('Epoch')
-    axs[1,0].set_ylabel('CER (%)')
-    axs[1,0].set_ylim(0, 1.1)
-    axs[1,0].grid(True, alpha=0.3)
-
-    # 4. Learning Rate
-    axs[1,1].plot(epochs, lrs, color='purple', marker='s', markersize=4)
-    axs[1,1].set_title('Learning Rate Schedule')
-    axs[1,1].set_xlabel('Epoch')
-    axs[1,1].set_ylabel('Learning Rate')
-    axs[1,1].set_yscale('log') # Common to view LR in log scale
-    axs[1,1].grid(True, alpha=0.3)
-
+    fig.suptitle(f'Konkani ASR Metrics (Target: {CONFIG["epochs"]} Epochs)', fontsize=16, fontweight='bold')
+    axs[0,0].plot(epochs, t_loss, label='Train Loss')
+    if any(v > 0 for v in v_loss): axs[0,0].plot(epochs, v_loss, label='Val Loss', color='red')
+    axs[0,0].set_title('Loss Curve'); axs[0,0].legend()
+    axs[0,1].plot(epochs, wers, color='green'); axs[0,1].set_title('WER (%)')
+    axs[1,0].plot(epochs, cers, color='orange'); axs[1,0].set_title('CER (%)')
+    axs[1,1].plot(epochs, lrs, color='purple'); axs[1,1].set_title('LR Schedule'); axs[1,1].set_yscale('log')
     plt.tight_layout(rect=[0, 0.03, 1, 0.95])
     plt.savefig(os.path.join(output_dir, 'training_progress.png'), dpi=150)
     plt.close()
@@ -207,8 +172,7 @@ def train():
     vocab_path = 'data/konkani-10k/vocab.json'
     with open(vocab_path, 'r', encoding='utf-8') as f:
         vocab = json.load(f)
-    char2idx = vocab['char2idx']
-    idx2char = {idx: char for char, idx in char2idx.items()}
+    char2idx = vocab['char2idx']; idx2char = {idx: char for char, idx in char2idx.items()}
     vocab_size = len(char2idx)
     
     model = create_model(vocab_size=vocab_size, d_model=CONFIG['d_model'], num_layers=CONFIG['num_layers'])
@@ -217,40 +181,36 @@ def train():
         print(f"Resuming from checkpoint: {CONFIG['checkpoint']}")
         checkpoint = torch.load(CONFIG['checkpoint'], map_location='cpu')
         model.load_state_dict(checkpoint['model_state_dict'])
-        start_epoch = checkpoint['epoch'] + 1
+        start_epoch = checkpoint.get('epoch', 0) + 1
         print(f"Resuming from Epoch {start_epoch}")
     model = model.to(device)
 
     mel_transform = torchaudio.transforms.MelSpectrogram(sample_rate=16000, n_mels=80, n_fft=400, hop_length=160).to(device)
-    
-    train_ds = KonkaniCTCDataset('data/konkani-10k/train_manifest.json', vocab_path, CONFIG['max_audio_len'])
-    val_ds = KonkaniCTCDataset('data/konkani-10k/val_manifest.json', vocab_path, CONFIG['max_audio_len'])
-    
+    train_ds = KonkaniCTCDataset('data/konkani-combined/train.json', vocab_path, CONFIG['max_audio_len'])
+    val_ds = KonkaniCTCDataset('data/konkani-combined/val.json', vocab_path, CONFIG['max_audio_len'])
     train_loader = DataLoader(train_ds, batch_size=CONFIG['batch_size'], shuffle=True, collate_fn=collate_fn, num_workers=CONFIG['num_workers'])
     val_loader = DataLoader(val_ds, batch_size=CONFIG['batch_size'], shuffle=False, collate_fn=collate_fn, num_workers=CONFIG['num_workers'])
     
     optimizer = optim.AdamW(model.parameters(), lr=CONFIG['lr'], weight_decay=1e-2)
     if start_epoch > 0 and 'optimizer_state_dict' in checkpoint:
-        try:
-            optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
-            for group in optimizer.param_groups: group.setdefault('initial_lr', CONFIG['lr'])
-        except: pass
-
+        optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
     criterion = nn.CTCLoss(blank=0, zero_infinity=True)
     steps_per_epoch = len(train_loader) // CONFIG['grad_accum']
-    scheduler = optim.lr_scheduler.OneCycleLR(optimizer, max_lr=CONFIG['lr'], steps_per_epoch=steps_per_epoch, epochs=CONFIG['epochs'], last_epoch=(start_epoch * steps_per_epoch) - 1 if start_epoch > 0 else -1)
+    # OneCycleLR logic for the full 200 epochs
+    scheduler = optim.lr_scheduler.OneCycleLR(optimizer, max_lr=CONFIG['lr'], 
+                                              steps_per_epoch=steps_per_epoch, 
+                                              epochs=CONFIG['epochs'], 
+                                              last_epoch=(start_epoch * steps_per_epoch) - 1 if start_epoch > 0 else -1)
     
     os.makedirs(CONFIG['output_dir'], exist_ok=True)
     stats_path = os.path.join(CONFIG['output_dir'], 'training_stats.csv')
     if not os.path.exists(stats_path):
         with open(stats_path, 'w', newline='') as f:
-            writer = csv.writer(f)
-            writer.writerow(['epoch', 'train_loss', 'val_loss', 'wer', 'cer', 'lr', 'timestamp'])
+            writer = csv.writer(f); writer.writerow(['epoch', 'train_loss', 'val_loss', 'wer', 'cer', 'lr', 'timestamp'])
 
     best_val_loss = float('inf')
     
     for epoch in range(start_epoch, CONFIG['epochs']):
-        # --- TRAINING PHASE ---
         model.train()
         total_train_loss = 0
         optimizer.zero_grad()
@@ -258,10 +218,8 @@ def train():
         for i, batch in enumerate(pbar):
             audio, a_lens, target, t_lens = batch['audio'].to(device), batch['audio_lengths'].to(device), batch['text'].to(device), batch['text_lengths'].to(device)
             with torch.no_grad():
-                mel = mel_transform(audio).transpose(1, 2)
-                mel = torch.log(mel + 1e-9)
-                mel_lens = (a_lens // 160) + 1
-                mel_lens = torch.clamp(mel_lens, max=mel.size(1))
+                mel = torch.log(mel_transform(audio).transpose(1, 2) + 1e-9)
+                mel_lens = torch.clamp((a_lens // 160) + 1, max=mel.size(1))
             
             logits, _ = model(mel, mel_lens)
             log_probs = F.log_softmax(logits, dim=-1).transpose(0, 1)
@@ -271,61 +229,53 @@ def train():
             if (i + 1) % CONFIG['grad_accum'] == 0:
                 torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
                 optimizer.step(); scheduler.step(); optimizer.zero_grad()
-                if device.type == 'cuda': torch.cuda.synchronize()
                 
             total_train_loss += loss.item() * CONFIG['grad_accum']
             pbar.set_postfix(loss=f"{loss.item() * CONFIG['grad_accum']:.4f}")
             
         avg_train_loss = total_train_loss / len(train_loader)
 
-        # --- VALIDATION PHASE ---
-        model.eval()
-        total_val_loss = 0
-        all_preds, all_targets = [], []
+        # Validation
+        model.eval(); total_val_loss = 0; all_preds, all_targets = [], []
         with torch.no_grad():
             vbar = tqdm(val_loader, desc=f"Epoch {epoch+1}/{CONFIG['epochs']} [Val]")
             for batch in vbar:
                 audio, a_lens, target, t_lens, t_strs = batch['audio'].to(device), batch['audio_lengths'].to(device), batch['text'].to(device), batch['text_lengths'].to(device), batch['text_strs']
-                mel = mel_transform(audio).transpose(1, 2)
-                mel = torch.log(mel + 1e-9)
-                mel_lens = (a_lens // 160) + 1
-                mel_lens = torch.clamp(mel_lens, max=mel.size(1))
-                
+                mel = torch.log(mel_transform(audio).transpose(1, 2) + 1e-9)
+                mel_lens = torch.clamp((a_lens // 160) + 1, max=mel.size(1))
                 logits, _ = model(mel, mel_lens)
-                log_probs = F.log_softmax(logits, dim=-1).transpose(0, 1)
-                val_loss = criterion(log_probs, target, mel_lens, t_lens)
+                val_loss = criterion(F.log_softmax(logits, dim=-1).transpose(0, 1), target, mel_lens, t_lens)
                 total_val_loss += val_loss.item()
-                
-                # Metrics
                 preds = greedy_decode(logits, mel_lens, idx2char)
-                all_preds.extend(preds)
-                all_targets.extend(t_strs)
+                all_preds.extend(preds); all_targets.extend(t_strs)
         
         avg_val_loss = total_val_loss / len(val_loader)
-        avg_wer = wer(all_targets, all_preds)
-        avg_cer = cer(all_targets, all_preds)
+        avg_wer = wer(all_targets, all_preds); avg_cer = cer(all_targets, all_preds)
         lr_now = scheduler.get_last_lr()[0]
         
         print(f"Epoch {epoch+1}: Train Loss: {avg_train_loss:.4f} | Val Loss: {avg_val_loss:.4f} | WER: {avg_wer:.2%} | CER: {avg_cer:.2%}")
-        
-        # Log to CSV
         with open(stats_path, 'a', newline='') as f:
-            writer = csv.writer(f)
-            writer.writerow([epoch+1, avg_train_loss, avg_val_loss, avg_wer, avg_cer, lr_now, datetime.now().strftime('%H:%M:%S')])
-            
-        save_plots(stats_path, CONFIG['output_dir'])
+            writer = csv.writer(f); writer.writerow([epoch+1, avg_train_loss, avg_val_loss, avg_wer, avg_cer, lr_now, datetime.now().strftime('%H:%M:%S')])
+        save_plots(stats_path, str(CONFIG['output_dir']))
         
-        # Save best model based on Val Loss
-        if avg_val_loss < best_val_loss:
-            best_val_loss = avg_val_loss
-            ckpt_path = os.path.join(CONFIG['output_dir'], 'best_conformer_ctc.pt')
-            torch.save({
-                'epoch': epoch, 'model_state_dict': model.state_dict(),
-                'optimizer_state_dict': optimizer.state_dict(),
-                'loss': avg_val_loss, 'wer': avg_wer, 'cer': avg_cer,
-                'vocab_size': vocab_size, 'config': CONFIG
-            }, ckpt_path)
-            print(f"--> Saved New Best Model (Val Loss: {avg_val_loss:.4f})")
+        if avg_wer < best_val_loss: # Reusing best_val_loss variable name but tracking WER instead
+            best_val_loss = avg_wer
+            torch.save({'epoch': epoch, 'model_state_dict': model.state_dict(), 'optimizer_state_dict': optimizer.state_dict(), 'loss': avg_val_loss, 'wer': avg_wer, 'cer': avg_cer, 'vocab_size': vocab_size, 'config': CONFIG}, 
+                       os.path.join(str(CONFIG['output_dir']), 'best_conformer_ctc.pt'))
+            print(f"--> Saved New Best Model (WER: {avg_wer:.2%})")
+            
+        # Always save the latest epoch so progress isn't lost if stopped!
+        torch.save({'epoch': epoch, 'model_state_dict': model.state_dict(), 'optimizer_state_dict': optimizer.state_dict(), 'loss': avg_val_loss, 'wer': avg_wer, 'cer': avg_cer, 'vocab_size': vocab_size, 'config': CONFIG}, 
+                   os.path.join(str(CONFIG['output_dir']), 'latest_conformer_ctc.pt'))
+
+        # Save a separate model backup and graph snapshot every 10 epochs
+        if (epoch + 1) % 10 == 0:
+            import shutil
+            torch.save({'epoch': epoch, 'model_state_dict': model.state_dict(), 'optimizer_state_dict': optimizer.state_dict(), 'loss': avg_val_loss, 'wer': avg_wer, 'cer': avg_cer, 'vocab_size': vocab_size, 'config': CONFIG}, 
+                       os.path.join(str(CONFIG['output_dir']), f'conformer_ctc_epoch_{epoch+1}.pt'))
+            shutil.copy(os.path.join(str(CONFIG['output_dir']), 'training_progress.png'), 
+                        os.path.join(str(CONFIG['output_dir']), f'training_progress_epoch_{epoch+1}.png'))
+            print(f"--> Saved Milestone Backup for Epoch {epoch+1}")
 
 if __name__ == "__main__":
     gc.collect()
