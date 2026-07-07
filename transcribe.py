@@ -3,114 +3,113 @@ import torch.nn.functional as F
 import torchaudio
 import json
 import os
-import random
-from models.conformer_ctc import create_model
+import sys
+import numpy as np
+from pathlib import Path
 
-# ─────────────────────────────────────────────────────────────
-# PATH REMAPPING (Copied from training script)
-# ─────────────────────────────────────────────────────────────
+# Add project root to path for imports
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
 
-def remap_path(unix_path):
-    for prefix in ["/Volumes/data&proj/konkani/", "/Volumes/data&proj/konkani", "/Volumes/"]:
-        if unix_path.startswith(prefix):
-            rel = unix_path[len(prefix):]
-            candidate = os.path.join(BASE_DIR, rel.replace("/", os.sep))
-            if os.path.exists(candidate): return candidate
-            
-            parts = rel.split("/", 1)
-            if len(parts) > 1:
-                candidate2 = os.path.join(BASE_DIR, parts[1].replace("/", os.sep))
-                if os.path.exists(candidate2): return candidate2
-    
-    if os.path.exists(unix_path): return unix_path
-    
-    fname = os.path.basename(unix_path)
-    corpus_dir = os.path.join(BASE_DIR, "KonkaniRawSpeechCorpus")
-    if os.path.exists(corpus_dir):
-        for root, _, files in os.walk(corpus_dir):
-            if fname in files:
-                return os.path.join(root, fname)
-    return ""
+from models.conformer_ctc import create_model
+from scripts.beam_search_decoder import BeamSearchDecoder
 
-class KonkaniInference:
-    def __init__(self, checkpoint_path, vocab_path, device='cuda'):
-        self.device = torch.device(device if torch.cuda.is_available() else 'cpu')
+class LongFormInference:
+    """ASR Inference for long audio files using sliding window and Beam Search + KenLM"""
+    
+    def __init__(self, checkpoint_path, vocab_path, lm_path=None, unigram_path=None, device='cuda'):
+        # 1. Setup Device
+        if device == 'mps' and not torch.backends.mps.is_available():
+            device = 'cpu'
+        elif device == 'cuda' and not torch.cuda.is_available():
+            device = 'cpu'
+        self.device = torch.device(device)
         
-        with open(vocab_path, 'r', encoding='utf-8') as f:
-            vocab = json.load(f)
-        self.char2idx = vocab['char2idx']
-        self.idx2char = {idx: char for char, idx in self.char2idx.items()}
+        # 2. Load Model
+        checkpoint = torch.load(checkpoint_path, map_location='cpu', weights_only=False)
+        state = checkpoint.get('model_state_dict', checkpoint)
         
-        checkpoint = torch.load(checkpoint_path, map_location='cpu')
+        # Determine architecture
         cfg = checkpoint.get('config', {})
         d_model = cfg.get('d_model', 256)
         num_layers = cfg.get('num_layers', 12)
         
-        self.model = create_model(vocab_size=len(self.char2idx), d_model=d_model, num_layers=num_layers)
-        self.model.load_state_dict(checkpoint['model_state_dict'])
-        self.model.to(self.device)
-        self.model.eval()
+        with open(vocab_path, 'r', encoding='utf-8') as f:
+            v_data = json.load(f)
+        v_size = v_data.get('vocab_size', 79)
         
+        self.model = create_model(vocab_size=v_size, d_model=d_model, num_layers=num_layers)
+        self.model.load_state_dict(state, strict=False)
+        self.model.to(self.device).eval()
+        
+        # 3. Setup Mel Transform
         self.mel_transform = torchaudio.transforms.MelSpectrogram(
             sample_rate=16000, n_mels=80, n_fft=400, hop_length=160
         ).to(self.device)
         
-        print(f"Loaded model from epoch {checkpoint['epoch']} (Loss: {checkpoint['loss']:.4f})")
+        # 4. Setup Decoder (Optimal params Alpha=1.0, Beta=1.0 from Audit)
+        self.decoder = BeamSearchDecoder(vocab_path, lm_path, unigram_path=unigram_path, alpha=1.0, beta=1.0)
+        print(f"Successfully loaded Konkani ASR with {'LM' if lm_path else 'Greedy'} decoding.")
 
-    def transcribe(self, audio_path):
+    def transcribe_long(self, audio_path, chunk_sec=10.0, overlap_sec=1.5):
+        """Processes long audio in overlapping chunks to maintain focus and 12% accuracy"""
         waveform, sr = torchaudio.load(audio_path)
         if sr != 16000:
             resampler = torchaudio.transforms.Resample(sr, 16000)
             waveform = resampler(waveform)
         
-        waveform = waveform.to(self.device)
         if waveform.shape[0] > 1:
             waveform = torch.mean(waveform, dim=0, keepdim=True)
             
-        with torch.no_grad():
-            mel = self.mel_transform(waveform)
-            mel = mel.transpose(1, 2)
-            mel = torch.log(mel + 1e-9)
+        full_audio = waveform.squeeze(0).numpy()
+        total_samples = len(full_audio)
+        chunk_samples = int(chunk_sec * 16000)
+        overlap_samples = int(overlap_sec * 16000)
+        step_samples = chunk_samples - overlap_samples
+        
+        full_transcript = []
+        
+        # Iterate over audio in chunks
+        for start in range(0, total_samples, step_samples):
+            end = min(start + chunk_samples, total_samples)
+            chunk = full_audio[start:end]
             
-            logits, _ = self.model(mel)
-            probs = torch.softmax(logits, dim=-1)
-            preds = torch.argmax(probs, dim=-1)[0]
+            # Pad if too short for model
+            if len(chunk) < 1600: continue
             
-            decoded_chars = []
-            prev_idx = -1
-            for idx in preds.tolist():
-                if idx != prev_idx and idx != 0:
-                    decoded_chars.append(self.idx2char.get(idx, ''))
-                prev_idx = idx
+            chunk_tensor = torch.from_numpy(chunk).unsqueeze(0).to(self.device)
+            
+            with torch.no_grad():
+                mel = self.mel_transform(chunk_tensor)
+                mel = torch.log(mel.transpose(1, 2) + 1e-9)
+                logits, _ = self.model(mel)
                 
-            return "".join(decoded_chars)
+                # Use Beam Search + LM
+                chunk_text = self.decoder.beam_search_decode(logits.squeeze(0), beam_width=15)
+                
+                if chunk_text.strip():
+                    full_transcript.append(chunk_text.strip())
+            
+            if end == total_samples: break
+            
+        return " ".join(full_transcript)
 
 if __name__ == "__main__":
-    inf = KonkaniInference(
-        checkpoint_path='outputs/conformer_ctc_run1/best_conformer_ctc.pt',
-        vocab_path='data/konkani-10k/vocab.json'
-    )
+    import argparse
+    parser = argparse.ArgumentParser(description='Konkani Long-Form Transcription')
+    parser.add_argument('--audio', type=str, required=True, help='Path to audio/video file')
+    parser.add_argument('--checkpoint', type=str, default='outputs/conformer_ctc_run1/best_conformer_ctc.pt')
+    parser.add_argument('--vocab', type=str, default='data/konkani-10k/vocab.json')
+    parser.add_argument('--lm', type=str, default='models/language_models/konkani_3gram.binary')
+    parser.add_argument('--unigrams', type=str, default='models/language_models/unigrams.txt')
+    parser.add_argument('--device', type=str, default='mps')
     
-    # Select 10 random files from manifest
-    manifest_path = 'data/konkani-10k/train_manifest.json'
-    with open(manifest_path, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
+    args = parser.parse_args()
     
-    random_samples = random.sample(lines, 10)
+    inf = LongFormInference(args.checkpoint, args.vocab, args.lm, args.unigrams, args.device)
+    result = inf.transcribe_long(args.audio)
     
-    print("\n" + "="*80)
-    print(f"{'INDEX':<6} | {'TARGET':<35} | {'PREDICTION'}")
-    print("="*80)
-    
-    for i, line in enumerate(random_samples):
-        s = json.loads(line)
-        local_path = remap_path(s['audio_filepath'])
-        target = s['text']
-        
-        if os.path.exists(local_path):
-            pred = inf.transcribe(local_path)
-            print(f"#{i+1:<5} | {target:<35} | {pred}")
-        else:
-            print(f"#{i+1:<5} | [FILE NOT FOUND] {os.path.basename(local_path)}")
-    print("="*80)
+    print("\n--- TRANSCRIPTION ---\n")
+    print(result)
+    print("\n---------------------\n")

@@ -69,12 +69,17 @@ def evaluate_strategy(model, test_data, decoder, beam_width, device, strategy_na
     cer_score = cer(references, predictions) * 100
     wer_score = wer(references, predictions) * 100
     
+    # Average WER (per-sample)
+    individual_wers = [wer([r], [p]) for r, p in zip(references, predictions)]
+    avg_wer_score = (sum(individual_wers) / len(individual_wers)) * 100
+    
     return {
         'predictions': predictions,
         'references': references,
         'time': elapsed_time,
         'cer': cer_score,
-        'wer': wer_score
+        'wer': wer_score,
+        'avg_wer': avg_wer_score
     }
 
 
@@ -98,14 +103,14 @@ def print_comparison_table(results_dict, num_samples):
         time_val = results['time']
         speed = baseline_time / time_val if time_val > 0 else 0
         
-        print(f"{strategy:<30} {cer_val:>6.2f}%   {wer_val:>6.2f}%   "
+        print(f"{strategy:<30} {cer_val:>6.2f}%   {wer_val:>6.2f}% ({results['avg_wer']:>6.2f}% avg)   "
               f"{time_val:>8.2f}     {speed:>6.2f}x")
     
     # Improvement table
     print("\n" + "="*80)
     print("RELATIVE IMPROVEMENTS (vs Greedy Baseline)")
     print("="*80)
-    print(f"\n{'Strategy':<30} {'CER Improvement':<20} {'WER Improvement':<20}")
+    print(f"\n{'Strategy':<30} {'CER Improvement':<20} {'WER Improvement':<20} {'Avg WER Improv.'}")
     print("-"*80)
     
     baseline_wer = results_dict['greedy']['wer']
@@ -120,7 +125,11 @@ def print_comparison_table(results_dict, num_samples):
         cer_improvement = ((baseline_cer - cer_val) / baseline_cer) * 100
         wer_improvement = ((baseline_wer - wer_val) / baseline_wer) * 100
         
-        print(f"{strategy:<30} {cer_improvement:>6.2f}% better      {wer_improvement:>6.2f}% better")
+        avg_wer_val = results['avg_wer']
+        baseline_avg_wer = results_dict['greedy']['avg_wer']
+        avg_wer_improvement = ((baseline_avg_wer - avg_wer_val) / baseline_avg_wer) * 100
+        
+        print(f"{strategy:<30} {cer_improvement:>6.2f}% better      {wer_improvement:>6.2f}% better      {avg_wer_improvement:>6.2f}% better")
     
     print("\n" + "="*80)
 
@@ -153,6 +162,7 @@ def save_results(results_dict, output_path):
         output['summary'][strategy] = {
             'cer': results['cer'],
             'wer': results['wer'],
+            'avg_wer': results['avg_wer'],
             'time': results['time']
         }
         
@@ -169,22 +179,43 @@ def save_results(results_dict, output_path):
     
     print(f"\nDetailed results saved to: {output_path}")
 
+def save_results_csv(results_dict, output_path):
+    """Save side-by-side results to CSV for Excel comparison"""
+    import csv
+    strategies = list(results_dict.keys())
+    references = results_dict['greedy']['references']
+    
+    with open(output_path, 'w', encoding='utf-8-sig', newline='') as f:
+        writer = csv.writer(f)
+        header = ['Reference'] + strategies
+        writer.writerow(header)
+        
+        for i in range(len(references)):
+            row = [references[i]]
+            for s in strategies:
+                row.append(results_dict[s]['predictions'][i])
+            writer.writerow(row)
+    
+    print(f"Excel-ready CSV results saved to: {output_path}")
+
 
 def main():
     parser = argparse.ArgumentParser(description='Test beam search improvements')
     parser.add_argument('--model', type=str, default='outputs/conformer_ctc_run1/best_conformer_ctc.pt',
                         help='Path to model checkpoint')
-    parser.add_argument('--vocab', type=str, default='data/konkani-mega-dataset/vocab.json',
+    parser.add_argument('--vocab', type=str, default='data/konkani-10k/vocab.json',
                         help='Path to vocab.json')
-    parser.add_argument('--test-manifest', type=str, default='data/konkani-mega-dataset/manifests/test.json',
+    parser.add_argument('--test-manifest', type=str, default='data/konkani-combined/manifests/test.json',
                         help='Path to test manifest')
     parser.add_argument('--lm-3gram', type=str, default='models/language_models/konkani_3gram.binary',
                         help='Path to 3-gram LM')
     parser.add_argument('--lm-4gram', type=str, default='models/language_models/konkani_4gram.binary',
                         help='Path to 4-gram LM')
-    parser.add_argument('--beam-width', type=int, default=15, help='Beam width')
+    parser.add_argument('--unigrams', type=str, default='models/language_models/unigrams.txt',
+                        help='Path to unigrams.txt')
+    parser.add_argument('--beam_width', type=int, default=15, help='Beam width')
     parser.add_argument('--alpha', type=float, default=1.0, help='LM weight')
-    parser.add_argument('--beta', type=float, default=0.0, help='Word bonus')
+    parser.add_argument('--beta', type=float, default=1.0, help='Word bonus')
     parser.add_argument('--max-samples', type=int, default=None, help='Max test samples (for quick testing)')
     parser.add_argument('--device', type=str, default='cpu', help='Device (cpu/cuda)')
     parser.add_argument('--output', type=str, default='outputs/beam_search_comparison.json',
@@ -238,7 +269,7 @@ def main():
         print("\n" + "="*80)
         print(f"STRATEGY 3: Beam Search + 3-gram LM")
         print("="*80)
-        decoder_3gram = BeamSearchDecoder(args.vocab, args.lm_3gram, args.alpha, args.beta)
+        decoder_3gram = BeamSearchDecoder(args.vocab, args.lm_3gram, args.unigrams, args.alpha, args.beta)
         results['beam_3gram'] = evaluate_strategy(
             model, test_data, decoder_3gram, args.beam_width, args.device, "Beam + 3-gram"
         )
@@ -250,7 +281,7 @@ def main():
         print("\n" + "="*80)
         print(f"STRATEGY 4: Beam Search + 4-gram LM")
         print("="*80)
-        decoder_4gram = BeamSearchDecoder(args.vocab, args.lm_4gram, args.alpha, args.beta)
+        decoder_4gram = BeamSearchDecoder(args.vocab, args.lm_4gram, args.unigrams, args.alpha, args.beta)
         results['beam_4gram'] = evaluate_strategy(
             model, test_data, decoder_4gram, args.beam_width, args.device, "Beam + 4-gram"
         )
@@ -265,12 +296,13 @@ def main():
     Path(args.output).parent.mkdir(parents=True, exist_ok=True)
     save_results(results, args.output)
     
+    # Also save CSV
+    csv_path = args.output.replace('.json', '.csv')
+    save_results_csv(results, csv_path)
+    
     print("\n" + "="*80)
     print("EVALUATION COMPLETE")
     print("="*80)
-    print(f"\nBest strategy: Beam + 4-gram LM")
-    print(f"  CER: {results.get('beam_4gram', {}).get('cer', 'N/A'):.2f}%")
-    print(f"  Improvement: {((results['greedy']['cer'] - results.get('beam_4gram', {}).get('cer', results['greedy']['cer'])) / results['greedy']['cer'] * 100):.1f}% better than greedy")
 
 
 if __name__ == "__main__":

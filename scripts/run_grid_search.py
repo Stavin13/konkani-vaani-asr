@@ -7,50 +7,64 @@ import librosa
 from tqdm import tqdm
 import multiprocessing
 
-BASE = Path("/Volumes/data&proj/konkani")
+# Use relative paths or handle the & in the absolute path correctly
+BASE = Path(__file__).parent.parent
 sys.path.insert(0, str(BASE))
 
 from models.conformer_ctc import ConformerCTC
 
-CHECKPOINT   = BASE / "outputs/conformer_ctc_run1/best_conformer_ctc.pt"
-LM_DIR       = BASE / "models/language_models"
-VOCAB_FILE   = BASE / "data/konkani-10k/vocab.json"
-TEST_MANIFEST= BASE / "data/konkani-10k/test_manifest.json"
+# Paths
+CHECKPOINT    = BASE / "outputs/conformer_ctc_run1/best_conformer_ctc.pt"
+LM_DIR        = BASE / "models/language_models"
+VOCAB_FILE    = BASE / "data/konkani-10k/vocab.json"
+TEST_MANIFEST = BASE / "data/konkani-combined/val.json"
 
 class CharTokenizer:
     def __init__(self):
         v = json.load(open(VOCAB_FILE, encoding='utf-8'))
         self.idx2char = {int(k): c for k, c in v['idx2char'].items()}
         self.vocab_size = v['vocab_size']
-        self.blank_id = 0
+        # CRITICAL FIX: Training script used blank=0. 
+        # vocab.json has <pad> at 0 and <blank> at 1, but the loss function 
+        # and greedy_decode in training script both used index 0 as the blank.
+        self.blank_id = 0 
 
     def labels(self):
         L = []
         for i in range(self.vocab_size):
-            p = self.idx2char.get(i, f"<id{i}>")
-            if p in ["<pad>", "<blank>", "<sos>", "<eos>", "<unk>"]:
-                if i == self.blank_id: L.append("")
-                else: L.append(f"<{p[1:-1]}_{i}>")
-            elif p == "": L.append(f"<empty_{i}>")
-            else: L.append(p)
+            p = self.idx2char.get(i, "")
+            if i == self.blank_id:
+                L.append("") # pyctcdecode blank
+            elif len(p) == 1:
+                L.append(p)
+            else:
+                # Use unique non-printing chars for special tokens to satisfy pyctcdecode
+                # Using high unicode range to avoid collisions
+                L.append(chr(0xE000 + i)) 
         return L
 
 def process_audio(path, device):
     try:
-        import librosa
         import torchaudio.transforms as T
+        import librosa
+        if not os.path.exists(path):
+            return None, None
+            
         audio, s = librosa.load(path, sr=16000)
-        wav = torch.FloatTensor(audio)
-        if wav.dim() == 1: wav = wav.unsqueeze(0)
-        if wav.size(0) > 1: wav = wav.mean(0, keepdim=True)
-        wav = wav.squeeze(0).to(device)
-        mel_fn = T.MelSpectrogram(16000, n_mels=80, n_fft=400, hop_length=160, win_length=400).to(device)
-        mel = mel_fn(wav.unsqueeze(0))
+        if len(audio) < 400: # Min length for n_fft
+            return None, None
+            
+        wav = torch.FloatTensor(audio).unsqueeze(0)
+        # We do mel on CPU for reliability during this audit
+        mel_fn = T.MelSpectrogram(16000, n_mels=80, n_fft=400, hop_length=160, win_length=400)
+        mel = mel_fn(wav)
         mel = mel.transpose(1, 2)
         mel = torch.log(mel + 1e-9)
-        mel_len = torch.tensor([(wav.size(0) // 160) + 1], device=device)
-        return mel.float(), mel_len
-    except: return None, None
+        mel_len = torch.tensor([mel.size(1)], device=device)
+        return mel.to(device).float(), mel_len
+    except Exception as e:
+        # print(f"\nError processing {path}: {e}")
+        return None, None
 
 def edit_dist(a, b):
     m, n = len(a), len(b)
@@ -73,8 +87,12 @@ def wer_cer(ref, hyp):
 
 def main():
     device = 'mps' if torch.backends.mps.is_available() else 'cpu'
-    print(f"Grid Search on {device}")
+    print(f"LM Grid Search Audit on {device}")
     
+    if not CHECKPOINT.exists():
+        print(f"Error: Checkpoint {CHECKPOINT} not found!")
+        return
+
     ckpt = torch.load(CHECKPOINT, map_location='cpu', weights_only=False)
     state = ckpt.get('model_state_dict', ckpt)
     v_size = state['ctc_head.weight'].shape[0]
@@ -84,12 +102,15 @@ def main():
     
     tok = CharTokenizer()
     labels = tok.labels()
+    
+    if not TEST_MANIFEST.exists():
+        print(f"Error: Manifest {TEST_MANIFEST} not found!")
+        return
+        
     samples = [json.loads(l) for l in open(TEST_MANIFEST, encoding='utf-8')]
+    samples = samples[:250] # Subset for faster grid search
     
-    # Optional subset for speed (we'll use 400 for grid search, which is very representative)
-    samples = samples[:400]
-    
-    print(f"Saving logits for {len(samples)} samples...")
+    print(f"Extracting logits for {len(samples)} samples...")
     logits_cache = []
     
     for s in tqdm(samples):
@@ -101,39 +122,75 @@ def main():
         lp = F.log_softmax(logits.float(), dim=-1).squeeze(0).cpu().numpy()
         logits_cache.append({"ref": ref, "lp": lp})
         
-    print("Done computing logits! Starting LM Grid Search...")
+    print(f"\nComputing Baseline (Greedy)...")
+    total_wer_g, total_cer_g = 0.0, 0.0
+    for item in logits_cache:
+        # Simple greedy decode
+        tokens = item["lp"].argmax(axis=-1)
+        decoded = []
+        prev = None
+        for t in tokens:
+            if t != tok.blank_id and t != prev:
+                char = labels[t]
+                if char != "":
+                    decoded.append(char)
+            prev = t
+        hyp = "".join(decoded)
+        w, c = wer_cer(item["ref"], hyp)
+        total_wer_g += w
+        total_cer_g += c
+        
+    base_w = (total_wer_g / len(logits_cache)) * 100
+    base_c = (total_cer_g / len(logits_cache)) * 100
+    print(f"GREEDY BASELINE -> WER: {base_w:.2f}%, CER: {base_c:.2f}%")
+
     import pyctcdecode
-    lm_path = str(LM_DIR / "konkani_3gram.binary")
-    
-    alphas = [0.1, 0.3, 0.5, 0.7, 0.9]
-    betas =  [0.0, 0.5, 1.0, 1.5, 2.0]
-    
-    results = []
     import warnings
     warnings.filterwarnings("ignore")
 
-    for a in alphas:
-        for b in betas:
-            decoder = pyctcdecode.build_ctcdecoder(labels, kenlm_model_path=lm_path, alpha=a, beta=b)
-            
-            total_wer, total_cer = 0.0, 0.0
-            for item in logits_cache:
-                hyp = decoder.decode(item["lp"], beam_width=20)
-                w, c = wer_cer(item["ref"], hyp)
-                total_wer += w
-                total_cer += c
-            
-            avg_w = (total_wer / len(logits_cache)) * 100
-            avg_c = (total_cer / len(logits_cache)) * 100
-            results.append((a, b, avg_w, avg_c))
-            print(f"Alpha: {a:.1f}, Beta: {b:.1f} -> WER: {avg_w:.2f}%, CER: {avg_c:.2f}%")
+    lm_files = {
+        "3-gram": str(LM_DIR / "konkani_3gram.binary"),
+        "4-gram": str(LM_DIR / "konkani_4gram.binary")
+    }
 
-    best = min(results, key=lambda x: x[2])
-    print("\n================== BEST HYPERPARAMETERS ==================")
-    print(f"BEST_ALPHA={best[0]:.1f}")
-    print(f"BEST_BETA={best[1]:.1f}")
-    print(f"BEST_WER={best[2]:.2f}")
-    print(f"BEST_CER={best[3]:.2f}")
+    alphas = [0.1, 0.5, 1.0, 1.5]
+    betas =  [0.0, 1.0, 2.0]
+    
+    for lm_name, lm_path in lm_files.items():
+        if not Path(lm_path).exists():
+            # Try .arpa if .binary doesn't exist
+            lm_path = lm_path.replace(".binary", ".arpa")
+            if not Path(lm_path).exists():
+                print(f"\nSkipping {lm_name} (not found at {lm_path})")
+                continue
+        
+        print(f"\n--- Grid Search for {lm_name} LM ({lm_path}) ---")
+        best_lm_wer = float('inf')
+        best_params = (0, 0)
+
+        for a in alphas:
+            for b in betas:
+                decoder = pyctcdecode.build_ctcdecoder(labels, kenlm_model_path=lm_path, alpha=a, beta=b)
+                
+                total_wer, total_cer = 0.0, 0.0
+                for item in logits_cache:
+                    hyp = decoder.decode(item["lp"], beam_width=20)
+                    w, c = wer_cer(item["ref"], hyp)
+                    total_wer += w
+                    total_cer += c
+                
+                avg_w = (total_wer / len(logits_cache)) * 100
+                avg_c = (total_cer / len(logits_cache)) * 100
+                
+                improvement = base_w - avg_w
+                mark = "✅ IMPROVED" if improvement > 0 else "❌ WORSE"
+                print(f"Alpha: {a:<4} Beta: {b:<4} -> WER: {avg_w:>6.2f}% ({improvement:>+6.2f}) {mark}")
+                
+                if avg_w < best_lm_wer:
+                    best_lm_wer = avg_w
+                    best_params = (a, b)
+
+        print(f"Best for {lm_name}: Alpha={best_params[0]}, Beta={best_params[1]}, WER={best_lm_wer:.2f}%")
 
 if __name__ == "__main__":
     main()

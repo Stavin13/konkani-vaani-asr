@@ -1,0 +1,31 @@
+{
+    "datasetType": "asr-corpus",
+    "languages": {
+        "sourceLanguage": "kok"
+    },
+    "collectionSource": [
+        "newsonair.nic.in",
+        "external"
+    ],
+    "domain": [
+        "news"
+    ],
+    "license": "cc-by-4.0",
+    "submitter": {
+        "name": "ekstep",
+        "oauthId": {
+            "oauthId": "ekstepspeechrecognition@thoughtworks.com",
+            "provider": "ekstep"
+        },
+        "team": [
+            {
+                "name": "ekstep",
+                "oauthId": {
+                    "oauthId": "ekstepspeechrecognition@thoughtworks.com",
+                    "provider": "ekstep"
+                }
+            }
+        ]
+    },
+    "format": "wav"
+}

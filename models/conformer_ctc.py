@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import math
+from torch.utils.checkpoint import checkpoint
 
 class PositionalEncoding(nn.Module):
     """Standard positional encoding for Transformers"""
@@ -101,6 +102,7 @@ class ConformerEncoder(nn.Module):
             ConformerBlock(d_model, num_heads, conv_kernel_size, dropout)
             for _ in range(num_layers)
         ])
+        self.gradient_checkpointing = False
     
     def forward(self, x, lengths=None):
         # Create padding mask (True for padding indices)
@@ -113,7 +115,10 @@ class ConformerEncoder(nn.Module):
         x = self.pos_encoding(x)
         
         for layer in self.layers:
-            x = layer(x, mask)
+            if self.gradient_checkpointing and self.training:
+                x = checkpoint(layer, x, mask, use_reentrant=False)
+            else:
+                x = layer(x, mask)
             
         return x, mask
 

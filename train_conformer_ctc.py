@@ -10,7 +10,7 @@ import torch.nn.functional as F
 from torch.utils.data import DataLoader, Dataset
 import torchaudio
 import librosa
-import json, argparse, os, sys, gc, logging, csv
+import json, argparse, os, sys, gc, logging, csv, random
 import matplotlib.pyplot as plt
 from pathlib import Path
 from datetime import datetime
@@ -25,20 +25,23 @@ from models.conformer_ctc import create_model
 # CONFIGURATION (Optimized for 6GB VRAM)
 # ─────────────────────────────────────────────────────────────
 CONFIG = {
-    'batch_size': 8,              # Doubled from 4 thanks to AMP!
-    'grad_accum': 8,              # Effective batch size = 64
+    'batch_size': 4,              # Reduced from 8 to fit 6GB VRAM
+    'grad_accum': 16,             # Effective batch size = 64 (same as before)
     'd_model': 256,               
     'num_layers': 12,             
     'lr': 3e-4,                   
     'epochs': 200,                # Train for another 100 epochs on the 110 hr data
-    'max_audio_len': 16000 * 10,  
+    'max_audio_len': 16000 * 8,   # Reduced from 10s to 8s to cut attention memory
     'num_workers': 0,             
     'output_dir': 'outputs/conformer_ctc_run1',
     'checkpoint': 'outputs/conformer_ctc_run1/best_conformer_ctc.pt',
-    'use_amp': True               # Mixed Precision ON
+    'use_amp': True,              # Mixed Precision ON
+    'grad_checkpoint': True       # Gradient checkpointing to save VRAM
 }
 
 # GPU STABILITY & OPTIMIZATION (Windows/CUDA Optimized)
+import os
+os.environ.setdefault('PYTORCH_CUDA_ALLOC_CONF', 'expandable_segments:True')
 torch.backends.cudnn.enabled = True 
 torch.backends.cudnn.benchmark = True
 torch.backends.cudnn.deterministic = False
@@ -123,6 +126,20 @@ def collate_fn(batch):
 # ─────────────────────────────────────────────────────────────
 # DECODING & METRICS
 # ─────────────────────────────────────────────────────────────
+def spec_augment(mel, num_freq_masks=2, freq_mask_width=15, num_time_masks=2, time_mask_width=50):
+    """SpecAugment: random frequency and time masking on mel spectrogram (B, T, F)"""
+    mel = mel.clone()
+    _, T, F = mel.shape
+    for _ in range(num_freq_masks):
+        f = random.randint(0, freq_mask_width)
+        f0 = random.randint(0, max(1, F - f))
+        mel[:, :, f0:f0 + f] = 0
+    for _ in range(num_time_masks):
+        t = random.randint(0, min(time_mask_width, T - 1))
+        t0 = random.randint(0, max(1, T - t))
+        mel[:, t0:t0 + t, :] = 0
+    return mel
+
 def greedy_decode(logits, mel_lens, idx2char):
     preds = torch.argmax(logits, dim=-1) # (B, T)
     decoded_texts = []
@@ -185,6 +202,8 @@ def train():
         start_epoch = checkpoint.get('epoch', 0) + 1
         print(f"Resuming from Epoch {start_epoch}")
     model = model.to(device)
+    if CONFIG.get('grad_checkpoint'):
+        model.encoder.gradient_checkpointing = False  # Disabled: causes RNG misaligned address on Windows CUDA
 
     mel_transform = torchaudio.transforms.MelSpectrogram(sample_rate=16000, n_mels=80, n_fft=400, hop_length=160).to(device)
     train_ds = KonkaniCTCDataset('data/konkani-ultimate/train.json', vocab_path, CONFIG['max_audio_len'])
@@ -203,8 +222,9 @@ def train():
                                               epochs=CONFIG['epochs'], 
                                               last_epoch=(start_epoch * steps_per_epoch) - 1 if start_epoch > 0 else -1)
     
-    os.makedirs(CONFIG['output_dir'], exist_ok=True)
-    stats_path = os.path.join(CONFIG['output_dir'], 'training_stats.csv')
+    output_dir = Path(CONFIG['output_dir']).resolve()
+    output_dir.mkdir(parents=True, exist_ok=True)
+    stats_path = str(output_dir / 'training_stats.csv')
     if not os.path.exists(stats_path):
         with open(stats_path, 'w', newline='') as f:
             writer = csv.writer(f); writer.writerow(['epoch', 'train_loss', 'val_loss', 'wer', 'cer', 'lr', 'timestamp'])
@@ -222,6 +242,7 @@ def train():
             with torch.no_grad():
                 mel = torch.log(mel_transform(audio).transpose(1, 2) + 1e-9)
                 mel_lens = torch.clamp((a_lens // 160) + 1, max=mel.size(1))
+            mel = spec_augment(mel)  # SpecAugment: applied after mel, before model
             
             with torch.amp.autocast('cuda' if device.type == 'cuda' else 'cpu', enabled=CONFIG.get('use_amp', True)):
                 logits, _ = model(mel, mel_lens)
@@ -264,25 +285,25 @@ def train():
         print(f"Epoch {epoch+1}: Train Loss: {avg_train_loss:.4f} | Val Loss: {avg_val_loss:.4f} | WER: {avg_wer:.2%} | CER: {avg_cer:.2%}")
         with open(stats_path, 'a', newline='') as f:
             writer = csv.writer(f); writer.writerow([epoch+1, avg_train_loss, avg_val_loss, avg_wer, avg_cer, lr_now, datetime.now().strftime('%H:%M:%S')])
-        save_plots(stats_path, str(CONFIG['output_dir']))
+        save_plots(stats_path, str(output_dir))
         
         if avg_wer < best_val_loss: # Reusing best_val_loss variable name but tracking WER instead
             best_val_loss = avg_wer
             torch.save({'epoch': epoch, 'model_state_dict': model.state_dict(), 'optimizer_state_dict': optimizer.state_dict(), 'loss': avg_val_loss, 'wer': avg_wer, 'cer': avg_cer, 'vocab_size': vocab_size, 'config': CONFIG}, 
-                       os.path.join(str(CONFIG['output_dir']), 'best_conformer_ctc.pt'))
+                       str(output_dir / 'best_conformer_ctc.pt'))
             print(f"--> Saved New Best Model (WER: {avg_wer:.2%})")
             
         # Always save the latest epoch so progress isn't lost if stopped!
         torch.save({'epoch': epoch, 'model_state_dict': model.state_dict(), 'optimizer_state_dict': optimizer.state_dict(), 'loss': avg_val_loss, 'wer': avg_wer, 'cer': avg_cer, 'vocab_size': vocab_size, 'config': CONFIG}, 
-                   os.path.join(str(CONFIG['output_dir']), 'latest_conformer_ctc.pt'))
+                   str(output_dir / 'latest_conformer_ctc.pt'))
 
         # Save a separate model backup and graph snapshot every 10 epochs
         if (epoch + 1) % 10 == 0:
             import shutil
             torch.save({'epoch': epoch, 'model_state_dict': model.state_dict(), 'optimizer_state_dict': optimizer.state_dict(), 'loss': avg_val_loss, 'wer': avg_wer, 'cer': avg_cer, 'vocab_size': vocab_size, 'config': CONFIG}, 
-                       os.path.join(str(CONFIG['output_dir']), f'conformer_ctc_epoch_{epoch+1}.pt'))
-            shutil.copy(os.path.join(str(CONFIG['output_dir']), 'training_progress.png'), 
-                        os.path.join(str(CONFIG['output_dir']), f'training_progress_epoch_{epoch+1}.png'))
+                       str(output_dir / f'conformer_ctc_epoch_{epoch+1}.pt'))
+            shutil.copy(str(output_dir / 'training_progress.png'), 
+                        str(output_dir / f'training_progress_epoch_{epoch+1}.png'))
             print(f"--> Saved Milestone Backup for Epoch {epoch+1}")
 
 if __name__ == "__main__":
