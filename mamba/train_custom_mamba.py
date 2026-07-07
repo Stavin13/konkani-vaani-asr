@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # =============================================================================
-# Option A: Custom Tiny Mamba (~25M params) — ASR Post-Correction
+# Option A: Custom Tiny Mamba (~2.5M params) — ASR Post-Correction
 # =============================================================================
 # - Pure PyTorch: zero CUDA kernel dependency (no mamba-ssm needed)
 # - Uses your existing 81-char Konkani vocab from data/vocab.json
@@ -9,7 +9,7 @@
 # - Runs in ~2-3 hours on Kaggle T4, ~1-2 hours on Lightning A10G
 # =============================================================================
 
-import os, json, math, random, warnings
+import os, json, math, random, warnings, argparse
 from collections import defaultdict
 import numpy as np
 import pandas as pd
@@ -58,7 +58,7 @@ CONFIG = {
     "vocab_path":     "../data/vocab.json",   # your 81-char Devanagari vocab
 
     # --- model ---
-    # d_model=256, expand=2, n_layers=6 → ~3.5M params, fits T4 easily
+    # d_model=256, expand=2, n_layers=6 → ~2.5M params, fits T4 easily
     # d_model=384, expand=4, n_layers=8 → ~15M params (if you want bigger)
     "d_model":        256,    # embedding / SSM width
     "n_layers":       6,      # number of Mamba blocks
@@ -74,7 +74,7 @@ CONFIG = {
     "batch_size":     8,
     "grad_accum":     4,      # effective batch = 32
     "epochs":         20,
-    "lr":             3e-4,
+    "lr":             1e-4,
     "weight_decay":   0.01,
     "warmup_steps":   200,
     "grad_clip":      1.0,
@@ -271,10 +271,15 @@ class MambaBlock(nn.Module):
         nn.init.uniform_(self.dt_proj.bias, -4.0, -1.0)
 
     # ------------------------------------------------------------------
-    def forward(self, x: torch.Tensor) -> torch.Tensor:
+    def forward(self, x: torch.Tensor, attention_mask: torch.Tensor | None = None) -> torch.Tensor:
         # x: (B, L, D)
         residual = x
         x = self.norm(x)
+
+        # Apply attention mask to zero out padding contributions in SSM
+        if attention_mask is not None:
+            # attention_mask: (B, L) with 1 for real tokens, 0 for padding
+            x = x * attention_mask.unsqueeze(-1)
 
         # Split into SSM stream and gate
         xz          = self.in_proj(x)                      # (B, L, 2*d_inner)
@@ -285,6 +290,10 @@ class MambaBlock(nn.Module):
         x_conv = F.pad(x_ssm.transpose(1, 2), (self.conv1d.kernel_size[0] - 1, 0))
         x_conv = self.conv1d(x_conv).transpose(1, 2)       # (B, L, d_inner)
         x_conv = F.silu(x_conv)
+
+        # Apply mask again after conv (padding positions should not contribute)
+        if attention_mask is not None:
+            x_conv = x_conv * attention_mask.unsqueeze(-1)
 
         # SSM core
         y = self._ssm(x_conv)
@@ -305,24 +314,23 @@ class MambaBlock(nn.Module):
         delta = F.softplus(self.dt_proj(dt))                # (B, L, d_inner)
 
         # Discretise via Zero-Order Hold
-        # dA: (B, L, d_inner, d_state)
+        # dA: (B, L, d_inner, d_state) — A is negative so dA stays in (0,1)
         dA = torch.exp(delta.unsqueeze(-1) * A)
-        # dB_u: input-modulated B times input — (B, L, d_inner, d_state)
         dB_u = delta.unsqueeze(-1) * B_mat.unsqueeze(2) * x.unsqueeze(-1)
 
-        # Fully vectorized parallel scan — no Python loop, runs entirely on GPU
-        # h_t = dA_t * h_{t-1} + dB_u_t  (recurrence)
-        # Solved as: h_t = dA_cumprod_t * cumsum(dB_u / dA_cumprod, dim=t)
-        log_dA        = torch.log(dA.clamp(min=1e-8))
-        log_dA_cumsum = torch.cumsum(log_dA, dim=1)         # (B, L, d_inner, d_state)
-        dA_cumprod    = torch.exp(log_dA_cumsum)
-
-        # Weighted prefix sum in stable form
-        dB_u_scaled = dB_u / dA_cumprod.clamp(min=1e-8)
-        h = dA_cumprod * torch.cumsum(dB_u_scaled, dim=1)   # (B, L, d_inner, d_state)
-
-        # Contract over d_state with C_mat: (B, L, d_state) → unsqueeze(2)
-        y = (h * C_mat.unsqueeze(2)).sum(-1)                 # (B, L, d_inner)
+        # Sequential scan in float32 — numerically stable, no log-space needed.
+        # ponytail: O(L) loop — fine for L=256. Upgrade to mamba-ssm parallel
+        #           scan if L > 512 or throughput becomes a bottleneck.
+        x_f   = x.float()
+        dA_f  = dA.float()
+        dBu_f = dB_u.float()
+        h = torch.zeros(x_f.size(0), self.d_inner, self.d_state,
+                        device=x.device, dtype=torch.float32)
+        ys = []
+        for t in range(x_f.size(1)):
+            h = dA_f[:, t] * h + dBu_f[:, t] * x_f[:, t].unsqueeze(-1)
+            ys.append((h * C_mat[:, t].float().unsqueeze(1)).sum(-1))
+        y = torch.stack(ys, dim=1).to(x.dtype)
         return y + x * self.D                                # skip connection
 
 
@@ -331,7 +339,7 @@ class MambaBlock(nn.Module):
 # =============================================================================
 class TinyMambaCorrectorModel(nn.Module):
     """
-    Decoder-only Mamba language model (~25M params at default CONFIG).
+    Decoder-only Mamba language model (~2.5M params at default CONFIG).
     Trained as a causal corrector: given [noisy_src <sep>], predict [clean_tgt <eos>].
     """
     def __init__(self, vocab_size: int, d_model: int, n_layers: int,
@@ -364,7 +372,7 @@ class TinyMambaCorrectorModel(nn.Module):
         # input_ids: (B, L)
         x = self.embedding(input_ids)           # (B, L, d_model)
         for layer in self.layers:
-            x = layer(x)
+            x = layer(x, attention_mask=attention_mask)
         x = self.norm_out(x)
         logits = self.lm_head(x)                # (B, L, vocab_size)
 
@@ -381,18 +389,26 @@ class TinyMambaCorrectorModel(nn.Module):
         return logits, loss
 
     @torch.no_grad()
-    def generate(self, src_ids: torch.Tensor, max_new: int = 200,
-                 temperature: float = 0.8, top_k: int = 40) -> list[int]:
+    def generate(self, src_ids: torch.Tensor, attention_mask: torch.Tensor | None = None,
+                 max_new: int = 200, temperature: float = 0.8, top_k: int = 40) -> list[int]:
         """
-        Greedy / top-k generation after the <sep> token.
+        Top-k sampling generation after the <sep> token.
         src_ids: (1, L) — encoded source already including <sep>
+        temperature: < 1.0 = more conservative/greedy, > 1.0 = more random
         """
         was_training = self.training
         self.eval()
-        
+
         ids = src_ids.clone()
+        # Build attention mask for generated sequence (all 1s since we generate one at a time)
+        if attention_mask is None:
+            gen_mask = torch.ones_like(ids)
+        else:
+            gen_mask = attention_mask.clone()
+
         for _ in range(max_new):
-            logits, _ = self(ids)
+            # Pass full attention mask
+            logits, _ = self(ids, attention_mask=gen_mask)
             next_logits = logits[:, -1, :] / temperature
             if top_k > 0:
                 topk_vals, _ = torch.topk(next_logits, top_k)
@@ -401,9 +417,10 @@ class TinyMambaCorrectorModel(nn.Module):
             probs    = F.softmax(next_logits, dim=-1)
             next_tok = torch.multinomial(probs, num_samples=1)
             ids      = torch.cat([ids, next_tok], dim=1)
+            gen_mask = torch.cat([gen_mask, torch.ones((1, 1), dtype=gen_mask.dtype, device=gen_mask.device)], dim=1)
             if next_tok.item() == EOS_ID:
                 break
-        
+
         if was_training:
             self.train()
         return ids[0, src_ids.size(1):].tolist()
@@ -427,7 +444,8 @@ def evaluate(model, loader, device) -> float:
         for batch in loader:
             ids    = batch["input_ids"].to(device)
             labels = batch["labels"].to(device)
-            _, loss = model(ids, labels=labels)
+            mask   = batch["attention_mask"].to(device)
+            _, loss = model(ids, labels=labels, attention_mask=mask)
             if loss is not None:
                 total_loss += loss.item()
                 steps += 1
@@ -438,14 +456,15 @@ def evaluate(model, loader, device) -> float:
 def compute_cer(pred: str, ref: str) -> float:
     """Character error rate via edit distance."""
     if not ref:
-        return 0.0
+        return 1.0  # undefined: return worst case
+    if not pred:
+        return 1.0
     n, m = len(pred), len(ref)
     dp = list(range(m + 1))
     for i in range(1, n + 1):
         prev, dp[0] = dp[0], i
         for j in range(1, m + 1):
-            prev, dp[j] = dp[j], prev if pred[i-1] == ref[j-1] \
-                else 1 + min(prev, dp[j], dp[j-1])
+            prev, dp[j] = dp[j], prev if pred[i-1] == ref[j-1]                 else 1 + min(prev, dp[j], dp[j-1])
     return dp[m] / m
 
 
@@ -461,7 +480,8 @@ def quick_cer_eval(model, df_sample, tokenizer, device, n=200) -> float:
             ref  = str(row["ref"]).strip()
             src_ids = tokenizer.encode(src) + [SEP_ID]
             src_t   = torch.tensor([src_ids], dtype=torch.long, device=device)
-            out_ids = model.generate(src_t, max_new=len(ref) + 20)
+            mask    = torch.ones_like(src_t)
+            out_ids = model.generate(src_t, attention_mask=mask, max_new=len(ref) + 20)
             pred    = tokenizer.decode(out_ids)
             cer_scores.append(compute_cer(pred, ref))
     model.train()
@@ -515,6 +535,13 @@ def train():
     ).to(device)
     print(f"\nModel parameters: {model.count_params():,}")
 
+    # torch.compile for extra speed (PyTorch 2.0+, skips gracefully if unavailable)
+    try:
+        model = torch.compile(model)
+        print("torch.compile enabled")
+    except Exception:
+        print("torch.compile not available, running eagerly")
+
     # ---- Optimizer + scheduler ----
     optimizer = torch.optim.AdamW(model.parameters(),
                                   lr=CONFIG["lr"], weight_decay=CONFIG["weight_decay"])
@@ -546,10 +573,16 @@ def train():
         for step, batch in enumerate(train_loader):
             ids    = batch["input_ids"].to(device)
             labels = batch["labels"].to(device)
+            mask   = batch["attention_mask"].to(device)
 
             with torch.cuda.amp.autocast(enabled=(device.type == "cuda")):
-                _, loss = model(ids, labels=labels)
+                _, loss = model(ids, labels=labels, attention_mask=mask)
                 loss    = loss / CONFIG["grad_accum"]
+
+            # Skip NaN batches — can happen from log-space SSM instability
+            if torch.isnan(loss) or torch.isinf(loss):
+                optimizer.zero_grad()
+                continue
 
             scaler.scale(loss).backward()
             epoch_loss += loss.item() * CONFIG["grad_accum"]
@@ -618,21 +651,70 @@ def _savefig(fig, path: str):
 
 
 def _edit_ops(hyp: str, ref: str):
-    """Returns (dist, n_sub, n_ins, n_del)."""
+    """Returns (dist, n_sub, n_ins, n_del) and backpointer matrix for alignment."""
     n, m = len(hyp), len(ref)
-    dp = [[(i,0,0,i) if j==0 else (j,0,j,0) if i==0 else (0,0,0,0)
-           for j in range(m+1)] for i in range(n+1)]
+    # dp[i][j] = (distance, subs, ins, dels)
+    dp = [[(0, 0, 0, 0) for _ in range(m + 1)] for _ in range(n + 1)]
+
+    for j in range(1, m + 1):
+        dp[0][j] = (j, 0, j, 0)
+    for i in range(1, n + 1):
+        dp[i][0] = (i, 0, 0, i)
+
+    for i in range(1, n + 1):
+        for j in range(1, m + 1):
+            if hyp[i-1] == ref[j-1]:
+                dp[i][j] = dp[i-1][j-1]
+            else:
+                s = dp[i-1][j-1]
+                ins = dp[i][j-1]
+                d = dp[i-1][j]
+                cands = [
+                    (s[0]+1, s[1]+1, s[2], s[3]),      # substitution
+                    (ins[0]+1, ins[1], ins[2]+1, ins[3]), # insertion
+                    (d[0]+1, d[1], d[2], d[3]+1)        # deletion
+                ]
+                dp[i][j] = min(cands)
+    return dp[n][m]
+
+
+def _get_alignment(hyp: str, ref: str):
+    """Returns list of (hyp_char, ref_char) aligned pairs using DP backtracking.
+    None indicates insertion/deletion."""
+    n, m = len(hyp), len(ref)
+    dp = [[0]*(m+1) for _ in range(n+1)]
+
+    for j in range(m+1):
+        dp[0][j] = j
+    for i in range(n+1):
+        dp[i][0] = i
+
     for i in range(1, n+1):
         for j in range(1, m+1):
             if hyp[i-1] == ref[j-1]:
                 dp[i][j] = dp[i-1][j-1]
             else:
-                s = dp[i-1][j-1]; ins = dp[i][j-1]; d = dp[i-1][j]
-                cands = [(s[0]+1,s[1]+1,s[2],s[3]),
-                         (ins[0]+1,ins[1],ins[2]+1,ins[3]),
-                         (d[0]+1,d[1],d[2],d[3]+1)]
-                dp[i][j] = min(cands)
-    return dp[n][m]
+                dp[i][j] = 1 + min(dp[i-1][j-1], dp[i][j-1], dp[i-1][j])
+
+    # Backtrack
+    alignment = []
+    i, j = n, m
+    while i > 0 or j > 0:
+        if i > 0 and j > 0 and hyp[i-1] == ref[j-1]:
+            alignment.append((hyp[i-1], ref[j-1]))
+            i -= 1; j -= 1
+        elif i > 0 and j > 0 and dp[i][j] == dp[i-1][j-1] + 1:
+            alignment.append((hyp[i-1], ref[j-1]))  # substitution
+            i -= 1; j -= 1
+        elif j > 0 and dp[i][j] == dp[i][j-1] + 1:
+            alignment.append((None, ref[j-1]))  # insertion in ref
+            j -= 1
+        else:
+            alignment.append((hyp[i-1], None))  # deletion from ref
+            i -= 1
+
+    alignment.reverse()
+    return alignment
 
 
 def generate_plots(log_rows, df_data, model, tokenizer, val_df, device, out_dir):
@@ -752,7 +834,8 @@ def generate_plots(log_rows, df_data, model, tokenizer, val_df, device, out_dir)
         ref = str(row["ref"]).strip()
         src_ids = tokenizer.encode(src) + [SEP_ID]
         src_t   = torch.tensor([src_ids], dtype=torch.long, device=device)
-        out_ids = model.generate(src_t, max_new=len(ref)+20)
+        mask    = torch.ones_like(src_t)
+        out_ids = model.generate(src_t, attention_mask=mask, max_new=len(ref)+20)
         pred    = tokenizer.decode(out_ids)
         cer_before.append(compute_cer(src, ref))
         cer_after.append(compute_cer(pred, ref))
@@ -795,16 +878,23 @@ def generate_plots(log_rows, df_data, model, tokenizer, val_df, device, out_dir)
     _savefig(fig, fp("08_edit_distance_scatter.pdf"))
 
     # ------------------------------------------------------------------
-    # 9. Character Confusion Heatmap (top-20)
+    # 9. Character Confusion Heatmap (top-20) — FIXED: uses DP alignment
     # ------------------------------------------------------------------
     confusions = defaultdict(int)
     for _, row in error_rows.iterrows():
         hyp = str(row["hyp_greedy"]).strip()
         ref = str(row["ref"]).strip()
-        i=j=0
-        while i<len(hyp) and j<len(ref):
-            if hyp[i]==ref[j]: i+=1; j+=1
-            else: confusions[(hyp[i],ref[j])]+=1; i+=1; j+=1
+        alignment = _get_alignment(hyp, ref)
+        for h_char, r_char in alignment:
+            if h_char is not None and r_char is not None and h_char != r_char:
+                confusions[(h_char, r_char)] += 1
+            elif h_char is not None and r_char is None:
+                # deletion: hyp char deleted
+                pass
+            elif h_char is None and r_char is not None:
+                # insertion
+                pass
+
     top = sorted(confusions.items(), key=lambda x:x[1], reverse=True)[:20]
     if top:
         lab=[f"{h}→{r}" for (h,r),_ in top]; cnt=[c for _,c in top]
@@ -823,8 +913,24 @@ def generate_plots(log_rows, df_data, model, tokenizer, val_df, device, out_dir)
     # 10. Parameter Breakdown
     # ------------------------------------------------------------------
     dm = CONFIG["d_model"]; ex = CONFIG["expand"]; nl = CONFIG["n_layers"]
+    # More accurate parameter counting
     emb_p  = VOCAB_SIZE * dm
-    blk_p  = (dm*(dm*ex*2) + (dm*ex)*(16*2+1) + (dm*ex) + dm*ex + (dm*ex)*dm) * nl
+    # Per block:
+    # in_proj: d_model -> 2*d_inner
+    in_proj_p = dm * (2 * dm * ex)
+    # conv1d: d_inner * d_conv (depthwise)
+    conv_p = (dm * ex) * CONFIG["d_conv"]
+    # x_proj: d_inner -> (2*d_state + 1)
+    x_proj_p = (dm * ex) * (2 * CONFIG["d_state"] + 1)
+    # dt_proj: 1 -> d_inner
+    dt_proj_p = 1 * (dm * ex) + (dm * ex)  # weight + bias
+    # log_A: d_inner * d_state
+    log_A_p = (dm * ex) * CONFIG["d_state"]
+    # D: d_inner
+    D_p = dm * ex
+    # out_proj: d_inner -> d_model
+    out_proj_p = (dm * ex) * dm
+    blk_p = (in_proj_p + conv_p + x_proj_p + dt_proj_p + log_A_p + D_p + out_proj_p) * nl
     norm_p = dm
     sizes  = [emb_p, blk_p, norm_p]
     lab    = ["Embedding\n(tied w/ LM head)", f"Mamba Blocks\n({nl} layers)", "Output Norm"]
@@ -921,4 +1027,22 @@ def generate_plots(log_rows, df_data, model, tokenizer, val_df, device, out_dir)
 
 
 if __name__ == "__main__":
+    # Optional: add argparse for CLI usage
+    parser = argparse.ArgumentParser(description="TinyMamba ASR Post-Correction for Konkani")
+    parser.add_argument("--csv", default=CONFIG["csv_path"], help="Path to training CSV")
+    parser.add_argument("--vocab", default=CONFIG["vocab_path"], help="Path to vocab.json")
+    parser.add_argument("--output", default=CONFIG["output_dir"], help="Output directory")
+    parser.add_argument("--epochs", type=int, default=CONFIG["epochs"], help="Number of epochs")
+    parser.add_argument("--batch-size", type=int, default=CONFIG["batch_size"], help="Batch size")
+    parser.add_argument("--lr", type=float, default=CONFIG["lr"], help="Learning rate")
+    args = parser.parse_args()
+
+    # Update config with CLI args
+    CONFIG["csv_path"] = args.csv
+    CONFIG["vocab_path"] = args.vocab
+    CONFIG["output_dir"] = args.output
+    CONFIG["epochs"] = args.epochs
+    CONFIG["batch_size"] = args.batch_size
+    CONFIG["lr"] = args.lr
+
     train()

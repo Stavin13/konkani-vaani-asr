@@ -14,6 +14,7 @@ from tqdm import tqdm
 
 BASE = Path(__file__).resolve().parent
 sys.path.insert(0, str(BASE))
+sys.path.insert(0, str(BASE / "mamba"))
 
 from models.conformer_ctc import ConformerCTC
 
@@ -22,6 +23,9 @@ CHECKPOINT   = BASE / "outputs/conformer_ctc_run1/best_conformer_ctc.pt"
 LM_DIR       = BASE / "models/language_models"
 VOCAB_FILE   = BASE / "data/konkani-10k/vocab.json"
 TEST_MANIFEST= BASE / "data/konkani-10k/test_manifest.json"
+MAMBA_CHECKPOINT = BASE / "mamba/best_model_mamba_test.pt"
+MAMBA_VOCAB      = BASE / "data/vocab.json"
+
 
 # ── Loader ───────────────────────────────────────────────────────────────────
 def process_audio(path, device):
@@ -123,6 +127,44 @@ def run_eval(model, tok, device, samples, decoder=None, label="Greedy", beam=10)
     print(f"  {label} -> WER: {res['wer']:.2f}% | CER: {res['cer']:.2f}%")
     return res
 
+def run_mamba_eval(model, tok, mamba_model, mamba_tok, device, samples, label="ASR + Mamba Corrector"):
+    total_wer, total_cer, processed = 0.0, 0.0, 0
+    t0 = time.time()
+    print(f"\nEvaluating {label}...")
+    
+    for s in tqdm(samples):
+        mel, mel_len = process_audio(s['audio_filepath'], device)
+        if mel is None: continue
+        
+        with torch.no_grad():
+            logits, _ = model(mel, mel_len)
+        
+        # Greedy decoding
+        ids = torch.argmax(logits, dim=-1).squeeze(0).tolist()
+        hyp_greedy = tok.decode(ids)
+        
+        # Mamba correction
+        src_ids = mamba_tok.encode(hyp_greedy) + [mamba_tok.sep_id]
+        src_t   = torch.tensor([src_ids], dtype=torch.long, device=device)
+        mask    = torch.ones_like(src_t)
+        
+        with torch.no_grad():
+            out_ids = mamba_model.generate(src_t, attention_mask=mask, max_new=len(s['text'].strip())+20)
+        hyp = mamba_tok.decode(out_ids)
+        
+        ref = s['text'].strip()
+        w, c = wer_cer(ref, hyp)
+        total_wer += w
+        total_cer += c
+        processed += 1
+        
+    if processed == 0: return None
+    
+    res = {"label": label, "wer": (total_wer/processed)*100, "cer": (total_cer/processed)*100, "n": processed, "time": time.time()-t0}
+    print(f"  {label} -> WER: {res['wer']:.2f}% | CER: {res['cer']:.2f}%")
+    return res
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
     device = 'mps' if torch.backends.mps.is_available() else 'cpu'
@@ -156,6 +198,33 @@ def main():
                 rlm = run_eval(model, tok, device, samples, decoder=dec, label=f"ASR + {ngram} LM", beam=15)
                 if rlm: results.append(rlm)
     except: pass
+
+    # 3. Mamba Corrector
+    try:
+        from train_custom_mamba import TinyMambaCorrectorModel, KonkaniCharTokenizer
+        mamba_tok = KonkaniCharTokenizer(str(MAMBA_VOCAB))
+        
+        state_dict = torch.load(MAMBA_CHECKPOINT, map_location=device)
+        config = state_dict.get('config', {})
+        
+        mamba_model = TinyMambaCorrectorModel(
+            vocab_size=83,
+            d_model=config.get("d_model", 256),
+            n_layers=config.get("n_layers", 6),
+            d_state=config.get("d_state", 16),
+            d_conv=config.get("d_conv", 4),
+            expand=config.get("expand", 2),
+            dropout=config.get("dropout", 0.1)
+        )
+        
+        clean_state_dict = {k.replace("_orig_mod.", ""): v for k, v in state_dict['model_state'].items()}
+        mamba_model.load_state_dict(clean_state_dict)
+        mamba_model.eval().to(device)
+        
+        rmm = run_mamba_eval(model, tok, mamba_model, mamba_tok, device, samples, label="ASR + Mamba Corrector")
+        if rmm: results.append(rmm)
+    except Exception as e:
+        print(f"Error running Mamba corrector evaluation: {e}")
 
     # Report
     print(f"\n{'='*70}")
