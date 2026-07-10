@@ -22,7 +22,7 @@ from models.conformer_ctc import ConformerCTC
 CHECKPOINT   = BASE / "outputs/conformer_ctc_run1/best_conformer_ctc.pt"
 LM_DIR       = BASE / "models/language_models"
 VOCAB_FILE   = BASE / "data/konkani-10k/vocab.json"
-TEST_MANIFEST= BASE / "/Volumes/data&proj/konkani/data/konkani-mega-dataset/manifests/test.json"
+TEST_MANIFEST= BASE / "data/konkani-ultimate/train.json"
 MAMBA_CHECKPOINT = BASE / "mamba/best_model_mamba_test.pt"
 MAMBA_VOCAB      = BASE / "data/konkani-10k/vocab.json"
 
