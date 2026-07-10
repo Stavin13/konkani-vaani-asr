@@ -90,12 +90,12 @@ CONFIG = {
     "save_every":     5,      # save checkpoint every N epochs
 }
 
-# Special token ids we add on top of the 81-char vocab
-# We use indices beyond 80 to avoid collisions
+# Special token ids we add on top of the 79-char vocab to match the 81-size checkpoint
+# We use indices beyond 78 to avoid collisions
 PAD_ID  = 0   # already in vocab
-SEP_ID  = 81  # separates prompt from response
-EOS_ID  = 82
-VOCAB_SIZE = 83  # 81 original + SEP + EOS
+SEP_ID  = 79  # separates prompt from response (checkpoint size 81 -> max index 80)
+EOS_ID  = 80
+VOCAB_SIZE = 81  # 79 original + SEP + EOS
 
 # =============================================================================
 #  TOKENIZER — character-level using your existing vocab.json
@@ -120,6 +120,8 @@ class KonkaniCharTokenizer:
         self.sep_id  = SEP_ID
         self.eos_id  = EOS_ID
         self.unk_id  = self.char2idx.get("<unk>", 4)
+        self.vocab_size = VOCAB_SIZE
+        self.eos_token_id = self.eos_id
 
     def encode(self, text: str) -> list[int]:
         return [self.char2idx.get(c, self.unk_id) for c in text]
@@ -402,7 +404,7 @@ class TinyMambaCorrectorModel(nn.Module):
 
     @torch.no_grad()
     def generate(self, src_ids: torch.Tensor, attention_mask: torch.Tensor | None = None,
-                 max_new: int = 200, temperature: float = 0.8, top_k: int = 40) -> list[int]:
+                 max_new: int = 200, temperature: float = 0.8, top_k: int = 40, eos_token_id: int | None = None) -> list[int]:
         """
         Top-k sampling generation after the <sep> token.
         src_ids: (1, L) — encoded source already including <sep>
@@ -417,6 +419,8 @@ class TinyMambaCorrectorModel(nn.Module):
             gen_mask = torch.ones_like(ids)
         else:
             gen_mask = attention_mask.clone()
+            
+        eos_id = eos_token_id if eos_token_id is not None else EOS_ID
 
         for _ in range(max_new):
             # Pass full attention mask
@@ -430,7 +434,7 @@ class TinyMambaCorrectorModel(nn.Module):
             next_tok = torch.multinomial(probs, num_samples=1)
             ids      = torch.cat([ids, next_tok], dim=1)
             gen_mask = torch.cat([gen_mask, torch.ones((1, 1), dtype=gen_mask.dtype, device=gen_mask.device)], dim=1)
-            if next_tok.item() == EOS_ID:
+            if next_tok.item() == eos_id:
                 break
 
         if was_training:
