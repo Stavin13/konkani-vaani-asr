@@ -23,7 +23,7 @@ CHECKPOINT   = BASE / "outputs/conformer_ctc_run1/best_conformer_ctc.pt"
 LM_DIR       = BASE / "models/language_models"
 VOCAB_FILE   = BASE / "data/konkani-10k/vocab.json"
 TEST_MANIFEST= BASE / "data/konkani-ultimate/train.json"
-MAMBA_CHECKPOINT = BASE / "mamba/best_model_mamba_test.pt"
+MAMBA_CHECKPOINT = BASE / "mamba/best_model_test2.pt"
 MAMBA_VOCAB      = BASE / "data/konkani-10k/vocab.json"
 
 
@@ -149,7 +149,12 @@ def run_mamba_eval(model, tok, mamba_model, mamba_tok, device, samples, label="A
         mask    = torch.ones_like(src_t)
         
         with torch.no_grad():
-            out_ids = mamba_model.generate(src_t, attention_mask=mask, max_new=len(s['text'].strip())+20)
+            out_ids = mamba_model.generate(
+                src_t,
+                attention_mask=mask,
+                max_new=len(s['text'].strip())+20,
+                eos_token_id=mamba_tok.eos_token_id
+            )
         hyp = mamba_tok.decode(out_ids)
         
         ref = s['text'].strip()
@@ -208,7 +213,7 @@ def main():
         config = state_dict.get('config', {})
         
         mamba_model = TinyMambaCorrectorModel(
-            vocab_size=83,
+            vocab_size=mamba_tok.vocab_size,
             d_model=config.get("d_model", 256),
             n_layers=config.get("n_layers", 6),
             d_state=config.get("d_state", 16),

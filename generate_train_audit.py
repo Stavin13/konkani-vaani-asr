@@ -78,22 +78,65 @@ def main():
     model.eval().to(device)
     
     tok = CharTokenizer()
+    labels = []
+    for i in range(tok.vocab_size):
+        p = tok.idx2char.get(i, f"<id{i}>")
+        if p in ["<pad>", "<blank>", "<sos>", "<eos>", "<unk>"]:
+            if i == tok.blank_id: labels.append("")
+            else: labels.append(f"<{p[1:-1]}_{i}>")
+        elif p == "": labels.append(f"<empty_{i}>")
+        else: labels.append(p)
+        
+    print("Loading Decoders...")
+    try:
+        from pyctcdecode import build_ctcdecoder
+        dec_beam = build_ctcdecoder(labels)
+        lm_path = BASE / "models/language_models/konkani_4gram.binary"
+        dec_lm = build_ctcdecoder(labels, kenlm_model_path=str(lm_path)) if lm_path.exists() else None
+    except Exception as e:
+        print(f"Failed to load pyctcdecode: {e}")
+        dec_beam = None
+        dec_lm = None
+
+    print("Loading Mamba...")
+    MAMBA_CHECKPOINT = BASE / "mamba/best_model_test2.pt"
+    MAMBA_VOCAB      = BASE / "data/vocab.json"
     
+    try:
+        from train_custom_mamba import TinyMambaCorrectorModel, KonkaniCharTokenizer
+        mamba_tok = KonkaniCharTokenizer(str(MAMBA_VOCAB))
+        state_dict = torch.load(MAMBA_CHECKPOINT, map_location=device)
+        config = state_dict.get('config', {})
+        mamba_model = TinyMambaCorrectorModel(
+            vocab_size=mamba_tok.vocab_size,
+            d_model=config.get("d_model", 256),
+            n_layers=config.get("n_layers", 6),
+            d_state=config.get("d_state", 16),
+            d_conv=config.get("d_conv", 4),
+            expand=config.get("expand", 2),
+            dropout=config.get("dropout", 0.1)
+        )
+        clean_state_dict = {k.replace("_orig_mod.", ""): v for k, v in state_dict['model_state'].items()}
+        mamba_model.load_state_dict(clean_state_dict)
+        mamba_model.eval().to(device)
+    except Exception as e:
+        print(f"Failed to load Mamba: {e}")
+        mamba_model = None
+
     print(f"Loading Manifest: {TRAIN_MANIFEST}")
     samples = [json.loads(l) for l in open(TRAIN_MANIFEST, encoding='utf-8')]
     print(f"Total Samples to Process: {len(samples)}")
     
     print(f"Writing to {OUTPUT_CSV}...")
     
+    import torch.nn.functional as F
     with open(OUTPUT_CSV, mode='w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
-        writer.writerow(["audio_filepath", "ref", "hyp_greedy"])
+        writer.writerow(["audio_filepath", "ref", "hyp_greedy", "hyp_beam", "hyp_lm", "hyp_mamba"])
         
-        # We will track processed count and failures
         processed = 0
         failures = 0
         
-        # You can adjust batching or keep it simple loop if avoiding OOM is priority
         for s in tqdm(samples, desc="Processing Train Set"):
             path = s.get('audio_filepath', '')
             ref_text = s.get('text', '').strip()
@@ -107,13 +150,34 @@ def main():
             with torch.no_grad():
                 logits, _ = model(mel, mel_len)
             
+            # 1. Greedy
             ids = torch.argmax(logits, dim=-1).squeeze(0).tolist()
-            hyp_text = tok.decode(ids)
+            hyp_greedy = tok.decode(ids)
             
-            writer.writerow([path, ref_text, hyp_text])
+            # 2. Beam & LM
+            lp = F.log_softmax(logits.float(), dim=-1).squeeze(0).cpu().numpy()
+            hyp_beam = dec_beam.decode(lp, beam_width=15) if dec_beam else ""
+            hyp_lm = dec_lm.decode(lp, beam_width=15) if dec_lm else ""
+            
+            # 3. Mamba (correcting greedy)
+            hyp_mamba = ""
+            if mamba_model:
+                src_ids = mamba_tok.encode(hyp_greedy) + [mamba_tok.sep_id]
+                src_t   = torch.tensor([src_ids], dtype=torch.long, device=device)
+                mask    = torch.ones_like(src_t)
+                
+                with torch.no_grad():
+                    out_ids = mamba_model.generate(
+                        src_t, 
+                        attention_mask=mask, 
+                        max_new=len(ref_text)+20,
+                        eos_token_id=mamba_tok.eos_token_id
+                    )
+                hyp_mamba = mamba_tok.decode(out_ids)
+            
+            writer.writerow([path, ref_text, hyp_greedy, hyp_beam, hyp_lm, hyp_mamba])
             processed += 1
             
-            # Optional: flush every 1000 lines so you don't lose data if it crashes
             if processed % 1000 == 0:
                 f.flush()
                 
