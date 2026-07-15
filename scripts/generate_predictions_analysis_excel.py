@@ -30,14 +30,14 @@ from tqdm import tqdm
 BASE = Path(__file__).resolve().parent.parent
 DEFAULT_CHECKPOINT = BASE / "outputs/conformer_ctc_run1/best_conformer_ctc.pt"
 DEFAULT_VOCAB = BASE / "data/konkani-10k/vocab.json"
-DEFAULT_MANIFEST = BASE / "data/konkani-ultimate/train.json"
+DEFAULT_MANIFEST = BASE / "data/konkani-ultimate/val.json"
 DEFAULT_LM_3GRAM = BASE / "models/language_models/konkani_3gram.binary"
 DEFAULT_LM_4GRAM = BASE / "models/language_models/konkani_4gram.binary"
 DEFAULT_UNIGRAMS = BASE / "models/language_models/unigrams.txt"
 DEFAULT_MAMBA_CHECKPOINT = BASE / "mamba/best_model_test2.pt"
 DEFAULT_MAMBA_VOCAB = BASE / "data/konkani-10k/vocab.json"
-DEFAULT_OUT_XLSX = BASE / "outputs/predictions_analysis.xlsx"
-DEFAULT_OUT_TXT = BASE / "outputs/table_ii_stats.txt"
+DEFAULT_OUT_XLSX = BASE / "outputs/predictions_analysis_val.xlsx"
+DEFAULT_OUT_TXT = BASE / "outputs/table_ii_stats_val.txt"
 MISSING_DIGITS = set("०३४५६७८")
 
 sys.path.insert(0, str(BASE))
@@ -382,6 +382,31 @@ def metric_stats(values: list[int]) -> tuple[float, float]:
     return statistics.fmean(values), statistics.pstdev(values)
 
 
+def edit_dist(a: list[str], b: list[str]) -> int:
+    m, n = len(a), len(b)
+    dp = list(range(n + 1))
+    for i in range(1, m + 1):
+        prev, dp[0] = dp[0], i
+        for j in range(1, n + 1):
+            temp = dp[j]
+            if a[i - 1] == b[j - 1]:
+                dp[j] = prev
+            else:
+                dp[j] = 1 + min(prev, dp[j], dp[j - 1])
+            prev = temp
+    return dp[n]
+
+
+def wer_cer(ref: str, hyp: str) -> tuple[float, float]:
+    ref_words = ref.split()
+    hyp_words = hyp.split()
+    ref_chars = list(ref)
+    hyp_chars = list(hyp)
+    wer = edit_dist(ref_words, hyp_words) / max(len(ref_words), 1)
+    cer = edit_dist(ref_chars, hyp_chars) / max(len(ref_chars), 1)
+    return wer, cer
+
+
 def summarize_metrics(rows: list[list], errors: dict[str, int]) -> str:
     report = [
         "",
@@ -390,18 +415,22 @@ def summarize_metrics(rows: list[list], errors: dict[str, int]) -> str:
         "=" * 40,
     ]
     indexes = {
-        "3gram": {"hyp": 2, "S": 3, "D": 4, "I": 5},
-        "4gram": {"hyp": 6, "S": 7, "D": 8, "I": 9},
-        "mamba": {"hyp": 10, "S": 11, "D": 12, "I": 13},
+        "3gram": {"hyp": 2, "S": 3, "D": 4, "I": 5, "WER": 6, "CER": 7},
+        "4gram": {"hyp": 8, "S": 9, "D": 10, "I": 11, "WER": 12, "CER": 13},
+        "mamba": {"hyp": 14, "S": 15, "D": 16, "I": 17, "WER": 18, "CER": 19},
     }
     for name in ("3gram", "4gram", "mamba"):
         subs = [row[indexes[name]["S"]] for row in rows]
         dels = [row[indexes[name]["D"]] for row in rows]
         ins = [row[indexes[name]["I"]] for row in rows]
+        wers = [row[indexes[name]["WER"]] for row in rows]
+        cers = [row[indexes[name]["CER"]] for row in rows]
         n = len(rows)
         s_mean, s_std = metric_stats(subs)
         d_mean, d_std = metric_stats(dels)
         i_mean, i_std = metric_stats(ins)
+        wer_mean, wer_std = metric_stats(wers)
+        cer_mean, cer_std = metric_stats(cers)
         ser = errors[name] / n if n else 0.0
         report.extend(
             [
@@ -411,6 +440,8 @@ def summarize_metrics(rows: list[list], errors: dict[str, int]) -> str:
                 f"Substitutions: {s_mean:.3f} +/- {s_std:.3f}",
                 f"Deletions    : {d_mean:.3f} +/- {d_std:.3f}",
                 f"Insertions   : {i_mean:.3f} +/- {i_std:.3f}",
+                f"WER          : {wer_mean:.4f} +/- {wer_std:.4f}",
+                f"CER          : {cer_mean:.4f} +/- {cer_std:.4f}",
                 f"SER          : {ser:.4f}",
             ]
         )
@@ -431,31 +462,47 @@ def build_workbook(rows: list[list], errors: dict[str, int]) -> openpyxl.Workboo
         "S3",
         "D3",
         "I3",
+        "WER3",
+        "CER3",
         "4-gram Hyp",
         "S4",
         "D4",
         "I4",
+        "WER4",
+        "CER4",
         "Mamba Hyp",
         "SM",
         "DM",
         "IM",
+        "WERM",
+        "CERM",
     ]
     ws_details.append(headers)
     for cell in ws_details[1]:
         cell.font = Font(bold=True)
 
-    for name, s_idx, d_idx, i_idx in (("3gram", 3, 4, 5), ("4gram", 7, 8, 9), ("mamba", 11, 12, 13)):
+    for name, s_idx, d_idx, i_idx, wer_idx, cer_idx in (
+        ("3gram", 3, 4, 5, 6, 7),
+        ("4gram", 9, 10, 11, 12, 13),
+        ("mamba", 15, 16, 17, 18, 19),
+    ):
         subs = [row[s_idx] for row in rows]
         dels = [row[d_idx] for row in rows]
         ins = [row[i_idx] for row in rows]
+        wers = [row[wer_idx] for row in rows]
+        cers = [row[cer_idx] for row in rows]
         s_mean, s_std = metric_stats(subs)
         d_mean, d_std = metric_stats(dels)
         i_mean, i_std = metric_stats(ins)
+        wer_mean, wer_std = metric_stats(wers)
+        cer_mean, cer_std = metric_stats(cers)
         ser = errors[name] / len(rows) if rows else 0.0
         ws_summary.append([f"{name.upper()} Metric", "Mean", "Std Dev"])
         ws_summary.append(["Substitutions", s_mean, s_std])
         ws_summary.append(["Deletions", d_mean, d_std])
         ws_summary.append(["Insertions", i_mean, i_std])
+        ws_summary.append(["WER", wer_mean, wer_std])
+        ws_summary.append(["CER", cer_mean, cer_std])
         ws_summary.append(["SER", ser, ""])
         ws_summary.append([])
 
@@ -504,9 +551,10 @@ def generate_rows(
             for name, decoder in (("3gram", dec_3gram), ("4gram", dec_4gram)):
                 hyp = normalise_text(decoder.decode(lp_np, beam_width=args.beam), clean=True)
                 result = process_words(ref, hyp)
+                wer, cer = wer_cer(ref, hyp)
                 if hyp != ref:
                     errors[name] += 1
-                row.extend([hyp, result.substitutions, result.deletions, result.insertions])
+                row.extend([hyp, result.substitutions, result.deletions, result.insertions, wer, cer])
 
             src_ids = mamba_tokenizer.encode(greedy_hyp)[: max(mamba_max_len - 1, 1)] + [mamba_tokenizer.sep_id]
             src_tensor = torch.tensor([src_ids], dtype=torch.long, device=device)
@@ -520,9 +568,10 @@ def generate_rows(
             )
             mamba_hyp = normalise_text(mamba_tokenizer.decode(mamba_ids), clean=True)
             mamba_result = process_words(ref, mamba_hyp)
+            mamba_wer, mamba_cer = wer_cer(ref, mamba_hyp)
             if mamba_hyp != ref:
                 errors["mamba"] += 1
-            row.extend([mamba_hyp, mamba_result.substitutions, mamba_result.deletions, mamba_result.insertions])
+            row.extend([mamba_hyp, mamba_result.substitutions, mamba_result.deletions, mamba_result.insertions, mamba_wer, mamba_cer])
             rows.append(row)
         except Exception as exc:
             failed += 1
@@ -541,8 +590,11 @@ def run_self_check() -> None:
     result = process_words("एक दोन", "एक")
     assert result.substitutions == 0
     assert result.deletions == 1
+    wer, cer = wer_cer("एक दोन", "एक")
+    assert wer == 0.5
+    assert 0.0 < cer < 1.0
     assert strip_prefix({"_orig_mod.a": 1, "b": 2}, "_orig_mod.") == {"a": 1, "b": 2}
-    assert ["Audio", "Reference", "3-gram Hyp", "S3", "D3", "I3", "4-gram Hyp", "S4", "D4", "I4", "Mamba Hyp", "SM", "DM", "IM"][10] == "Mamba Hyp"
+    assert ["Audio", "Reference", "3-gram Hyp", "S3", "D3", "I3", "WER3", "CER3", "4-gram Hyp", "S4", "D4", "I4", "WER4", "CER4", "Mamba Hyp", "SM", "DM", "IM", "WERM", "CERM"][14] == "Mamba Hyp"
     print("self-check passed")
 
 
