@@ -22,8 +22,8 @@ from jiwer import wer, cer
 # ============================================================================
 # CONFIGURATION – edit these paths as needed
 # ============================================================================
-MODEL_ID = "bezzam/omniasr-ctc-300m-v2"   # ~300M params, ~2GB VRAM
-# Alternative: "aadel4/omniASR-CTC-300M-v2"
+MODEL_ID = "facebook/omniASR-CTC-300M"   # ~300M params, ~2GB VRAM
+# Alternative: "facebook/omniASR-CTC-1B" or "facebook/omniASR-CTC-3B"
 
 MANIFEST_PATH = "data/konkani-ultimate/val.json"   # your validation set
 OUTPUT_CSV = "omnilingual_results.csv"
